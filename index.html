@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIAA - Learn It All App | Your Personal Learning Roadmap</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+    <div class="orb orb4"></div>
+    <div class="stars" id="starsContainer"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container glass">
+            <div class="logo">LIAA</div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showPage('landing')">Home</a></li>
+                <li><a href="#" onclick="showPage('form')">Create Roadmap</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Landing Page -->
+        <div id="landing" class="page active">
+            <div class="hero">
+                <h1 class="fade-in">LIAA</h1>
+                <h2 class="fade-in">Learn It All App</h2>
+                <p class="fade-in">Transform your learning journey with personalized, AI-powered roadmaps. From beginner to expert, we chart your path to mastery with stunning visualizations and actionable steps.</p>
+                <button class="cta-button" onclick="showPage('form')">
+                    🚀 Start Your Journey
+                </button>
+            </div>
+
+            <div class="features">
+                <div class="feature-card glass scale-in">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Personalized Learning</h3>
+                    <p>Custom roadmaps tailored to your skill level, timeline, and learning goals. Every path is unique, just like you.</p>
+                </div>
+                <div class="feature-card glass scale-in" style="animation-delay: 0.1s">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Structured Progression</h3>
+                    <p>Break down complex skills into manageable phases. Track your progress and celebrate milestones along the way.</p>
+                </div>
+                <div class="feature-card glass scale-in" style="animation-delay: 0.2s">
+                    <div class="feature-icon">🌟</div>
+                    <h3>Beautiful Interface</h3>
+                    <p>Experience learning like never before with our stunning glassmorphic design and smooth animations.</p>
+                </div>
+                <div class="feature-card glass scale-in" style="animation-delay: 0.3s">
+                    <div class="feature-icon">📊</div>
+                    <h3>Progress Tracking</h3>
+                    <p>Visual progress indicators help you stay motivated and see how far you've come on your learning journey.</p>
+                </div>
+                <div class="feature-card glass scale-in" style="animation-delay: 0.4s">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Expert Guidance</h3>
+                    <p>Learn from carefully curated content and best practices recommended by industry experts and educators.</p>
+                </div>
+                <div class="feature-card glass scale-in" style="animation-delay: 0.5s">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Adaptive Learning</h3>
+                    <p>Roadmaps that evolve with you. Adjust your path as you learn and discover new interests.</p>
+                </div>
+            </div>
+
+            <!-- New Skills Showcase Section -->
+            <div class="skills-showcase">
+                <div class="section-header">
+                    <h2>Explore 15+ In-Demand Skills</h2>
+                    <p>Master the most sought-after skills with our comprehensive, step-by-step learning roadmaps</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card glass" onclick="selectSkill('Web Development')">
+                        <div class="skill-icon">🌐</div>
+                        <h4>Web Development</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('Data Science')">
+                        <div class="skill-icon">📊</div>
+                        <h4>Data Science</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('Mobile Development')">
+                        <div class="skill-icon">📱</div>
+                        <h4>Mobile Development</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('UI/UX Design')">
+                        <div class="skill-icon">🎨</div>
+                        <h4>UI/UX Design</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('Digital Marketing')">
+                        <div class="skill-icon">📈</div>
+                        <h4>Digital Marketing</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('Machine Learning')">
+                        <div class="skill-icon">🤖</div>
+                        <h4>Machine Learning</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('Cybersecurity')">
+                        <div class="skill-icon">🔒</div>
+                        <h4>Cybersecurity</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('Cloud Computing')">
+                        <div class="skill-icon">☁️</div>
+                        <h4>Cloud Computing</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('Blockchain')">
+                        <div class="skill-icon">⛓️</div>
+                        <h4>Blockchain</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('Game Development')">
+                        <div class="skill-icon">🎮</div>
+                        <h4>Game Development</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('Artificial Intelligence')">
+                        <div class="skill-icon">🧠</div>
+                        <h4>AI Engineering</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('DevOps')">
+                        <div class="skill-icon">🔄</div>
+                        <h4>DevOps</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('Software Engineering')">
+                        <div class="skill-icon">💻</div>
+                        <h4>Software Engineering</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('Product Management')">
+                        <div class="skill-icon">📋</div>
+                        <h4>Product Management</h4>
+                    </div>
+                    <div class="skill-card glass" onclick="selectSkill('Content Writing')">
+                        <div class="skill-icon">✍️</div>
+                        <h4>Content Writing</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Form Page -->
+        <div id="form" class="page">
+            <div class="form-container glass-strong">
+                <button class="back-btn" onclick="showPage('landing')">
+                    ← Back to Home
+                </button>
+                <div class="form-header">
+                    <h2>🎯 Define Your Learning Path</h2>
+                    <p>Tell us what you want to learn and we'll create a personalized roadmap just for you</p>
+                </div>
+
+                <form id="roadmapForm" onsubmit="generateRoadmap(event)">
+                    <div class="form-group">
+                        <label>
+                            <span>✨</span> What skill do you want to master?
+                        </label>
+                        <select id="skillInput" required>
+                            <option value="">Select a skill...</option>
+                            <option value="Web Development">🌐 Web Development</option>
+                            <option value="Data Science">📊 Data Science</option>
+                            <option value="Mobile Development">📱 Mobile Development</option>
+                            <option value="UI/UX Design">🎨 UI/UX Design</option>
+                            <option value="Digital Marketing">📈 Digital Marketing</option>
+                            <option value="Machine Learning">🤖 Machine Learning</option>
+                            <option value="Cybersecurity">🔒 Cybersecurity</option>
+                            <option value="Cloud Computing">☁️ Cloud Computing</option>
+                            <option value="Blockchain">⛓️ Blockchain</option>
+                            <option value="Game Development">🎮 Game Development</option>
+                            <option value="Artificial Intelligence">🧠 Artificial Intelligence</option>
+                            <option value="DevOps">🔄 DevOps</option>
+                            <option value="Software Engineering">💻 Software Engineering</option>
+                            <option value="Product Management">📋 Product Management</option>
+                            <option value="Content Writing">✍️ Content Writing</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <span>⏰</span> How much time can you dedicate?
+                        </label>
+                        <select id="timeframeInput" required>
+                            <option value="">Select your timeframe...</option>
+                            <option value="1-month">1 Month - Intensive Sprint</option>
+                            <option value="3-months">3 Months - Accelerated Path</option>
+                            <option value="6-months">6 Months - Balanced Journey</option>
+                            <option value="12-months">12 Months - Comprehensive Mastery</option>
+                            <option value="custom">Custom Timeline</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <span>📈</span> What's your current level?
+                        </label>
+                        <div class="level-buttons">
+                            <button type="button" class="level-btn" onclick="selectLevel('Beginner')">
+                                🌱 Beginner
+                            </button>
+                            <button type="button" class="level-btn" onclick="selectLevel('Intermediate')">
+                                🚀 Intermediate
+                            </button>
+                            <button type="button" class="level-btn" onclick="selectLevel('Advanced')">
+                                ⭐ Advanced
+                            </button>
+                        </div>
+                        <input type="hidden" id="levelInput" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <span>💭</span> Any specific goals or areas of focus? (Optional)
+                        </label>
+                        <textarea 
+                            id="goalsInput" 
+                            rows="4" 
+                            placeholder="e.g., I want to build mobile apps, focus on machine learning, or become a freelance designer..."
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn" id="submitBtn">
+                        🎯 Generate My Roadmap
+                    </button>
+                </form>
+
+                <div class="loading" id="loadingSpinner">
+                    <div class="spinner"></div>
+                    <p style="color: var(--text-primary); font-size: 18px;">Creating your personalized roadmap...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Roadmap Page -->
+        <div id="roadmap" class="page">
+            <button class="back-btn glass" onclick="showPage('form')">
+                ← Edit Roadmap
+            </button>
+
+            <div class="success-banner glass-strong">
+                <h3>🎉 Your Roadmap is Ready!</h3>
+                <p>We've crafted a personalized learning path just for you. Let's begin your journey!</p>
+            </div>
+
+            <div class="roadmap-header">
+                <h2 id="roadmapTitle">Your Learning Journey</h2>
+                <div class="roadmap-meta glass">
+                    <span>📚 <span id="metaSkill">Skill</span></span>
+                    <span>⏱️ <span id="metaTime">Timeline</span></span>
+                    <span>📊 <span id="metaLevel">Level</span></span>
+                </div>
+            </div>
+
+            <div class="progress-section glass">
+                <h3>Overall Progress</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 0%" id="progressBar"></div>
+                </div>
+                <p style="color: var(--text-secondary); margin-top: 15px;">
+                    <span id="progressText">0% Complete</span> - Keep pushing forward!
+                </p>
+            </div>
+
+            <div class="timeline" id="roadmapTimeline">
+                <!-- Timeline content will be dynamically generated here -->
+            </div>
+
+            <div class="action-cards">
+                <div class="action-card glass" onclick="updateProgress()">
+                    <div class="action-card-icon">📈</div>
+                    <h4>Track Progress</h4>
+                    <p>Mark completed milestones</p>
+                </div>
+                <div class="action-card glass" onclick="shareRoadmap()">
+                    <div class="action-card-icon">🔗</div>
+                    <h4>Share Roadmap</h4>
+                    <p>Share with friends & colleagues</p>
+                </div>
+                <div class="action-card glass" onclick="downloadRoadmapPDF()">
+                    <div class="action-card-icon">💾</div>
+                    <h4>Download PDF</h4>
+                    <p>Save for offline reference</p>
+                </div>
+                <div class="action-card glass" onclick="showPage('form')">
+                    <div class="action-card-icon">➕</div>
+                    <h4>New Roadmap</h4>
+                    <p>Create another learning path</p>
+                </div>
+            </div>
+
+            <!-- Resources Section -->
+            <div class="resources-section glass">
+                <div class="section-header">
+                    <h2>📚 Learning Resources</h2>
+                    <p>Curated resources to help you on your learning journey</p>
+                </div>
+                <div class="resources-grid">
+                    <div class="resource-card glass-light">
+                        <div class="resource-icon">📖</div>
+                        <h4>Recommended Books</h4>
+                        <p>Essential reading materials for comprehensive understanding</p>
+                        <a href="#" class="resource-link">View Books →</a>
+                    </div>
+                    <div class="resource-card glass-light">
+                        <div class="resource-icon">🎥</div>
+                        <h4>Video Courses</h4>
+                        <p>Hand-picked video tutorials and online courses</p>
+                        <a href="#" class="resource-link">Browse Courses →</a>
+                    </div>
+                    <div class="resource-card glass-light">
+                        <div class="resource-icon">🔧</div>
+                        <h4>Tools & Software</h4>
+                        <p>Essential tools and software for practical learning</p>
+                        <a href="#" class="resource-link">Explore Tools →</a>
+                    </div>
+                    <div class="resource-card glass-light">
+                        <div class="resource-icon">👥</div>
+                        <h4>Communities</h4>
+                        <p>Join communities of learners and experts</p>
+                        <a href="#" class="resource-link">Find Communities →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress-section glass" style="margin-top: 60px;">
+                <h3>🎯 Quick Tips for Success</h3>
+                <div style="text-align: left; max-width: 800px; margin: 30px auto;">
+                    <div class="topic-item">
+                        <div class="topic-icon">✅</div>
+                        <div class="topic-content">
+                            <h4>Consistency is Key</h4>
+                            <p>Dedicate time every day, even if it's just 30 minutes. Small, consistent steps lead to big results.</p>
+                        </div>
+                    </div>
+                    <div class="topic-item">
+                        <div class="topic-icon">🎯</div>
+                        <div class="topic-content">
+                            <h4>Build Projects</h4>
+                            <p>Don't just learn theory - build real projects. Apply what you learn immediately for better retention.</p>
+                        </div>
+                    </div>
+                    <div class="topic-item">
+                        <div class="topic-icon">👥</div>
+                        <div class="topic-content">
+                            <h4>Join Communities</h4>
+                            <p>Connect with other learners and experts. Ask questions, share progress, and learn from others.</p>
+                        </div>
+                    </div>
+                    <div class="topic-item">
+                        <div class="topic-icon">🔄</div>
+                        <div class="topic-content">
+                            <h4>Review & Practice</h4>
+                            <p>Regularly review what you've learned. Practice is essential for mastery and long-term retention.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="glass-strong" style="max-width: 800px; margin: 0 auto; padding: 40px; border-radius: 30px;">
+            <h3 style="color: var(--text-primary); font-size: 32px; margin-bottom: 15px; font-weight: 800;">LIAA</h3>
+            <p style="color: var(--text-secondary); font-size: 18px; margin-bottom: 25px;">
+                Learn It All App - Your companion for structured learning and skill mastery
+            </p>
+            
+            <!-- Founders Section -->
+            <div class="founders-section">
+                <h4 style="color: var(--text-primary); margin-bottom: 20px; font-size: 20px;">Meet Our Founders</h4>
+                <div class="founders-grid">
+                    <div class="founder-card glass">
+                        <div class="founder-name">Lavika Panwar</div>
+                        <div class="founder-role">Co-Founder & CEO</div>
+                    </div>
+                    <div class="founder-card glass">
+                        <div class="founder-name">Ekta Rathore</div>
+                        <div class="founder-role">Co-Founder & CTO</div>
+                    </div>
+                    <div class="founder-card glass">
+                        <div class="founder-name">Anupriya Kumari</div>
+                        <div class="founder-role">Co-Founder & COO</div>
+                    </div>
+                </div>
+            </div>
+
+            <p style="color: var(--text-secondary);">Made with 💜 for learners worldwide</p>
+            <div class="social-links">
+                <a href="#" class="glass">📧</a>
+                <a href="#" class="glass">🐦</a>
+                <a href="#" class="glass">💼</a>
+                <a href="#" class="glass">📱</a>
+            </div>
+            <p style="margin-top: 30px; font-size: 14px; color: var(--text-muted);">© 2025 LIAA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/roadmap-data.js"></script>
+    <script src="scripts/ui-interactions.js"></script>
+    <script src="scripts/pdf-generator.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
