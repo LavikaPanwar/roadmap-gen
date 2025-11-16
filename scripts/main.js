@@ -169,7 +169,7 @@ function generateRoadmapContent(skill, level, timeframe, goals) {
                             <h4>${week.title}</h4>
                             <div class="expand-icon">▼</div>
                         </div>
-                        <div class="week-content" style="display: none;">
+                        <div class="week-content">
                             <div class="daily-tasks">
                                 ${week.tasks.map(task => `
                                     <div class="task-item">
@@ -230,22 +230,20 @@ function animateProgressBar() {
 
 // Toggle week content visibility
 function toggleWeekContent(element) {
-    console.log('🔍 Toggle function called!');
-    
     const content = element.nextElementSibling;
     const icon = element.querySelector('.expand-icon');
     
-    console.log('📦 Content element:', content);
-    console.log('🎯 Current display:', content.style.display);
+    // Toggle expanded class for CSS transitions
+    content.classList.toggle('expanded');
+    icon.classList.toggle('expanded');
     
-    if (content.style.display === 'block') {
-        content.style.display = 'none';
+    // For browsers that don't support CSS max-height transitions
+    if (content.style.maxHeight) {
+        content.style.maxHeight = null;
         icon.textContent = '▼';
-        console.log('⬇️ Hiding content');
     } else {
-        content.style.display = 'block';
+        content.style.maxHeight = content.scrollHeight + "px";
         icon.textContent = '▲';
-        console.log('⬆️ Showing content');
     }
 }
 
