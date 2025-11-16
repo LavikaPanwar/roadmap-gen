@@ -207,7 +207,7 @@ function generateRoadmapContent(skill, level, timeframe, goals) {
     });
 }
 
-// Animate progress bar
+// Animate progress bar - FIXED VERSION
 function animateProgressBar() {
     const progressBar = document.getElementById('progressBar');
     const progressText = document.getElementById('progressText');
@@ -216,16 +216,8 @@ function animateProgressBar() {
     progressBar.style.width = '0%';
     progressText.textContent = '0% Complete';
     
-    let width = 0;
-    const interval = setInterval(() => {
-        if (width >= 15) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressBar.style.width = width + '%';
-            progressText.textContent = width + '% Complete';
-        }
-    }, 30);
+    // Calculate initial progress based on any pre-checked tasks
+    updateProgress();
 }
 
 // Toggle week content visibility
