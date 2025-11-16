@@ -80,24 +80,9 @@ function generateRoadmap(event) {
         document.querySelectorAll('.level-btn').forEach(btn => btn.classList.remove('active'));
 
         // Animate progress bar
-function animateProgressBar() {
-    const progressBar = document.getElementById('progressBar');
-    const progressText = document.getElementById('progressText');
-    
-    // Reset to 0% first
-    progressBar.style.width = '0%';
-    progressText.textContent = '0% Complete';
-    
-    let width = 0;
-    const interval = setInterval(() => {
-        if (width >= 15) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressBar.style.width = width + '%';
-            progressText.textContent = width + '% Complete';
-        }
-    }, 30);
+        animateProgressBar();
+    }, 1500);
+}
 
 // Generate roadmap content based on selected skill
 function generateRoadmapContent(skill, level, timeframe, goals) {
@@ -226,6 +211,11 @@ function generateRoadmapContent(skill, level, timeframe, goals) {
 function animateProgressBar() {
     const progressBar = document.getElementById('progressBar');
     const progressText = document.getElementById('progressText');
+    
+    // Reset to 0% first
+    progressBar.style.width = '0%';
+    progressText.textContent = '0% Complete';
+    
     let width = 0;
     const interval = setInterval(() => {
         if (width >= 15) {
@@ -236,6 +226,36 @@ function animateProgressBar() {
             progressText.textContent = width + '% Complete';
         }
     }, 30);
+}
+
+// Add these missing functions that are referenced in your HTML
+function toggleWeekContent(element) {
+    const content = element.nextElementSibling;
+    const icon = element.querySelector('.expand-icon');
+    
+    if (content.style.display === 'block') {
+        content.style.display = 'none';
+        icon.textContent = '▼';
+    } else {
+        content.style.display = 'block';
+        icon.textContent = '▲';
+    }
+}
+
+function toggleTask(element) {
+    element.classList.toggle('checked');
+}
+
+function updateProgress() {
+    alert('Progress tracking feature coming soon!');
+}
+
+function shareRoadmap() {
+    alert('Share feature coming soon!');
+}
+
+function downloadRoadmapPDF() {
+    alert('PDF download feature coming soon!');
 }
 
 console.log('🚀 LIAA Learning Roadmap App Loaded Successfully!');
