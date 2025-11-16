@@ -1,19 +1,10 @@
-// Toggle week content
-function toggleWeekContent(header) {
-    const content = header.nextElementSibling;
-    const icon = header.querySelector('.expand-icon');
-    
-    content.classList.toggle('expanded');
-    icon.classList.toggle('expanded');
-}
-
 // Toggle task completion
 function toggleTask(checkbox) {
     checkbox.classList.toggle('checked');
     updateProgress();
 }
 
-// Update progress based on completed tasks
+// Update progress based on completed tasks - FIXED VERSION
 function updateProgress() {
     const totalTasks = document.querySelectorAll('.task-checkbox').length;
     const completedTasks = document.querySelectorAll('.task-checkbox.checked').length;
@@ -22,12 +13,66 @@ function updateProgress() {
     const progressBar = document.getElementById('progressBar');
     const progressText = document.getElementById('progressText');
     
-    progressBar.style.width = progressPercentage + '%';
-    progressText.textContent = progressPercentage + '% Complete';
-    
-    if (progressPercentage === 100) {
-        alert('🎉 Congratulations! You\'ve completed your learning roadmap! You are now ready to take on real-world projects and advance your career!');
+    if (progressBar && progressText) {
+        // Smooth animation for progress bar
+        progressBar.style.transition = 'width 0.5s ease';
+        progressBar.style.width = progressPercentage + '%';
+        progressText.textContent = progressPercentage + '% Complete';
+        
+        // Show celebration when 100% complete
+        if (progressPercentage === 100) {
+            setTimeout(() => {
+                showCompletionCelebration();
+            }, 500);
+        }
     }
+}
+
+// Show completion celebration
+function showCompletionCelebration() {
+    // Create celebration element
+    const celebration = document.createElement('div');
+    celebration.innerHTML = `
+        <div style="
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            backdrop-filter: blur(10px);
+        ">
+            <div style="
+                background: rgba(30, 30, 45, 0.95);
+                padding: 40px;
+                border-radius: 20px;
+                text-align: center;
+                border: 2px solid #6d67e4;
+                max-width: 500px;
+                margin: 20px;
+            ">
+                <div style="font-size: 60px; margin-bottom: 20px;">🎉</div>
+                <h2 style="color: #6d67e4; margin-bottom: 15px;">Congratulations!</h2>
+                <p style="color: white; margin-bottom: 25px; line-height: 1.5;">
+                    You've completed your learning roadmap! You are now ready to take on real-world projects and advance your career!
+                </p>
+                <button onclick="this.parentElement.parentElement.remove()" style="
+                    background: linear-gradient(135deg, #6d67e4, #46c3db);
+                    border: none;
+                    padding: 12px 30px;
+                    border-radius: 25px;
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                ">Continue Learning</button>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(celebration);
 }
 
 // Share roadmap
