@@ -169,7 +169,7 @@ function generateRoadmapContent(skill, level, timeframe, goals) {
                             <h4>${week.title}</h4>
                             <div class="expand-icon">▼</div>
                         </div>
-                        <div class="week-content">
+                        <div class="week-content" style="display: none;">
                             <div class="daily-tasks">
                                 ${week.tasks.map(task => `
                                     <div class="task-item">
@@ -228,7 +228,7 @@ function animateProgressBar() {
     }, 30);
 }
 
-// Add these missing functions that are referenced in your HTML
+// Toggle week content visibility
 function toggleWeekContent(element) {
     const content = element.nextElementSibling;
     const icon = element.querySelector('.expand-icon');
@@ -242,18 +242,22 @@ function toggleWeekContent(element) {
     }
 }
 
+// Toggle task completion
 function toggleTask(element) {
     element.classList.toggle('checked');
 }
 
+// Update progress
 function updateProgress() {
     alert('Progress tracking feature coming soon!');
 }
 
+// Share roadmap
 function shareRoadmap() {
     alert('Share feature coming soon!');
 }
 
+// Download PDF
 function downloadRoadmapPDF() {
     alert('PDF download feature coming soon!');
 }
