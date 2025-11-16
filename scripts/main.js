@@ -24,15 +24,14 @@ function showPage(pageId) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// Level selection
-let selectedLevel = '';
-function selectLevel(level) {
+// Level selection - FIXED VERSION
+function selectLevel(level, event) {
     selectedLevel = level;
     document.getElementById('levelInput').value = level;
     const buttons = document.querySelectorAll('.level-btn');
     buttons.forEach(btn => btn.classList.remove('active'));
     event.target.classList.add('active');
-}
+}}
 
 // Skill selection from showcase
 function selectSkill(skill) {
