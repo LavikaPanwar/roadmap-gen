@@ -31,7 +31,7 @@ function selectLevel(level, event) {
     const buttons = document.querySelectorAll('.level-btn');
     buttons.forEach(btn => btn.classList.remove('active'));
     event.target.classList.add('active');
-}}
+}
 
 // Skill selection from showcase
 function selectSkill(skill) {
