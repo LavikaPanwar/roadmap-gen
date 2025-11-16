@@ -1,5 +1,5 @@
 // ULTRA-DETAILED ROADMAP DATA -
-const roadmapData = {
+const roadmapDataPart1 = {
     "Web Development": {
         phases: [
             {
@@ -597,8 +597,7 @@ const roadmapDataPart3 = {
             ]
         }
     ]
-},},
-   
+},
     
     "Cybersecurity": {
         "phases": [
