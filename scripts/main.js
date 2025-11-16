@@ -80,8 +80,24 @@ function generateRoadmap(event) {
         document.querySelectorAll('.level-btn').forEach(btn => btn.classList.remove('active'));
 
         // Animate progress bar
-        animateProgressBar();
-    }, 2000);
+function animateProgressBar() {
+    const progressBar = document.getElementById('progressBar');
+    const progressText = document.getElementById('progressText');
+    
+    // Reset to 0% first
+    progressBar.style.width = '0%';
+    progressText.textContent = '0% Complete';
+    
+    let width = 0;
+    const interval = setInterval(() => {
+        if (width >= 15) {
+            clearInterval(interval);
+        } else {
+            width++;
+            progressBar.style.width = width + '%';
+            progressText.textContent = width + '% Complete';
+        }
+    }, 30);
 }
 
 // Generate roadmap content based on selected skill
