@@ -1,4 +1,4 @@
-// ULTRA-DETAILED ROADMAP DATA - PART 1/3 (Web Development Focus)
+// ULTRA-DETAILED ROADMAP DATA -
 const roadmapData = {
     "Web Development": {
         phases: [
@@ -373,9 +373,10 @@ const roadmapDataPart2 = {
             ]
         }
     ]
-
+    }
 };
-// ULTRA-DETAILED ROADMAP DATA - PART 3/3 (Remaining Skills)
+    
+// ULTRA-DETAILED ROADMAP DATA - PART 3/3 
 const roadmapDataPart3 = {
     "UI/UX Design": {
     phases: [
@@ -596,83 +597,9 @@ const roadmapDataPart3 = {
             ]
         }
     ]
-},
+},},
    
-    "Mobile Development": {
-        "phases": [
-            {
-                "title": "Complete Mobile Development Mastery (Weeks 1-20)",
-                "description": "End-to-end mobile development education covering foundational programming, platform-specific development, cross-platform solutions, and advanced deployment techniques.",
-                "weeks": [
-                    {
-                        "title": "Week 1-4: Programming Fundamentals & Tools",
-                        "tasks": [
-                            "Programming Basics & Syntax: Comprehensive understanding of programming fundamentals including variables, data types, operators, control structures (if/else, loops), functions, and basic algorithms. Learn about memory management, scope, and programming best practices.",
-                            "Object-Oriented Programming: Deep dive into OOP concepts including classes, objects, inheritance, polymorphism, encapsulation, and abstraction. Understand design patterns, SOLID principles, and how to structure code for maintainability and scalability.",
-                            "Version Control with Git: Master Git fundamentals including repository management, branching, merging, commit strategies, and collaborative workflows. Learn about GitHub/GitLab, pull requests, code review processes, and CI/CD integration.",
-                            "Development Environment Setup: Comprehensive setup of mobile development environments including IDEs (Android Studio, Xcode), emulators, debugging tools, and performance profiling. Understand SDK management, dependency management, and project configuration.",
-                            "Data Structures & Algorithms: Deep dive into essential data structures (arrays, linked lists, stacks, queues, trees, graphs) and algorithms (sorting, searching, recursion). Learn about time/space complexity and optimization techniques.",
-                            "Debugging & Testing Fundamentals: Master debugging techniques including breakpoints, logging, crash analysis, and unit testing. Understand test-driven development principles and how to write effective test cases.",
-                            "Weekly Project: Build a Console Application: Develop a complete console application implementing core programming concepts, data structures, and algorithms. Include version control, testing, and documentation."
-                        ]
-                    },
-                    {
-                        "title": "Week 5-8: Native Android Development (Kotlin/Java)",
-                        "tasks": [
-                            "Android Fundamentals & Architecture: Comprehensive Android platform understanding including activity lifecycle, fragments, intents, and application components. Learn about Android architecture patterns (MVC, MVP, MVVM) and best practices.",
-                            "Kotlin Programming Mastery: Deep dive into Kotlin language features including extension functions, coroutines, null safety, data classes, and functional programming concepts. Understand Kotlin-specific patterns and Android Kotlin extensions.",
-                            "UI/UX Development with XML & Jetpack Compose: Master Android UI development using both traditional XML layouts and modern Jetpack Compose. Learn about View components, ConstraintLayout, RecyclerView, and Material Design principles. Understand declarative UI patterns and state management.",
-                            "Android Architecture Components: Comprehensive training on Android Architecture Components including ViewModel, LiveData, Room Database, WorkManager, and Navigation Component. Learn about lifecycle-aware components and data persistence strategies.",
-                            "Networking & API Integration: Deep dive into networking concepts including REST API consumption, HTTP protocols, JSON parsing, and background task management. Understand Retrofit, OkHttp, Gson/Moshi, and coroutines for asynchronous operations.",
-                            "Data Storage & Persistence: Master data storage options including SharedPreferences, Room Database, file system storage, and cloud synchronization. Learn about database design, migrations, and data caching strategies.",
-                            "Android Testing & Debugging: Comprehensive testing training including unit tests, integration tests, UI tests with Espresso, and automated testing pipelines. Understand performance profiling, memory leak detection, and crash reporting tools.",
-                            "Weekly Project: Complete Android Application: Build a fully-functional Android application implementing all learned concepts including UI/UX, data persistence, API integration, testing, and deployment preparation."
-                        ]
-                    },
-                    {
-                        "title": "Week 9-12: Native iOS Development (Swift)",
-                        "tasks": [
-                            "iOS Platform Fundamentals & Swift Language: Comprehensive iOS platform understanding including UIKit, SwiftUI, view controllers, navigation patterns, and iOS human interface guidelines. Master Swift programming language features and iOS-specific patterns.",
-                            "SwiftUI & Declarative UI Development: Deep dive into SwiftUI framework including views, modifiers, state management, data flow, and custom view creation. Understand declarative syntax, previews, and SwiftUI best practices for modern iOS development.",
-                            "UIKit & Interface Builder: Master traditional iOS development with UIKit including storyboards, xib files, auto layout, and programmatic UI creation. Learn about view controller lifecycle, delegation patterns, and UIKit-SwiftUI integration.",
-                            "Core Data & Data Management: Comprehensive data persistence training using Core Data including data modeling, relationships, migrations, and performance optimization. Understand alternative data storage options and cloud synchronization.",
-                            "Networking with URLSession & Combine: Deep dive into iOS networking including URLSession, REST API integration, JSON decoding with Codable, and asynchronous programming with Combine framework. Learn about background fetching and network optimization.",
-                            "iOS Architecture Patterns: Master iOS architecture patterns including MVC, MVVM, VIPER, and Coordinator patterns. Understand dependency injection, service locators, and clean architecture principles for scalable iOS applications.",
-                            "iOS Testing & Performance: Comprehensive iOS testing including unit tests with XCTest, UI tests with XCUITest, and performance testing. Learn about Instruments for profiling, memory management, and app performance optimization.",
-                            "Weekly Project: Complete iOS Application: Develop a fully-featured iOS application using both UIKit and SwiftUI, implementing data persistence, networking, testing, and following Apple's design guidelines and best practices."
-                        ]
-                    },
-                    {
-                        "title": "Week 13-16: Cross-Platform Development (React Native/Flutter)",
-                        "tasks": [
-                            "React Native Fundamentals: Comprehensive React Native training including JavaScript/TypeScript fundamentals, React concepts, component lifecycle, and React Native specific APIs. Understand the bridge architecture and native module integration.",
-                            "Flutter & Dart Programming: Deep dive into Flutter framework including Dart language fundamentals, widget tree, state management solutions (Provider, Bloc, Riverpod), and Flutter architecture patterns. Learn about custom widget creation and platform channels.",
-                            "Cross-Platform UI Development: Master cross-platform UI development principles including responsive design, platform-specific adaptations, and consistent user experience across iOS and Android. Understand design system implementation and component libraries.",
-                            "State Management Solutions: Comprehensive state management training including Redux, MobX, Context API for React Native, and Provider/Bloc for Flutter. Learn about state persistence, asynchronous state updates, and complex state scenarios.",
-                            "Native Module Integration: Deep dive into native module development including bridging native code, platform-specific APIs, and third-party native library integration. Understand how to extend cross-platform frameworks with native capabilities.",
-                            "Performance Optimization: Master performance optimization techniques for cross-platform applications including bundle optimization, rendering performance, memory management, and startup time improvement. Learn about profiling tools and performance monitoring.",
-                            "Cross-Platform Testing: Comprehensive testing strategies for cross-platform applications including unit testing, integration testing, and end-to-end testing with Detox or Flutter Driver. Understand platform-specific testing considerations.",
-                            "Weekly Project: Cross-Platform Application: Build a complete cross-platform application using either React Native or Flutter, implementing native modules, platform-specific features, and deploying to both iOS and Android platforms."
-                        ]
-                    },
-                    {
-                        "title": "Week 17-20: Advanced Topics & Deployment",
-                        "tasks": [
-                            "Mobile App Architecture & Scalability: Comprehensive architecture training including clean architecture, domain-driven design, modularization, and microservices integration. Learn about scaling applications for large user bases and complex feature sets.",
-                            "Advanced UI/UX & Animations: Deep dive into advanced UI techniques including custom animations, gesture handling, advanced transitions, and immersive user experiences. Understand performance considerations and smooth animation implementation.",
-                            "Security & Authentication: Master mobile security concepts including secure storage, encryption, biometric authentication, OAuth flows, and JWT token management. Learn about security best practices and vulnerability prevention.",
-                            "CI/CD & DevOps for Mobile: Comprehensive CI/CD pipeline setup including automated testing, build automation, code signing, and store deployment. Understand tools like Fastlane, GitHub Actions, Bitrise, and automated release management.",
-                            "App Store Deployment: Deep dive into app store submission processes including Apple App Store and Google Play Store requirements, metadata optimization, review guidelines, and release management strategies. Learn about staged rollouts and A/B testing.",
-                            "Analytics & Performance Monitoring: Master analytics implementation including user behavior tracking, crash reporting, performance monitoring, and A/B testing frameworks. Understand how to use data for product decisions and optimization.",
-                            "Advanced Topics: Explore advanced mobile topics including machine learning integration, AR/VR development, IoT connectivity, wearables, and emerging mobile technologies. Understand future trends and technology adoption strategies.",
-                            "Final Project: Complete Mobile Application: Develop and deploy a production-ready mobile application across multiple platforms, implementing all advanced concepts, CI/CD pipelines, analytics, and app store deployment with comprehensive documentation."
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-   
+    
     "Cybersecurity": {
         "phases": [
             {
@@ -747,7 +674,7 @@ const roadmapDataPart3 = {
                 ]
             }
         ]
-    }
+    },
 },
     "Cloud Computing": {
         "phases": [
@@ -823,7 +750,7 @@ const roadmapDataPart3 = {
                 ]
             }
         ]
-    }
+    },
 },
 
     "Blockchain": {
