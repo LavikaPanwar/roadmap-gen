@@ -674,7 +674,6 @@ const roadmapDataPart3 = {
             }
         ]
     },
-},
     "Cloud Computing": {
         "phases": [
             {
@@ -750,7 +749,6 @@ const roadmapDataPart3 = {
             }
         ]
     },
-},
 
     "Blockchain": {
         "phases": [
@@ -1306,7 +1304,7 @@ const roadmapDataPart3 = {
             }
         ]
     }
-},
+};
 
 // Combine all parts into the final roadmapData object
 const roadmapData = {
