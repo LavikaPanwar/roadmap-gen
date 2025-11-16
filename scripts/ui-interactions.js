@@ -1,32 +1,24 @@
-// Toggle task completion
+// Toggle task completion - SIMPLE FIX
 function toggleTask(checkbox) {
     checkbox.classList.toggle('checked');
-    updateProgress();
-}
-
-// Update progress based on completed tasks - FIXED VERSION
-function updateProgress() {
-    const totalTasks = document.querySelectorAll('.task-checkbox').length;
-    const completedTasks = document.querySelectorAll('.task-checkbox.checked').length;
-    const progressPercentage = totalTasks > 0 ? Math.round((completedTasks / totalTasks) * 100) : 0;
+    
+    // DIRECT PROGRESS CALCULATION - No function calls
+    const allTasks = document.querySelectorAll('.task-checkbox');
+    const doneTasks = document.querySelectorAll('.task-checkbox.checked');
+    const percent = Math.round((doneTasks.length / allTasks.length) * 100);
     
     const progressBar = document.getElementById('progressBar');
     const progressText = document.getElementById('progressText');
     
-    if (progressBar && progressText) {
-        // Smooth animation for progress bar
-        progressBar.style.transition = 'width 0.5s ease';
-        progressBar.style.width = progressPercentage + '%';
-        progressText.textContent = progressPercentage + '% Complete';
-        
-        // Show celebration when 100% complete
-        if (progressPercentage === 100) {
-            setTimeout(() => {
-                showCompletionCelebration();
-            }, 500);
-        }
+    if (progressBar) progressBar.style.width = percent + '%';
+    if (progressText) progressText.textContent = percent + '% Complete';
+    
+    // Simple celebration
+    if (percent === 100) {
+        alert('🎉 Congratulations! You completed the roadmap!');
     }
 }
+        
 
 // Show completion celebration
 function showCompletionCelebration() {
