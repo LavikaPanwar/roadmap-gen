@@ -98,7 +98,6 @@ function animateProgressBar() {
             progressText.textContent = width + '% Complete';
         }
     }, 30);
-}
 
 // Generate roadmap content based on selected skill
 function generateRoadmapContent(skill, level, timeframe, goals) {
