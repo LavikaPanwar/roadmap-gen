@@ -82,6 +82,28 @@ function generateRoadmap(event) {
         // Animate progress bar
         animateProgressBar();
     }, 1500);
+
+    // Toggle week content visibility
+function toggleWeekContent(element) {
+    console.log('🔍 Toggle function called!');
+    
+    const content = element.nextElementSibling;
+    const icon = element.querySelector('.expand-icon');
+    
+    console.log('📦 Content element:', content);
+    console.log('🎯 Current display:', content.style.display);
+    console.log('📱 Content classList:', content.classList);
+    
+    if (content.style.display === 'block') {
+        content.style.display = 'none';
+        icon.textContent = '▼';
+        console.log('⬇️ Hiding content');
+    } else {
+        content.style.display = 'block';
+        icon.textContent = '▲';
+        console.log('⬆️ Showing content');
+    }
+}
 }
 
 // Generate roadmap content based on selected skill
