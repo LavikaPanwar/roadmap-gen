@@ -1,146 +1,262 @@
-// Ultra-Detailed Comprehensive Roadmap Data with Hourly Breakdowns
+// ULTRA-DETAILED ROADMAP DATA - PART 1/3 (Web Development Focus)
 const roadmapData = {
     "Web Development": {
         phases: [
             {
-                title: "Foundation Building (Weeks 1-6)",
-                description: "Establish a solid foundation with core web technologies and fundamental principles that will serve as the bedrock for your entire development journey.",
+                title: "Complete Web Development Mastery (Weeks 1-24)",
+                description: "Comprehensive full-stack web development journey from absolute beginner to job-ready developer with portfolio projects.",
                 weeks: [
                     {
-                        title: "Week 1: HTML5 Fundamentals & Semantic Structure",
+                        title: "Week 1: HTML5 Mastery & Semantic Web Foundations",
                         tasks: [
-                            "Day 1 (4 hours): HTML5 Document Structure Mastery\n• 2 hours: Deep dive into HTML5 doctype declaration and document structure\n• 1 hour: Practice creating proper HTML skeleton with all essential elements\n• 1 hour: Understand the difference between HTML4 and HTML5 document types\n• Exercise: Create 5 different HTML5 document templates",
-                            "Day 2 (5 hours): Core HTML Elements & Text Formatting\n• 2 hours: Master heading hierarchy (h1-h6) and paragraph elements\n• 1 hour: Practice text formatting tags (strong, em, mark, small, sub, sup)\n• 1 hour: Learn about lists (ordered, unordered, definition lists)\n• 1 hour: Create complex nested list structures\n• Exercise: Build a detailed recipe page with proper text formatting",
-                            "Day 3 (6 hours): Links, Images & Multimedia\n• 2 hours: Master anchor tags with all attributes (href, target, rel, download)\n• 2 hours: Learn image optimization and responsive images (srcset, sizes)\n• 1 hour: Practice embedding audio and video elements\n• 1 hour: Understand figure and figcaption for multimedia content\n• Exercise: Create a media-rich gallery page with optimized images",
-                            "Day 4 (5 hours): Semantic HTML5 Elements\n• 2 hours: Deep dive into semantic elements (header, nav, main, article, section)\n• 1 hour: Practice using aside, footer, and time elements correctly\n• 1 hour: Learn about details, summary, and mark elements\n• 1 hour: Understand when to use div vs semantic elements\n• Exercise: Convert a non-semantic page to fully semantic HTML5",
-                            "Day 5 (6 hours): Tables & Complex Data Structures\n• 2 hours: Master table structure (thead, tbody, tfoot, tr, th, td)\n• 1 hour: Learn about colspan, rowspan, and table accessibility\n• 2 hours: Practice creating complex data tables with proper semantics\n• 1 hour: Understand caption and scope attributes\n• Exercise: Build a financial report table with proper accessibility",
-                            "Day 6 (6 hours): Forms & User Input\n• 2 hours: Learn all form input types (text, email, password, number, date, etc.)\n• 2 hours: Master form validation attributes (required, pattern, min, max)\n• 1 hour: Practice creating complex forms with fieldset and legend\n• 1 hour: Understand form accessibility and label associations\n• Exercise: Create a multi-step registration form with validation",
-                            "Day 7 (4 hours): Accessibility & Best Practices\n• 2 hours: Learn ARIA roles, states, and properties\n• 1 hour: Practice implementing keyboard navigation\n• 1 hour: Understand screen reader compatibility\n• Weekly Project: Build a fully accessible personal portfolio website with semantic HTML, forms, tables, and multimedia content"
+                            "HTML5 Document Structure Deep Dive: Master the complete HTML5 document architecture including doctype declaration, head section optimization with all meta tags, viewport configuration, and body structure principles. Understand the semantic meaning behind each structural element and learn to create perfectly validated HTML5 documents that comply with W3C standards.",
+                            
+                            "Semantic HTML Elements Mastery: Comprehensive study of all semantic HTML5 elements including header, nav, main, article, section, aside, footer, figure, figcaption, time, mark, and details. Learn when to use each element appropriately and understand the accessibility implications of semantic markup for screen readers and SEO optimization.",
+                            
+                            "Advanced Form Creation & Validation: Build complex, accessible forms with all input types including text, email, password, number, date, time, range, color, file, and hidden inputs. Master form validation using HTML5 attributes like required, pattern, min, max, step, and custom validation messages. Implement complex form layouts with fieldset, legend, and label associations.",
+                            
+                            "Multimedia Integration & Optimization: Learn to embed and optimize images, audio, and video content using picture element, srcset, sizes attributes for responsive images. Master video and audio elements with all attributes including controls, autoplay, loop, muted, and preload. Implement accessibility features like captions, transcripts, and audio descriptions.",
+                            
+                            "Tables & Data Presentation: Create complex data tables with proper semantic structure using thead, tbody, tfoot, th, td, colspan, rowspan, and scope attributes. Learn advanced table features like caption, colgroup, and col for styling columns. Understand accessibility requirements for data tables and implement ARIA attributes where necessary.",
+                            
+                            "Accessibility Fundamentals & ARIA: Comprehensive accessibility training covering WCAG guidelines, keyboard navigation, screen reader compatibility, and color contrast requirements. Learn to use ARIA roles, states, and properties to enhance accessibility where native HTML semantics are insufficient. Implement skip links, focus management, and accessible names/descriptions.",
+                            
+                            "HTML5 APIs Introduction: Get introduced to HTML5 APIs including Geolocation API, Web Storage API (localStorage, sessionStorage), Drag and Drop API, and History API. Understand how these APIs work and their practical applications in modern web development. Build small projects using each API to reinforce learning.",
+                            
+                            "Weekly Project: Semantic Portfolio Website: Build a complete, fully accessible personal portfolio website using all HTML5 semantic elements. Include a complex contact form with validation, an image gallery with responsive images, a skills table with proper markup, and implement basic HTML5 APIs. Ensure the site passes all accessibility checks and W3C validation."
                         ]
                     },
                     {
-                        title: "Week 2: Advanced HTML & CSS Integration",
+                        title: "Week 2: CSS3 Fundamentals & Box Model Mastery",
                         tasks: [
-                            "Day 1 (5 hours): CSS Reset & Normalization\n• 2 hours: Understand browser default styles and CSS reset\n• 2 hours: Practice creating custom CSS reset files\n• 1 hour: Learn about CSS normalization vs reset approaches\n• Exercise: Create and test a comprehensive CSS reset file",
-                            "Day 2 (6 hours): CSS Box Model Mastery\n• 2 hours: Deep dive into content, padding, border, and margin\n• 2 hours: Practice box-sizing: border-box vs content-box\n• 1 hour: Learn about collapsing margins and their solutions\n• 1 hour: Master margin: auto and centering techniques\n• Exercise: Build a complex layout using only box model properties",
-                            "Day 3 (6 hours): CSS Positioning Systems\n• 2 hours: Master static, relative, absolute positioning\n• 2 hours: Practice fixed and sticky positioning scenarios\n• 1 hour: Learn about z-index and stacking context\n• 1 hour: Understand position: absolute within relative containers\n• Exercise: Create a complex overlapping element design",
-                            "Day 4 (6 hours): CSS Display Property & Layout\n• 2 hours: Deep dive into display: block, inline, inline-block\n• 2 hours: Practice using display: none vs visibility: hidden\n• 1 hour: Learn about display: table and related properties\n• 1 hour: Understand the new display: flow-root property\n• Exercise: Build a newspaper-style layout using display properties",
-                            "Day 5 (6 hours): CSS Selectors & Specificity\n• 2 hours: Master basic selectors (element, class, ID, universal)\n• 2 hours: Practice advanced selectors (attribute, pseudo-class, pseudo-element)\n• 1 hour: Learn about selector specificity and calculation\n• 1 hour: Understand !important and when to use it\n• Exercise: Create a stylesheet using only advanced selectors",
-                            "Day 6 (6 hours): CSS Variables & Custom Properties\n• 2 hours: Learn CSS custom properties syntax and usage\n• 2 hours: Practice creating design systems with CSS variables\n• 1 hour: Understand variable inheritance and scope\n• 1 hour: Learn about CSS calculations with variables\n• Exercise: Build a themeable website using CSS variables",
-                            "Day 7 (5 hours): CSS Architecture & Organization\n• 2 hours: Learn BEM (Block Element Modifier) methodology\n• 2 hours: Practice organizing CSS files and imports\n• 1 hour: Understand CSS performance optimization\n• Weekly Project: Create a responsive, accessible, and well-organized website using all learned HTML and CSS concepts"
+                            "CSS Reset & Normalization Strategies: Deep dive into CSS reset techniques including Eric Meyer's reset, Normalize.css, and modern CSS reset approaches. Understand the box-sizing border-box model and create custom reset files that establish consistent baseline styles across all browsers while preserving useful defaults.",
+                            
+                            "Box Model Complete Mastery: Comprehensive study of the CSS box model including content, padding, border, and margin properties. Learn about box-sizing differences, margin collapsing behavior, and how to calculate total element dimensions. Master the use of auto margins for centering and understand the visual formatting model in depth.",
+                            
+                            "CSS Positioning Systems: Master all CSS positioning values including static, relative, absolute, fixed, and sticky. Understand stacking context, z-index management, and how positioning affects document flow. Learn practical applications for each positioning type and common pitfalls to avoid when using absolute and fixed positioning.",
+                            
+                            "Display Property & Layout Models: Comprehensive coverage of all display values including block, inline, inline-block, table, flex, grid, and none. Understand how each display value affects element behavior, sizing, and interaction with other elements. Learn when to use each display value and how they impact accessibility and performance.",
+                            
+                            "CSS Selectors & Specificity: Master all CSS selector types including basic selectors, combinators, attribute selectors, and pseudo-classes/ pseudo-elements. Understand specificity calculation and the cascade order. Learn advanced selector techniques and how to write efficient, maintainable CSS selectors that don't create specificity wars.",
+                            
+                            "CSS Custom Properties & Variables: Deep dive into CSS custom properties including declaration, inheritance, and practical applications. Learn to create design systems using CSS variables for colors, spacing, typography, and breakpoints. Understand how to use CSS variables with JavaScript for dynamic theming and real-time style updates.",
+                            
+                            "CSS Architecture & Methodology: Study CSS architecture patterns including BEM (Block Element Modifier), SMACSS, OOCSS, and ITCSS. Learn how to organize CSS files, manage specificity, and create scalable, maintainable CSS codebases. Implement a complete CSS architecture for a medium-sized project.",
+                            
+                            "Weekly Project: Responsive Business Website: Build a complete responsive business website using semantic HTML and advanced CSS. Implement a custom CSS reset, use CSS variables for theming, create complex layouts using positioning and display properties, and ensure perfect cross-browser compatibility. Include a responsive navigation system and mobile-first design approach."
                         ]
                     },
                     {
-                        title: "Week 3: Advanced CSS Layouts & Flexbox",
+                        title: "Week 3: Advanced CSS Layouts - Flexbox & Grid Systems",
                         tasks: [
-                            "Day 1 (6 hours): Flexbox Fundamentals\n• 2 hours: Learn flex container properties (display: flex)\n• 2 hours: Master flex-direction and flex-wrap\n• 1 hour: Practice justify-content alignment\n• 1 hour: Understand align-items and align-content\n• Exercise: Create various flexbox layouts for different scenarios",
-                            "Day 2 (6 hours): Flex Items Properties\n• 2 hours: Deep dive into flex-grow, flex-shrink, flex-basis\n• 2 hours: Practice using the flex shorthand property\n• 1 hour: Learn about order property and reordering\n• 1 hour: Master align-self for individual item alignment\n• Exercise: Build a complex card layout using flex item properties",
-                            "Day 3 (6 hours): Real-world Flexbox Projects\n• 2 hours: Create a navigation bar with flexbox\n• 2 hours: Build a card grid with equal height cards\n• 1 hour: Practice holy grail layout with flexbox\n• 1 hour: Create a responsive image gallery\n• Exercise: Implement a complete website layout using only flexbox",
-                            "Day 4 (6 hours): CSS Grid Fundamentals\n• 2 hours: Learn grid container (display: grid)\n• 2 hours: Master grid-template-columns and grid-template-rows\n• 1 hour: Practice grid gap and grid alignment\n• 1 hour: Understand implicit vs explicit grids\n• Exercise: Create basic grid layouts with various configurations",
-                            "Day 5 (6 hours): Advanced Grid Properties\n• 2 hours: Learn grid-template-areas for visual layout\n• 2 hours: Master grid line names and positioning\n• 1 hour: Practice minmax(), repeat(), and auto-fill/auto-fit\n• 1 hour: Understand grid auto-flow and dense packing\n• Exercise: Build a magazine-style layout using CSS Grid",
-                            "Day 6 (6 hours): Grid Item Placement\n• 2 hours: Learn grid-column and grid-row placement\n• 2 hours: Practice grid-area for complex placements\n• 1 hour: Master justify-self and align-self in grid\n• 1 hour: Understand grid span and negative values\n• Exercise: Create overlapping grid layouts with precise placement",
-                            "Day 7 (6 hours): Responsive Grid Systems\n• 2 hours: Learn media queries for grid responsiveness\n• 2 hours: Practice creating mobile-first grid systems\n• 1 hour: Master grid auto-placement algorithms\n• 1 hour: Build a complete responsive website with CSS Grid\n• Weekly Project: Create a fully responsive portfolio website using both Flexbox and CSS Grid for different layout sections"
+                            "Flexbox Fundamentals & Container Properties: Comprehensive Flexbox training starting with flex container properties including display: flex, flex-direction, flex-wrap, justify-content, align-items, and align-content. Understand the Flexbox axis system and how to control item distribution along main and cross axes with practical examples.",
+                            
+                            "Flex Items Properties & Behavior: Deep dive into flex item properties including flex-grow, flex-shrink, flex-basis, and the flex shorthand. Master the order property for visual reordering and align-self for individual item alignment. Learn how flex items calculate their sizes and how to create flexible, responsive layouts without media queries.",
+                            
+                            "Real-world Flexbox Layout Patterns: Build common web layout patterns using Flexbox including navigation bars, card grids, holy grail layouts, form layouts, and responsive image galleries. Learn Flexbox best practices, common pitfalls, and how to debug Flexbox layout issues. Create reusable Flexbox component patterns for future projects.",
+                            
+                            "CSS Grid Fundamentals & Grid Containers: Comprehensive CSS Grid training starting with grid container properties including display: grid, grid-template-columns, grid-template-rows, grid-template-areas, gap, and alignment properties. Understand the difference between explicit and implicit grids and how to create complex two-dimensional layouts.",
+                            
+                            "Advanced Grid Properties & Functions: Master advanced Grid features including grid line names, the repeat() function, minmax() function, auto-fill, auto-fit, and grid auto-flow. Learn how to create responsive grids without media queries and understand the fr unit for fractional space distribution. Practice with complex grid patterns and overlapping content.",
+                            
+                            "Grid Item Placement & Alignment: Deep dive into grid item placement using grid-column, grid-row, grid-area, and the grid placement shorthand. Master item alignment with justify-self, align-self, and place-self. Learn how to create overlapping layouts, control item stacking order, and create dynamic grid systems that adapt to content.",
+                            
+                            "Responsive Grid Systems & Layouts: Build complete responsive website layouts using CSS Grid including header, navigation, main content, sidebar, and footer areas. Learn how to combine Grid and Flexbox for optimal layout solutions. Create responsive grid systems that work across all device sizes and understand when to use Grid vs Flexbox.",
+                            
+                            "Weekly Project: Advanced Layout Challenge: Build a complex, responsive magazine-style layout using both Flexbox and CSS Grid. Implement a multi-column article layout with sidebars, a responsive image gallery with overlapping elements, and a complex navigation system. Ensure the layout works perfectly across all screen sizes and browsers."
                         ]
                     },
                     {
                         title: "Week 4: Advanced CSS Techniques & Responsive Design",
                         tasks: [
-                            "Day 1 (6 hours): Advanced CSS Selectors & Pseudo-classes\n• 2 hours: Master :nth-child, :nth-of-type selectors\n• 2 hours: Practice :not(), :empty, :target pseudo-classes\n• 1 hour: Learn about form pseudo-classes (:checked, :valid, :invalid)\n• 1 hour: Understand :before and :after pseudo-elements\n• Exercise: Create interactive elements using advanced selectors",
-                            "Day 2 (6 hours): CSS Transforms & 3D Effects\n• 2 hours: Learn 2D transforms (translate, rotate, scale, skew)\n• 2 hours: Practice 3D transforms and perspective\n• 1 hour: Master transform-origin and transform-style\n• 1 hour: Create complex animation sequences with transforms\n• Exercise: Build a 3D card flip animation",
-                            "Day 3 (6 hours): CSS Transitions & Animations\n• 2 hours: Learn transition properties and timing functions\n• 2 hours: Practice @keyframes and animation properties\n• 1 hour: Master animation-fill-mode and iteration count\n• 1 hour: Create complex multi-step animations\n• Exercise: Implement a loading spinner with smooth animations",
-                            "Day 4 (6 hours): Advanced Responsive Design\n• 2 hours: Deep dive into media queries and breakpoints\n• 2 hours: Practice mobile-first responsive design approach\n• 1 hour: Learn about responsive typography and units\n• 1 hour: Understand container queries and aspect ratio\n• Exercise: Create a fully responsive website from mobile to desktop",
-                            "Day 5 (6 hours): CSS Custom Properties & Theming\n• 2 hours: Learn advanced CSS variable techniques\n• 2 hours: Practice creating dark/light theme systems\n• 1 hour: Master CSS custom properties with JavaScript\n• 1 hour: Build a theme switcher with CSS variables\n• Exercise: Create a website with multiple theme options",
-                            "Day 6 (6 hours): CSS Architecture & Methodology\n• 2 hours: Learn SMACSS (Scalable Modular Architecture)\n• 2 hours: Practice OOCSS (Object Oriented CSS) principles\n• 1 hour: Understand ITCSS (Inverted Triangle CSS)\n• 1 hour: Master CSS file organization and naming conventions\n• Exercise: Refactor a large CSS codebase using methodology",
-                            "Day 7 (6 hours): Performance & Optimization\n• 2 hours: Learn CSS performance best practices\n• 2 hours: Practice critical CSS and above-the-fold optimization\n• 1 hour: Master CSS minification and compression\n• 1 hour: Understand browser rendering and repaint optimization\n• Weekly Project: Build a high-performance, animated, responsive website with advanced CSS features and optimal loading times"
+                            "Advanced CSS Selectors & Pseudo-classes: Master complex CSS selector combinations including :nth-child, :nth-of-type, :not(), :empty, :target, and form pseudo-classes. Learn how to use these selectors to create dynamic, interactive styles without JavaScript. Understand selector performance implications and how to write efficient selectors.",
+                            
+                            "CSS Transforms & 3D Effects: Comprehensive transforms training covering 2D transforms (translate, rotate, scale, skew) and 3D transforms with perspective. Learn transform-origin, transform-style, and backface-visibility. Create complex animation sequences and understand how transforms affect layout and performance compared to other positioning methods.",
+                            
+                            "CSS Transitions & Animation Mastery: Deep dive into CSS transitions including all transition properties, timing functions, and delay. Master CSS animations with @keyframes, animation properties, and animation-fill-mode. Learn to create complex, multi-step animations and understand performance considerations for smooth animations.",
+                            
+                            "Advanced Responsive Design Techniques: Go beyond basic media queries with advanced responsive techniques including container queries, aspect-ratio media features, and modern CSS units (vw, vh, vmin, vmax, ch, ex). Learn responsive typography strategies, flexible images, and how to create truly fluid layouts that work across all devices.",
+                            
+                            "CSS Custom Properties Advanced Usage: Explore advanced CSS variable techniques including using variables with calc(), creating theme systems, and dynamic style updates with JavaScript. Learn how to use CSS variables for complex animations, responsive design, and creating design token systems. Build a complete theme switching system.",
+                            
+                            "CSS Architecture & Scalable Systems: Implement advanced CSS architecture patterns for large-scale applications. Learn how to organize CSS across multiple files, manage dependencies, and create maintainable codebases. Study CSS methodology best practices and how to enforce consistency across development teams.",
+                            
+                            "Performance Optimization & Critical CSS: Master CSS performance optimization techniques including critical CSS extraction, code splitting, and lazy loading. Learn about browser rendering processes and how to minimize reflows and repaints. Understand CSS delivery optimization and how to measure and improve CSS performance.",
+                            
+                            "Weekly Project: High-Performance Animated Website: Build a complete, high-performance website with complex animations, responsive design, and optimized loading. Implement a theme switching system, use advanced CSS features, and ensure perfect performance across all devices. Include performance monitoring and optimization reports."
                         ]
                     },
                     {
-                        title: "Week 5: JavaScript Fundamentals & DOM Manipulation",
+                        title: "Week 5: JavaScript Fundamentals & Core Concepts",
                         tasks: [
-                            "Day 1 (6 hours): JavaScript Basics & Syntax\n• 2 hours: Learn variables (var, let, const) and data types\n• 2 hours: Practice operators and type coercion\n• 1 hour: Master control structures (if/else, switch)\n• 1 hour: Understand truthy/falsy values and comparisons\n• Exercise: Create a basic calculator with all operations",
-                            "Day 2 (6 hours): Functions & Scope\n• 2 hours: Learn function declarations vs expressions\n• 2 hours: Practice parameters, arguments, and return values\n• 1 hour: Master function scope and hoisting\n• 1 hour: Understand IIFE (Immediately Invoked Function Expressions)\n• Exercise: Build a utility library with multiple functions",
-                            "Day 3 (6 hours): Arrays & Array Methods\n• 2 hours: Learn array creation and basic methods\n• 2 hours: Practice advanced array methods (map, filter, reduce)\n• 1 hour: Master array destructuring and spread operator\n• 1 hour: Understand multidimensional arrays\n• Exercise: Create data processing functions with array methods",
-                            "Day 4 (6 hours): Objects & Object Methods\n• 2 hours: Learn object creation and property access\n• 2 hours: Practice object methods and 'this' keyword\n• 1 hour: Master object destructuring and spread\n• 1 hour: Understand object prototypes and inheritance\n• Exercise: Build a contact management system with objects",
-                            "Day 5 (6 hours): DOM Selection & Manipulation\n• 2 hours: Learn DOM query selection methods\n• 2 hours: Practice element creation and insertion\n• 1 hour: Master attribute and class manipulation\n• 1 hour: Understand event delegation and propagation\n• Exercise: Create a dynamic task list with DOM manipulation",
-                            "Day 6 (6 hours): Event Handling & Forms\n• 2 hours: Learn event listeners and event object\n• 2 hours: Practice form validation and submission\n• 1 hour: Master keyboard and mouse events\n• 1 hour: Understand custom events and event creation\n• Exercise: Build an interactive form with real-time validation",
-                            "Day 7 (6 hours): Advanced DOM Techniques\n• 2 hours: Learn template literals and dynamic content\n• 2 hours: Practice working with datasets and data attributes\n• 1 hour: Master element traversal and sibling navigation\n• 1 hour: Understand performance optimization in DOM manipulation\n• Weekly Project: Create a complete interactive application (like a task manager or shopping cart) with all JavaScript fundamentals"
+                            "JavaScript Basics & Syntax Mastery: Comprehensive JavaScript syntax training including variables (var, let, const), data types, operators, and type coercion. Understand the differences between primitive and reference types, and master type conversion and comparison operations. Learn modern JavaScript syntax and best practices from the beginning.",
+                            
+                            "Functions Deep Dive & Scope Management: Master JavaScript functions including function declarations, expressions, arrow functions, and IIFEs. Understand scope, hoisting, and the execution context. Learn about parameters, arguments, return values, and how functions work in different contexts. Practice with higher-order functions and callback patterns.",
+                            
+                            "Arrays & Advanced Array Methods: Comprehensive array training including array creation, manipulation, and all built-in methods. Master functional array methods like map, filter, reduce, forEach, and understand when to use each. Learn array destructuring, spread operator, and how to work with multidimensional arrays and array-like objects.",
+                            
+                            "Objects & Object-Oriented Patterns: Deep dive into JavaScript objects including object creation, property access, methods, and the 'this' keyword. Master object destructuring, spread operator, and modern object syntax. Understand object prototypes, inheritance, and how to create object-oriented patterns in JavaScript.",
+                            
+                            "DOM Selection & Manipulation: Comprehensive DOM training including all selection methods (getElementById, querySelector, etc.), element creation, and manipulation. Learn how to efficiently traverse the DOM, manipulate attributes and classes, and understand the performance implications of different DOM operations. Practice with complex DOM manipulation scenarios.",
+                            
+                            "Event Handling & User Interactions: Master JavaScript event handling including event listeners, the event object, and event propagation. Learn about different event types (click, submit, keydown, etc.) and how to handle user interactions effectively. Understand event delegation and how to create accessible, interactive web applications.",
+                            
+                            "Form Handling & Validation: Learn to handle forms with JavaScript including form submission prevention, input validation, and dynamic form updates. Master working with different form elements and understanding form data. Create complex form validation systems with custom validation messages and user feedback.",
+                            
+                            "Weekly Project: Interactive Task Management Application: Build a complete task management application with JavaScript. Include task creation, editing, deletion, filtering, and sorting. Implement local storage for data persistence, form validation, and complex DOM manipulation. Ensure the application is fully accessible and has a polished user interface."
                         ]
                     },
                     {
                         title: "Week 6: Modern JavaScript & ES6+ Features",
                         tasks: [
-                            "Day 1 (6 hours): ES6+ Syntax Features\n• 2 hours: Master arrow functions and their 'this' binding\n• 2 hours: Practice template literals and string methods\n• 1 hour: Learn enhanced object literals\n• 1 hour: Understand default parameters and rest parameters\n• Exercise: Refactor old JavaScript code to use modern syntax",
-                            "Day 2 (6 hours): Destructuring & Spread Operator\n• 2 hours: Learn array destructuring with default values\n• 2 hours: Practice object destructuring and nested destructuring\n• 1 hour: Master spread operator with arrays and objects\n• 1 hour: Understand practical use cases for destructuring\n• Exercise: Create utility functions using destructuring and spread",
-                            "Day 3 (6 hours): Modules & Import/Export\n• 2 hours: Learn ES6 module syntax (import/export)\n• 2 hours: Practice named exports vs default exports\n• 1 hour: Master module bundling concepts\n• 1 hour: Understand tree shaking and dead code elimination\n• Exercise: Build a modular JavaScript application",
-                            "Day 4 (6 hours): Promises & Async/Await\n• 2 hours: Learn Promise constructor and methods\n• 2 hours: Practice Promise chaining and error handling\n• 1 hour: Master async/await syntax and error handling\n• 1 hour: Understand Promise.all, Promise.race, Promise.allSettled\n• Exercise: Create multiple async operations with proper error handling",
-                            "Day 5 (6 hours): Fetch API & HTTP Requests\n• 2 hours: Learn Fetch API basics and response handling\n• 2 hours: Practice GET, POST, PUT, DELETE requests\n• 1 hour: Master request headers and authentication\n• 1 hour: Understand CORS and cross-origin requests\n• Exercise: Build a weather app with API integration",
-                            "Day 6 (6 hours): Classes & OOP in JavaScript\n• 2 hours: Learn class syntax and constructor methods\n• 2 hours: Practice inheritance and super keyword\n• 1 hour: Master static methods and properties\n• 1 hour: Understand private fields and methods\n• Exercise: Create a complete class hierarchy for a application",
-                            "Day 7 (6 hours): Modern JavaScript Patterns\n• 2 hours: Learn functional programming concepts\n• 2 hours: Practice higher-order functions and composition\n• 1 hour: Master currying and partial application\n• 1 hour: Understand modern JavaScript tooling and setup\n• Weekly Project: Build a complete single-page application using all modern JavaScript features with API integration and proper architecture"
+                            "ES6+ Syntax Features Mastery: Comprehensive coverage of modern JavaScript syntax including arrow functions, template literals, enhanced object literals, and default parameters. Understand the differences between traditional functions and arrow functions, and when to use each. Master template literals for dynamic string creation and learn object property shorthand.",
+                            
+                            "Destructuring & Spread/Rest Operators: Deep dive into destructuring assignment for both arrays and objects. Learn how to use default values, nested destructuring, and practical applications. Master the spread operator for arrays and objects, and understand the rest parameter for function arguments. Practice with real-world use cases and patterns.",
+                            
+                            "ES6 Modules & Module Systems: Comprehensive module training including ES6 module syntax (import/export), named vs default exports, and module bundling concepts. Learn how to organize code across multiple files, manage dependencies, and understand module resolution. Practice with both browser and Node.js module systems.",
+                            
+                            "Promises & Asynchronous Programming: Master JavaScript promises including the Promise constructor, then/catch methods, and promise chaining. Understand asynchronous programming concepts and how to handle errors in promise chains. Learn practical patterns for working with asynchronous operations and avoiding callback hell.",
+                            
+                            "Async/Await & Modern Async Patterns: Deep dive into async/await syntax and how it simplifies asynchronous code. Learn error handling with try/catch, parallel execution with Promise.all, and other promise utility methods. Understand how async/await works under the hood and when to use it vs traditional promises.",
+                            
+                            "Fetch API & HTTP Requests: Comprehensive training on the Fetch API for making HTTP requests. Learn how to handle different response types, manage request headers, and work with authentication. Understand CORS, error handling, and how to create reusable API service modules. Practice with RESTful API integration.",
+                            
+                            "Classes & Object-Oriented JavaScript: Master ES6 classes including class syntax, constructor methods, inheritance, and static methods. Understand how classes work with prototypes and learn modern object-oriented patterns in JavaScript. Practice creating class hierarchies and understand when to use classes vs factory functions.",
+                            
+                            "Weekly Project: Modern JavaScript Application: Build a complete single-page application using all modern JavaScript features. Include API integration with Fetch, async/await for asynchronous operations, ES6 modules for code organization, and modern syntax throughout. Implement complex state management and create a polished, interactive user experience."
                         ]
-                    }
-                ]
-            },
-            {
-                title: "Frontend Frameworks & Advanced Concepts (Weeks 7-14)",
-                description: "Build dynamic, interactive user interfaces with modern frameworks and tools that power today's web applications.",
-                weeks: [
+                    },
                     {
                         title: "Week 7-8: React.js Fundamentals & Component Architecture",
                         tasks: [
-                            "Day 1 (6 hours): React Setup & JSX Fundamentals\n• 2 hours: Set up React development environment (Create React App)\n• 2 hours: Learn JSX syntax and rules\n• 1 hour: Practice creating functional components\n• 1 hour: Understand React elements vs components\n• Exercise: Create a basic React app with multiple components",
-                            "Day 2 (6 hours): Props & Component Communication\n• 2 hours: Learn passing props to components\n• 2 hours: Practice prop types and default props\n• 1 hour: Master component composition patterns\n• 1 hour: Understand children prop and slot patterns\n• Exercise: Build a reusable component library",
-                            "Day 3 (6 hours): State Management with useState\n• 2 hours: Learn useState hook and state updates\n• 2 hours: Practice state lifting and sharing state\n• 1 hour: Master state initialization and updates\n• 1 hour: Understand state batching and async updates\n• Exercise: Create a stateful counter and form components",
-                            "Day 4 (6 hours): Event Handling in React\n• 2 hours: Learn synthetic events and event handlers\n• 2 hours: Practice form handling and controlled components\n• 1 hour: Master event propagation in React\n• 1 hour: Understand custom event handlers\n• Exercise: Build an interactive form with validation",
-                            "Day 5 (6 hours): useEffect Hook & Side Effects\n• 2 hours: Learn useEffect for side effects\n• 2 hours: Practice dependency array and cleanup\n• 1 hour: Master useEffect for API calls\n• 1 hour: Understand useLayoutEffect vs useEffect\n• Exercise: Create a data fetching component with loading states",
-                            "Day 6 (6 hours): Conditional Rendering & Lists\n• 2 hours: Learn conditional rendering patterns\n• 2 hours: Practice rendering lists with map\n• 1 hour: Master key prop and list optimization\n• 1 hour: Understand fragment and short-circuit evaluation\n• Exercise: Build a dynamic list with add/remove functionality",
-                            "Day 7 (6 hours): React Developer Tools & Debugging\n• 2 hours: Learn React DevTools installation and usage\n• 2 hours: Practice debugging React components\n• 1 hour: Master React error boundaries\n• 1 hour: Understand performance profiling\n• Weekly Project: Build a complete React todo application with all fundamental concepts"
+                            "React Environment Setup & JSX Mastery: Comprehensive React setup including Create React App, Vite, and manual webpack configuration. Deep dive into JSX syntax, rules, and best practices. Learn how JSX compiles to JavaScript and understand the virtual DOM concept. Practice creating functional components and understanding React elements.",
+                            
+                            "Props & Component Communication: Master React props including prop passing, prop types, default props, and children prop. Learn component composition patterns and how to create reusable, composable components. Understand one-way data flow and how to structure component hierarchies for optimal data flow and reusability.",
+                            
+                            "State Management with useState Hook: Deep dive into the useState hook for state management. Learn state initialization, updates, and the functional update pattern. Understand state batching, asynchronous updates, and how to manage complex state objects. Practice with form state, toggle state, and derived state patterns.",
+                            
+                            "Event Handling & Controlled Components: Comprehensive event handling in React including synthetic events, form handling, and controlled components. Learn how to handle different event types and understand event pooling. Master form validation patterns and creating complex forms with multiple input types and validation rules.",
+                            
+                            "useEffect Hook & Side Effects: Master the useEffect hook for handling side effects in React components. Learn dependency arrays, cleanup functions, and when to use useEffect vs useLayoutEffect. Understand how to handle API calls, subscriptions, and other side effects properly. Practice with different useEffect patterns and common pitfalls.",
+                            
+                            "Conditional Rendering & List Management: Deep dive into conditional rendering patterns including ternary operators, logical AND, and early returns. Learn how to render lists efficiently with proper keys and understand the importance of stable keys. Practice with complex conditional rendering scenarios and list manipulation patterns.",
+                            
+                            "React Developer Tools & Debugging: Comprehensive training on React DevTools for debugging and performance optimization. Learn how to inspect component hierarchies, monitor state and props, and identify performance bottlenecks. Understand error boundaries and how to handle errors gracefully in React applications.",
+                            
+                            "Weekly Project: Complete React Todo Application: Build a feature-rich todo application with React. Include task creation, editing, deletion, filtering, sorting, and categorization. Implement local storage persistence, drag-and-drop functionality, and advanced features like due dates and priorities. Ensure the application has excellent UX and is fully accessible."
                         ]
                     },
-                    // Continuing with similar ultra-detailed breakdown for remaining weeks...
                     {
                         title: "Week 9-10: Advanced React Hooks & Context API",
                         tasks: [
-                            "Day 1 (6 hours): useReducer Hook for Complex State\n• 2 hours: Learn useReducer syntax and patterns\n• 2 hours: Practice reducer functions and actions\n• 1 hour: Master useReducer vs useState use cases\n• 1 hour: Understand useReducer with useContext\n• Exercise: Implement a shopping cart with useReducer",
-                            "Day 2 (6 hours): useContext for Global State\n• 2 hours: Learn Context API and createContext\n• 2 hours: Practice useContext hook for state consumption\n• 1 hour: Master context provider patterns\n• 1 hour: Understand context performance considerations\n• Exercise: Create a theme context for dark/light mode",
-                            "Day 3 (6 hours): Custom Hooks Development\n• 2 hours: Learn custom hook creation rules\n• 2 hours: Practice creating useLocalStorage hook\n• 1 hour: Master useFetch custom hook\n• 1 hour: Understand custom hook testing\n• Exercise: Build a library of reusable custom hooks",
-                            "Day 4 (6 hours): useMemo & useCallback Optimization\n• 2 hours: Learn useMemo for expensive calculations\n• 2 hours: Practice useCallback for function memoization\n• 1 hour: Master dependency array optimization\n• 1 hour: Understand when to use memoization\n• Exercise: Optimize a performance-intensive component",
-                            "Day 5 (6 hours): useRef & DOM Access\n• 2 hours: Learn useRef for DOM element references\n• 2 hours: Practice useRef for mutable values\n• 1 hour: Master forwardRef for component refs\n• 1 hour: Understand useImperativeHandle\n• Exercise: Create a custom input with focus management",
-                            "Day 6 (6 hours): Advanced Hook Patterns\n• 2 hours: Learn hook composition patterns\n• 2 hours: Practice hook rules and ESLint plugins\n• 1 hour: Master testing custom hooks\n• 1 hour: Understand hook flow and order\n• Exercise: Build complex hook-based components",
-                            "Day 7 (6 hours): State Management Architecture\n• 2 hours: Learn state management patterns\n• 2 hours: Practice combining multiple hooks\n• 1 hour: Master state normalization\n• 1 hour: Understand state machine concepts\n• Weekly Project: Build a complete React application with advanced hooks and context for state management"
+                            "useReducer Hook for Complex State: Master the useReducer hook for managing complex state logic. Learn reducer functions, actions, and dispatch patterns. Understand when to use useReducer vs useState and how to combine them for optimal state management. Practice with complex state transitions and side effects in reducers.",
+                            
+                            "useContext for Global State Management: Deep dive into the Context API and useContext hook for global state management. Learn how to create context providers, consume context values, and optimize context performance. Understand when to use context vs prop drilling and how to structure context providers for large applications.",
+                            
+                            "Custom Hooks Development: Comprehensive custom hooks training including hook creation rules, common custom hook patterns, and testing custom hooks. Learn to create hooks for local storage, API calls, form handling, and other common use cases. Understand how custom hooks enable code reuse and logic separation.",
+                            
+                            "useMemo & useCallback Optimization: Master useMemo for memoizing expensive calculations and useCallback for memoizing functions. Learn how to identify performance bottlenecks and when to use these optimization hooks. Understand the dependency array and how to avoid common performance pitfalls in React applications.",
+                            
+                            "useRef & DOM Manipulation: Deep dive into useRef for accessing DOM elements and storing mutable values. Learn forwardRef for passing refs to custom components and useImperativeHandle for customizing ref behavior. Practice with focus management, animation triggers, and other DOM manipulation scenarios.",
+                            
+                            "Advanced Hook Patterns & Composition: Learn advanced hook patterns including hook composition, custom hook factories, and hook testing strategies. Understand the rules of hooks and how to enforce them with ESLint plugins. Practice creating complex custom hooks that combine multiple built-in hooks.",
+                            
+                            "State Management Architecture: Comprehensive state management architecture training including state normalization, derived state, and state machine concepts. Learn how to structure state for complex applications and when to use different state management solutions. Practice with combined state management approaches.",
+                            
+                            "Weekly Project: Advanced React E-commerce Application: Build a complete e-commerce application with React. Include product catalog, shopping cart, user authentication, and order management. Use advanced hooks for state management, implement complex UI interactions, and ensure excellent performance. Include testing and optimization reports."
                         ]
                     }
                 ]
             }
         ]
-    },
+    }
+};
+// ULTRA-DETAILED ROADMAP DATA - PART 2/3 (Data Science & Mobile Development)
+const roadmapDataPart2 = {
     "Data Science": {
         phases: [
             {
-                title: "Mathematics & Programming Foundation (Weeks 1-8)",
-                description: "Build strong mathematical foundation essential for data science and machine learning with practical applications.",
+                title: "Complete Data Science Mastery (Weeks 1-24)",
+                description: "End-to-end data science journey from statistical foundations to machine learning deployment and MLOps practices.",
                 weeks: [
                     {
-                        title: "Week 1-2: Python Programming Mastery",
+                        title: "Week 1-2: Python Programming & Data Manipulation Foundations",
                         tasks: [
-                            "Day 1 (6 hours): Python Setup & Basic Syntax\n• 2 hours: Install Python and set up development environment\n• 2 hours: Learn Python syntax and basic data types\n• 1 hour: Practice variables and basic operations\n• 1 hour: Understand Python interpreter and REPL\n• Exercise: Write Python scripts for basic calculations",
-                            "Day 2 (6 hours): Control Structures & Functions\n• 2 hours: Learn if/else statements and boolean logic\n• 2 hours: Practice for and while loops\n• 1 hour: Master function definition and parameters\n• 1 hour: Understand scope and namespaces\n• Exercise: Create utility functions for data processing",
-                            "Day 3 (6 hours): Data Structures - Lists & Tuples\n• 2 hours: Learn list creation and manipulation\n• 2 hours: Practice list comprehensions\n• 1 hour: Master tuple operations and immutability\n• 1 hour: Understand sequence unpacking\n• Exercise: Build data analysis functions with lists",
-                            "Day 4 (6 hours): Data Structures - Dictionaries & Sets\n• 2 hours: Learn dictionary creation and access\n• 2 hours: Practice dictionary comprehensions\n• 1 hour: Master set operations and methods\n• 1 hour: Understand hashable types\n• Exercise: Create data aggregation functions",
-                            "Day 5 (6 hours): File I/O & Exception Handling\n• 2 hours: Learn file reading and writing\n• 2 hours: Practice CSV and JSON file handling\n• 1 hour: Master try/except blocks\n• 1 hour: Understand custom exceptions\n• Exercise: Build a data file processor with error handling",
-                            "Day 6 (6 hours): Object-Oriented Programming\n• 2 hours: Learn class definition and instantiation\n• 2 hours: Practice inheritance and polymorphism\n• 1 hour: Master special methods (__init__, __str__)\n• 1 hour: Understand properties and descriptors\n• Exercise: Create custom data structure classes",
-                            "Day 7 (6 hours): Advanced Python Features\n• 2 hours: Learn decorators and generators\n• 2 hours: Practice context managers\n• 1 hour: Master lambda functions\n• 1 hour: Understand functional programming in Python\n• Weekly Project: Build a complete data processing application with custom classes and error handling"
+                            "Python Environment Setup & Core Syntax: Comprehensive Python setup including Anaconda distribution, Jupyter notebooks, and VS Code configuration. Master Python syntax, variables, data types, and basic operations. Understand Python's dynamic typing and how to write clean, readable Python code following PEP 8 guidelines. Practice with basic algorithms and problem-solving exercises.",
+                            
+                            "Control Structures & Functions: Deep dive into Python control structures including if/else statements, for loops, while loops, and comprehension syntax. Master function definition, parameters, return values, and scope management. Learn about lambda functions, decorators, and functional programming concepts in Python. Practice creating reusable utility functions and modules.",
+                            
+                            "Data Structures: Lists & Tuples Mastery: Comprehensive coverage of Python lists including creation, manipulation, slicing, and all list methods. Understand list comprehensions, generator expressions, and performance considerations. Master tuples, namedtuples, and when to use immutable vs mutable sequences. Practice with complex data manipulation using lists and tuples.",
+                            
+                            "Data Structures: Dictionaries & Sets: Deep dive into Python dictionaries including creation, access methods, dictionary comprehensions, and advanced dictionary operations. Understand hash tables and how dictionaries work internally. Master sets, frozensets, and set operations for data deduplication and membership testing. Practice with complex data structures combining dictionaries and sets.",
+                            
+                            "File I/O & Data Serialization: Comprehensive file handling training including reading/writing text files, CSV files, JSON files, and binary files. Learn about different file modes, encoding issues, and best practices for file operations. Master data serialization with pickle, JSON, and other formats. Practice with real-world data files and error handling.",
+                            
+                            "Object-Oriented Programming in Python: Deep dive into Python OOP including class definition, inheritance, polymorphism, and special methods. Understand the difference between class and instance attributes, property decorators, and descriptor protocol. Learn about abstract base classes, interfaces, and composition vs inheritance. Practice building complex class hierarchies.",
+                            
+                            "Error Handling & Debugging: Master Python error handling with try/except blocks, custom exceptions, and context managers. Learn debugging techniques with pdb, logging, and assertion statements. Understand common Python errors and how to handle them gracefully. Practice writing robust, production-ready Python code.",
+                            
+                            "Weekly Project: Data Processing Application: Build a complete data processing application that reads multiple file formats, cleans and transforms data, and generates reports. Include error handling, logging, and configuration management. Use object-oriented design principles and ensure the application is maintainable and extensible."
                         ]
                     },
                     {
-                        title: "Week 3-4: Statistics & Probability Fundamentals",
+                        title: "Week 3-4: Statistics & Probability Foundations",
                         tasks: [
-                            "Day 1 (6 hours): Descriptive Statistics - Central Tendency\n• 2 hours: Learn mean, median, mode calculations\n• 2 hours: Practice weighted mean and geometric mean\n• 1 hour: Master trimmed mean and robust statistics\n• 1 hour: Understand when to use each measure\n• Exercise: Calculate central tendency for real datasets",
-                            "Day 2 (6 hours): Descriptive Statistics - Variability\n• 2 hours: Learn range, variance, standard deviation\n• 2 hours: Practice interquartile range and quartiles\n• 1 hour: Master coefficient of variation\n• 1 hour: Understand skewness and kurtosis\n• Exercise: Analyze dataset variability and distribution shape",
-                            "Day 3 (6 hours): Probability Fundamentals\n• 2 hours: Learn basic probability rules\n• 2 hours: Practice conditional probability\n• 1 hour: Master Bayes' theorem\n• 1 hour: Understand probability distributions introduction\n• Exercise: Solve real-world probability problems",
-                            "Day 4 (6 hours): Discrete Probability Distributions\n• 2 hours: Learn binomial distribution\n• 2 hours: Practice Poisson distribution\n• 1 hour: Master geometric distribution\n• 1 hour: Understand hypergeometric distribution\n• Exercise: Model real scenarios with discrete distributions",
-                            "Day 5 (6 hours): Continuous Probability Distributions\n• 2 hours: Learn normal distribution properties\n• 2 hours: Practice standard normal distribution\n• 1 hour: Master exponential distribution\n• 1 hour: Understand uniform distribution\n• Exercise: Calculate probabilities for continuous distributions",
-                            "Day 6 (6 hours): Statistical Inference - Estimation\n• 2 hours: Learn point estimation\n• 2 hours: Practice confidence intervals\n• 1 hour: Master margin of error\n• 1 hour: Understand sampling distributions\n• Exercise: Estimate population parameters from samples",
-                            "Day 7 (6 hours): Statistical Inference - Hypothesis Testing\n• 2 hours: Learn null and alternative hypotheses\n• 2 hours: Practice p-values and significance levels\n• 1 hour: Master type I and type II errors\n• 1 hour: Understand power of test\n• Weekly Project: Conduct complete statistical analysis on a real dataset with hypothesis testing"
+                            "Descriptive Statistics: Central Tendency: Comprehensive study of measures of central tendency including mean, median, mode, weighted mean, and geometric mean. Understand the properties and appropriate use cases for each measure. Learn about robust statistics and how to handle outliers. Practice calculating these measures for different types of datasets.",
+                            
+                            "Descriptive Statistics: Variability & Distribution: Deep dive into measures of variability including range, variance, standard deviation, interquartile range, and coefficient of variation. Understand distribution shapes, skewness, and kurtosis. Learn about moments of distribution and how to interpret statistical summaries. Practice with real datasets and statistical visualization.",
+                            
+                            "Probability Fundamentals & Rules: Comprehensive probability training including basic probability rules, conditional probability, and Bayes' theorem. Understand probability distributions, expected value, and variance. Learn about combinatorial analysis and counting principles. Practice solving complex probability problems and real-world scenarios.",
+                            
+                            "Discrete Probability Distributions: Master discrete probability distributions including binomial, Poisson, geometric, and negative binomial distributions. Understand the probability mass function, cumulative distribution function, and moment generating function for each distribution. Learn when to apply each distribution and how to interpret the parameters.",
+                            
+                            "Continuous Probability Distributions: Deep dive into continuous probability distributions including normal, exponential, uniform, and gamma distributions. Understand probability density functions, cumulative distribution functions, and quantile functions. Learn about the central limit theorem and how it applies to statistical inference. Practice with distribution fitting and parameter estimation.",
+                            
+                            "Statistical Inference: Estimation Theory: Comprehensive coverage of statistical estimation including point estimation, confidence intervals, and properties of estimators. Understand maximum likelihood estimation, method of moments, and Bayesian estimation. Learn about sampling distributions and the standard error. Practice constructing confidence intervals for different parameters.",
+                            
+                            "Statistical Inference: Hypothesis Testing: Master hypothesis testing fundamentals including null and alternative hypotheses, p-values, significance levels, and type I/II errors. Understand test statistics, critical regions, and power analysis. Learn about one-sample and two-sample tests for means and proportions. Practice conducting complete hypothesis tests from start to finish.",
+                            
+                            "Weekly Project: Comprehensive Statistical Analysis: Conduct a complete statistical analysis on a real dataset. Include descriptive statistics, probability modeling, parameter estimation, and hypothesis testing. Create a comprehensive report with visualizations, interpretations, and conclusions. Ensure the analysis follows statistical best practices and is reproducible."
+                        ]
+                    },
+                    {
+                        title: "Week 5-6: Data Analysis with Pandas & NumPy",
+                        tasks: [
+                            "NumPy Arrays & Mathematical Operations: Comprehensive NumPy training including array creation, manipulation, and mathematical operations. Understand array broadcasting, vectorization, and performance benefits over Python lists. Master universal functions (ufuncs) and array methods for efficient numerical computing. Practice with complex mathematical operations and array manipulations.",
+                            
+                            "Pandas DataFrames & Series: Deep dive into Pandas DataFrames and Series including creation, indexing, selection, and manipulation. Understand the DataFrame structure, data types, and how to work with missing data. Master DataFrame operations including filtering, grouping, and aggregation. Practice with real-world datasets and common data manipulation tasks.",
+                            
+                            "Data Cleaning & Preprocessing: Comprehensive data cleaning training including handling missing values, outlier detection, data transformation, and feature engineering. Understand different strategies for imputation and when to use each. Learn about data normalization, standardization, and encoding categorical variables. Practice with messy real-world datasets.",
+                            
+                            "Data Aggregation & Group Operations: Master data aggregation techniques including groupby operations, pivot tables, and cross-tabulations. Understand how to compute summary statistics by groups and create multi-level aggregations. Learn about window functions, rolling statistics, and expanding operations. Practice with time series data and hierarchical data structures.",
+                            
+                            "Time Series Analysis with Pandas: Deep dive into time series analysis including date/time handling, resampling, shifting, and rolling windows. Understand time series decomposition, trend analysis, and seasonality. Learn about time zone handling, business calendars, and frequency conversion. Practice with financial data, sensor data, and other time series datasets.",
+                            
+                            "Data Visualization with Pandas: Comprehensive data visualization training using Pandas built-in plotting capabilities. Learn to create line plots, bar charts, histograms, scatter plots, and box plots directly from DataFrames. Understand how to customize plots and create publication-quality visualizations. Practice creating dashboards and interactive visualizations.",
+                            
+                            "Performance Optimization & Memory Management: Master performance optimization techniques for Pandas including efficient data types, method chaining, and vectorized operations. Understand memory usage and how to reduce it for large datasets. Learn about Pandas internals and how to avoid common performance pitfalls. Practice with large datasets and performance benchmarking.",
+                            
+                            "Weekly Project: End-to-End Data Analysis Pipeline: Build a complete data analysis pipeline that ingests raw data, performs cleaning and transformation, conducts statistical analysis, and generates insights. Include automated reporting, visualization dashboards, and performance optimization. Ensure the pipeline is robust, maintainable, and well-documented."
+                        ]
+                    },
+                    {
+                        title: "Week 7-8: Data Visualization & Exploratory Data Analysis",
+                        tasks: [
+                            "Matplotlib Fundamentals & Customization: Comprehensive Matplotlib training including figure and axes creation, plot customization, and publication-quality visualization. Understand the object-oriented interface vs pyplot interface. Master color theory, typography, and layout principles for effective visualizations. Practice creating complex multi-panel figures and custom plot types.",
+                            
+                            "Seaborn for Statistical Visualization: Deep dive into Seaborn for statistical data visualization including distribution plots, categorical plots, and relational plots. Understand how to use Seaborn's high-level interface for common statistical visualizations. Learn about color palettes, themes, and styling options. Practice creating informative statistical graphics with minimal code.",
+                            
+                            "Plotly for Interactive Visualizations: Master Plotly for creating interactive visualizations including hover tools, zooming, panning, and selection. Understand the Plotly Express interface for quick plotting and the graph_objects interface for full customization. Learn to create dashboards with multiple linked visualizations. Practice with real-time data and web deployment.",
+                            
+                            "Advanced Visualization Techniques: Comprehensive training on advanced visualization techniques including geographic maps, 3D plots, network graphs, and animated visualizations. Understand when to use each visualization type and how to interpret complex visualizations. Learn about perception principles and cognitive load in data visualization. Practice creating innovative visualizations for complex datasets.",
+                            
+                            "Exploratory Data Analysis (EDA) Methodology: Deep dive into EDA methodology including data quality assessment, univariate analysis, bivariate analysis, and multivariate analysis. Understand how to identify patterns, relationships, and anomalies in data. Learn about dimensionality reduction techniques for EDA. Practice conducting systematic EDA on diverse datasets.",
+                            
+                            "Storytelling with Data: Master the art of storytelling with data including narrative structure, audience analysis, and effective communication. Understand how to create data stories that drive action and decision-making. Learn about dashboard design principles and information architecture. Practice creating compelling data narratives with visualizations.",
+                            
+                            "Visualization Best Practices & Ethics: Comprehensive coverage of visualization best practices including color accessibility, chart junk avoidance, and truthful representation. Understand ethical considerations in data visualization and how to avoid misleading visualizations. Learn about accessibility standards and inclusive design principles. Practice critiquing and improving existing visualizations.",
+                            
+                            "Weekly Project: Comprehensive EDA & Visualization Dashboard: Conduct a complete exploratory data analysis on a complex dataset and create an interactive visualization dashboard. Include multiple visualization types, interactive features, and a compelling data story. Ensure the dashboard follows best practices and provides actionable insights for decision-makers."
                         ]
                     }
                 ]
@@ -150,151 +266,635 @@ const roadmapData = {
     "Mobile Development": {
         phases: [
             {
-                title: "React Native Fundamentals (Weeks 1-8)",
-                description: "Learn to build cross-platform mobile applications using React Native framework.",
+                title: "Complete Mobile Development Mastery (Weeks 1-16)",
+                description: "End-to-end mobile app development using React Native with focus on cross-platform compatibility, performance, and user experience.",
                 weeks: [
                     {
-                        title: "Week 1-2: React Native Setup & Core Components",
+                        title: "Week 1-2: React Native Fundamentals & Environment Setup",
                         tasks: [
-                            "Day 1 (6 hours): Environment Setup & First App\n• 2 hours: Install Node.js, Watchman, and React Native CLI\n• 2 hours: Set up Android Studio and Xcode\n• 1 hour: Create first React Native project\n• 1 hour: Understand metro bundler and development server\n• Exercise: Run hello world app on both iOS and Android",
-                            "Day 2 (6 hours): Core Components - View & Text\n• 2 hours: Learn View component and styling\n• 2 hours: Practice Text component and typography\n• 1 hour: Master flexbox layout in React Native\n• 1 hour: Understand platform-specific styling\n• Exercise: Create a responsive layout with View and Text",
-                            "Day 3 (6 hours): Core Components - Images & Touchables\n• 2 hours: Learn Image component and sources\n• 2 hours: Practice TouchableOpacity and TouchableHighlight\n• 1 hour: Master image optimization and caching\n• 1 hour: Understand Pressable component\n• Exercise: Build an image gallery with touch interactions",
-                            "Day 4 (6 hours): Core Components - ScrollView & FlatList\n• 2 hours: Learn ScrollView for scrollable content\n• 2 hours: Practice FlatList for efficient lists\n• 1 hour: Master SectionList for grouped data\n• 1 hour: Understand virtualization and performance\n• Exercise: Create a contact list with smooth scrolling",
-                            "Day 5 (6 hours): Core Components - TextInput & Forms\n• 2 hours: Learn TextInput component and props\n• 2 hours: Practice form handling and validation\n• 1 hour: Master keyboard handling and dismissal\n• 1 hour: Understand secure text entry\n• Exercise: Build a login form with validation",
-                            "Day 6 (6 hours): Styling & Theming\n• 2 hours: Learn StyleSheet API and organization\n• 2 hours: Practice platform-specific code\n• 1 hour: Master responsive design techniques\n• 1 hour: Understand dark mode implementation\n• Exercise: Create a themed app with responsive design",
-                            "Day 7 (6 hours): Navigation Fundamentals\n• 2 hours: Learn React Navigation setup\n• 2 hours: Practice stack navigation\n• 1 hour: Master tab navigation\n• 1 hour: Understand navigation parameters\n• Weekly Project: Build a complete mobile app with multiple screens and navigation"
+                            "React Native Environment Configuration: Comprehensive environment setup for both iOS and Android development including Node.js installation, React Native CLI setup, Android Studio configuration, and Xcode setup for macOS users. Understand the differences between iOS and Android development environments and how to troubleshoot common setup issues. Practice creating and running basic React Native projects on both platforms.",
+                            
+                            "Core Components Deep Dive: Master all React Native core components including View, Text, Image, ScrollView, FlatList, SectionList, TextInput, Touchable components, and Pressable. Understand the props and styling options for each component. Learn how these components map to native iOS and Android components and their performance characteristics. Practice building complex UIs using only core components.",
+                            
+                            "Styling & Layout with Flexbox: Comprehensive styling training including StyleSheet API, inline styles, and platform-specific styling. Master Flexbox layout in React Native including all Flexbox properties and how they differ from web Flexbox. Understand responsive design principles for mobile devices and how to handle different screen sizes and orientations. Practice creating adaptive layouts that work across devices.",
+                            
+                            "Navigation & Screen Management: Deep dive into React Navigation including stack navigation, tab navigation, drawer navigation, and nested navigators. Understand navigation patterns for mobile apps and how to handle navigation state. Learn about deep linking, navigation parameters, and navigation events. Practice building complex navigation flows with multiple screens and navigation types.",
+                            
+                            "Platform-Specific Code & APIs: Master platform-specific development including Platform API, platform-specific file extensions, and conditional rendering based on platform. Understand how to access native device capabilities and when to use platform-specific implementations. Learn about bridging native code and using third-party native modules. Practice creating apps that provide optimal experiences on both iOS and Android.",
+                            
+                            "Debugging & Developer Tools: Comprehensive debugging training including React Native Debugger, Chrome Developer Tools, and native debugging tools. Understand how to use console logging, breakpoints, and performance monitoring. Learn about common React Native errors and how to troubleshoot them. Practice debugging complex issues across both platforms.",
+                            
+                            "App Configuration & Build Process: Deep dive into app configuration including app.json, package.json, and native configuration files. Understand the build process for both iOS and Android including signing, provisioning, and distribution. Learn about environment variables, build variants, and release management. Practice configuring and building apps for both platforms.",
+                            
+                            "Weekly Project: Complete Mobile App Foundation: Build a complete mobile app foundation with multiple screens, navigation, and adaptive layout. Include core components, proper styling, and platform-specific optimizations. Ensure the app runs smoothly on both iOS and Android and follows mobile design best practices."
                         ]
-                    }
-                ]
-            }
-        ]
-    },
+                    },
+                    {
+                        title: "Week 3-4: State Management & API Integration",
+                        tasks: [
+                            "React State Management in React Native: Comprehensive state management training including useState, useReducer, and custom hooks in React Native. Understand state persistence, state normalization, and performance optimization for mobile devices. Learn about state management patterns specific to mobile apps and how to handle offline state. Practice building complex stateful components.",
+                            
+                            "Context API & Global State: Deep dive into Context API for global state management in React Native apps. Understand how to create context providers, consume context values, and optimize context performance. Learn about state separation patterns and when to use local vs global state. Practice building apps with complex state requirements and multiple data sources.",
+                            
+                            "API Integration & Network Requests: Master API integration in React Native including Fetch API, Axios, and handling different response types. Understand how to manage authentication, headers, and request/response interceptors. Learn about error handling, loading states, and offline capabilities. Practice integrating with RESTful APIs and handling real-world API scenarios.",
+                            
+                            "Data Persistence & Local Storage: Comprehensive data persistence training including AsyncStorage, SQLite, and Realm database. Understand when to use each storage solution and their performance characteristics. Learn about data synchronization, conflict resolution, and offline-first strategies. Practice building apps that work seamlessly online and offline.",
+                            
+                            "Forms & User Input Handling: Deep dive into form handling in React Native including controlled components, form validation, and user input patterns. Understand how to handle different input types including text, selection, and file inputs. Learn about form libraries and custom form components. Practice building complex forms with validation and user feedback.",
+                            
+                            "Error Handling & User Feedback: Master error handling patterns in React Native including error boundaries, network error handling, and user-friendly error messages. Understand how to provide loading indicators, success messages, and error states. Learn about toast notifications, alerts, and other feedback mechanisms. Practice building robust apps that handle errors gracefully.",
+                            
+                            "Performance Optimization: Comprehensive performance optimization training including bundle optimization, image optimization, and list performance. Understand how to identify and fix performance bottlenecks in React Native apps. Learn about memory management, garbage collection, and rendering optimization. Practice optimizing app performance for different device capabilities.",
+                            
+                            "Weekly Project: Data-Driven Mobile Application: Build a complete data-driven mobile app with API integration, local storage, and complex state management. Include forms, user authentication, and offline capabilities. Ensure the app provides excellent user experience with proper loading states, error handling, and performance optimization."
+                        ]
+                    },
+                       
+                {
+                    title: "Week 5-6: Advanced UI Components & Native Features",
+                    tasks: [
+                        "Advanced Component Patterns & Reusability: Master advanced React Native component patterns including higher-order components, render props, and custom hooks for UI components. Learn how to create highly reusable component libraries with proper prop interfaces, default props, and comprehensive documentation. Understand component composition patterns and how to build flexible, maintainable component architectures that scale across large applications.",
+                        
+                        "Custom Animations & Gesture Handling: Deep dive into React Native's Animated API for creating smooth, performant animations including sequence, parallel, stagger, and loop animations. Master gesture handling with React Native Gesture Handler including pan, pinch, rotation, and fling gestures. Learn how to create custom gesture-based interactions and understand the performance implications of different animation approaches on mobile devices.",
+                        
+                        "Native Module Integration & Bridging: Comprehensive training on integrating native modules including writing custom native modules for iOS and Android, bridging between JavaScript and native code, and using third-party native libraries. Understand the native module architecture and how to handle data conversion between JavaScript and native types. Learn about native UI component creation and integration into React Native applications.",
+                        
+                        "Advanced Navigation Patterns & Deep Linking: Master complex navigation patterns including nested navigators, conditional navigation, authentication flows, and modal presentation. Understand deep linking implementation for both iOS and Android including URL scheme configuration, universal links, and app links. Learn how to handle navigation state persistence and create seamless user experiences across app launches.",
+                        
+                        "Platform-Specific UI/UX Implementation: Deep dive into platform-specific design patterns and implementation including iOS Human Interface Guidelines and Android Material Design principles. Learn how to create platform-specific components that provide native experiences on each platform while maintaining code sharing. Understand how to detect and adapt to platform differences in layout, navigation, and interaction patterns.",
+                        
+                        "Advanced Styling & Theming Systems: Master advanced styling techniques including dynamic theming, dark mode implementation, and responsive design patterns. Learn how to create comprehensive design token systems and theme providers that support multiple themes. Understand how to handle platform-specific styling differences and create consistent visual experiences across iOS and Android.",
+                        
+                        "Performance Monitoring & Optimization: Comprehensive performance optimization training including bundle size optimization, image loading optimization, and memory management. Learn how to use React Native performance tools, identify performance bottlenecks, and implement optimization strategies. Understand how to monitor app performance in production and handle performance issues on low-end devices.",
+                        
+                        "Weekly Project: Advanced Feature-Rich Mobile Application: Build a complete mobile application with advanced features including custom animations, native module integration, complex navigation, and platform-specific UI. Implement a comprehensive theming system, performance optimization, and professional-grade user experience. Ensure the app demonstrates mastery of advanced React Native concepts and follows mobile development best practices."
+                    ]
+                },
+                {
+                    title: "Week 7-8: State Management & Data Architecture",
+                    tasks: [
+                        "Advanced State Management with Redux: Comprehensive Redux training including store configuration, actions, reducers, and middleware. Understand Redux architecture patterns and how to structure state for complex mobile applications. Learn about Redux best practices, performance optimization, and how to integrate Redux with React Native. Practice with real-world state management scenarios and complex state transformations.",
+                        
+                        "Redux Middleware & Async Actions: Deep dive into Redux middleware including custom middleware creation, async action handling with Redux Thunk and Redux Saga. Understand how to handle side effects, API calls, and complex asynchronous workflows in Redux. Learn about middleware composition and how to create reusable middleware for common application patterns.",
+                        
+                        "Context API vs Redux Comparison: Master the differences between Context API and Redux and when to use each solution. Understand performance implications, developer experience trade-offs, and scalability considerations. Learn how to combine both approaches in large applications and create hybrid state management architectures that leverage the strengths of each solution.",
+                        
+                        "Data Persistence & Offline-First Architecture: Comprehensive data persistence training including advanced AsyncStorage usage, SQLite database integration, and Realm database for complex data models. Understand offline-first architecture patterns and how to handle data synchronization conflicts. Learn about data migration strategies and how to manage schema changes in production applications.",
+                        
+                        "API Integration & Caching Strategies: Master advanced API integration patterns including request batching, request cancellation, and response caching. Understand how to implement efficient caching strategies that reduce network usage and improve app performance. Learn about background sync, push notification integration, and real-time data updates.",
+                        
+                        "Error Handling & Resilience Patterns: Deep dive into comprehensive error handling strategies including network error recovery, data validation errors, and application state corruption handling. Understand how to create resilient applications that handle errors gracefully and provide meaningful user feedback. Learn about error monitoring, crash reporting, and production error tracking.",
+                        
+                        "Testing Strategies & Quality Assurance: Comprehensive testing training including unit testing with Jest, component testing with React Native Testing Library, and end-to-end testing with Detox. Understand how to create comprehensive test suites that cover user interactions, state changes, and edge cases. Learn about test automation, continuous integration, and quality assurance processes for mobile applications.",
+                        
+                        "Weekly Project: Enterprise-Grade Mobile Application: Build a complete enterprise-grade mobile application with sophisticated state management, data persistence, and API integration. Implement comprehensive error handling, testing strategies, and professional development workflows. Create documentation, deployment processes, and demonstrate the application's scalability and maintainability."
+                    ]
+                },
+                {
+                    title: "Week 9: Deployment, Distribution & App Store Optimization",
+                    tasks: [
+                        "App Store Preparation & Assets Creation: Comprehensive app store preparation including creating app icons, screenshots, preview videos, and marketing materials for both iOS App Store and Google Play Store. Understand app store guidelines, requirements, and best practices for app presentation. Learn how to create compelling app store listings that drive downloads and conversions.",
+                        
+                        "iOS App Store Deployment Process: Deep dive into iOS App Store deployment including Apple Developer account setup, certificate and provisioning profile management, and App Store Connect configuration. Understand the app review process, common rejection reasons, and how to prepare for successful app submission. Learn about TestFlight distribution for beta testing and internal testing.",
+                        
+                        "Google Play Store Deployment Process: Master Google Play Store deployment including Google Play Console setup, app signing, release management, and staged rollouts. Understand the Google Play review process, policy compliance, and optimization techniques for better visibility. Learn about internal testing, closed testing, and open beta programs on Google Play.",
+                        
+                        "Code Signing & Security Best Practices: Comprehensive code signing training including certificate management, code signing identities, and secure build processes. Understand mobile app security best practices including data encryption, secure storage, and network security. Learn about app hardening techniques and security testing methodologies for mobile applications.",
+                        
+                        "Continuous Integration & Deployment: Master CI/CD pipelines for mobile applications including automated builds, testing, and deployment. Understand how to set up continuous integration with tools like GitHub Actions, Bitrise, or CircleCI. Learn about automated app distribution to testers and app store deployment automation.",
+                        
+                        "App Analytics & Performance Monitoring: Deep dive into app analytics implementation including user behavior tracking, performance monitoring, and crash reporting. Understand how to integrate analytics tools like Firebase Analytics, Google Analytics, or custom analytics solutions. Learn about A/B testing, feature flagging, and data-driven decision making for app improvements.",
+                        
+                        "App Store Optimization (ASO) Strategies: Comprehensive ASO training including keyword optimization, app description writing, and review management. Understand how to improve app visibility in app store search results and increase conversion rates. Learn about ASO tools, competitor analysis, and ongoing optimization strategies for app store performance.",
+                        
+                        "Weekly Project: Complete App Launch Package: Prepare a complete mobile application for launch including app store assets, deployment configuration, and marketing materials. Submit the app to both iOS App Store and Google Play Store, set up analytics and monitoring, and create a comprehensive launch plan. Document the entire deployment process and create operational procedures for ongoing maintenance."
+                    ]
+                }
+            ]
+        }
+    ]
+
+};
+// ULTRA-DETAILED ROADMAP DATA - PART 3/3 (Remaining Skills)
+const roadmapDataPart3 = {
     "UI/UX Design": {
-        phases: [
-            {
-                title: "Design Principles & User Research (Weeks 1-8)",
-                description: "Master the principles of user-centered design and create intuitive, beautiful interfaces.",
-                weeks: [
-                    {
-                        title: "Week 1-2: Design Fundamentals & Visual Hierarchy",
-                        tasks: [
-                            "Day 1 (6 hours): Design Principles & Psychology\n• 2 hours: Learn Gestalt principles of perception\n• 2 hours: Practice visual weight and balance\n• 1 hour: Master proximity and grouping\n• 1 hour: Understand color psychology basics\n• Exercise: Analyze existing designs using principles",
-                            "Day 2 (6 hours): Color Theory & Palettes\n• 2 hours: Learn color wheel and color relationships\n• 2 hours: Practice creating harmonious color palettes\n• 1 hour: Master accessibility and contrast ratios\n• 1 hour: Understand color in different cultures\n• Exercise: Create multiple color schemes for a brand",
-                            "Day 3 (6 hours): Typography Fundamentals\n• 2 hours: Learn type classification and anatomy\n• 2 hours: Practice font pairing and hierarchy\n• 1 hour: Master readability and legibility\n• 1 hour: Understand web font optimization\n• Exercise: Design typographic systems for different contexts",
-                            "Day 4 (6 hours): Layout & Composition\n• 2 hours: Learn grid systems and alignment\n• 2 hours: Practice visual hierarchy creation\n• 1 hour: Master white space and breathing room\n• 1 hour: Understand F-pattern and Z-pattern layouts\n• Exercise: Create multiple layout variations for a webpage",
-                            "Day 5 (6 hours): Iconography & Visual Elements\n• 2 hours: Learn icon design principles\n• 2 hours: Practice creating icon families\n• 1 hour: Master illustration styles\n• 1 hour: Understand data visualization basics\n• Exercise: Design a complete icon set for an application",
-                            "Day 6 (6 hours): Design Tools - Figma Basics\n• 2 hours: Learn Figma interface and tools\n• 2 hours: Practice creating frames and artboards\n• 1 hour: Master components and variants\n• 1 hour: Understand auto layout and constraints\n• Exercise: Recreate existing designs in Figma",
-                            "Day 7 (6 hours): Design System Fundamentals\n• 2 hours: Learn design tokens and variables\n• 2 hours: Practice creating component libraries\n• 1 hour: Master documentation and guidelines\n• 1 hour: Understand version control for design\n• Weekly Project: Create a complete design system with color, typography, and components"
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
+    phases: [
+        {
+            title: "Complete UI/UX Design Mastery (Weeks 1-16)",
+            description: "Comprehensive design education from fundamental principles to advanced prototyping and design system implementation.",
+            weeks: [
+                {
+                    title: "Week 1-2: Design Fundamentals & Visual Principles",
+                    tasks: [
+                        "Design Principles & Psychology: Comprehensive study of design principles including Gestalt principles, visual hierarchy, balance, contrast, and alignment. Understand how human perception influences design decisions and learn cognitive psychology concepts relevant to design. Master the principles of good design and how to apply them systematically across different projects and platforms.",
+                        
+                        "Color Theory & Application: Deep dive into color theory including color wheel relationships, color harmony, color psychology, and cultural associations. Understand color systems (RGB, CMYK, HSL), accessibility requirements, and contrast ratios. Learn how to create effective color palettes for different contexts and how color influences user behavior and brand perception.",
+                        
+                        "Typography & Readability: Comprehensive typography training including type classification, font pairing, hierarchy establishment, and readability optimization. Understand typographic measurements, line spacing, and paragraph formatting. Learn how to choose appropriate typefaces for different contexts and how typography contributes to brand identity and user experience.",
+                        
+                        "Layout & Composition: Master layout principles including grid systems, visual flow, white space management, and information architecture. Understand how to create balanced compositions that guide user attention and support content hierarchy. Learn about common layout patterns for web and mobile and how to adapt layouts for different screen sizes and contexts.",
+                        
+                        "Iconography & Visual Elements: Deep dive into icon design principles including symbolism, consistency, and scalability. Understand how to create icon families and maintain visual consistency across different sizes and contexts. Learn about illustration styles, data visualization principles, and how to use visual elements to enhance communication and user engagement.",
+                        
+                        "Design Tools Mastery: Comprehensive training in design tools including Figma, Sketch, and Adobe XD. Understand the interface, tools, and features of each platform. Learn efficient workflows, keyboard shortcuts, and collaboration features. Practice creating designs from scratch and learn how to choose the right tool for different project requirements.",
+                        
+                        "Design System Fundamentals: Introduction to design systems including design tokens, component libraries, and documentation. Understand the benefits of design systems and how they improve consistency and efficiency. Learn how to create basic design systems and maintain them across teams and projects. Practice creating reusable components and establishing design standards.",
+                        
+                        "Weekly Project: Comprehensive Design System: Create a complete design system including color palette, typography scale, icon set, and component library. Document usage guidelines and create example implementations. Ensure the design system is scalable, maintainable, and follows design best practices."
+                    ]
+                },
+                {
+                    title: "Week 3-4: User Research & UX Strategy",
+                    tasks: [
+                        "User Research Methodologies: Comprehensive user research training including qualitative and quantitative research methods. Understand how to conduct user interviews, surveys, contextual inquiries, and diary studies. Learn about recruitment strategies, research ethics, and how to synthesize research findings into actionable insights. Practice creating research plans and conducting studies for different project types.",
+                        
+                        "Persona Development & User Segmentation: Deep dive into persona creation including demographic analysis, behavioral patterns, and psychographic profiling. Understand how to create realistic, data-driven personas that represent target user groups. Learn about user segmentation strategies and how to use personas to guide design decisions and prioritize features based on user needs and goals.",
+                        
+                        "User Journey Mapping & Experience Mapping: Master user journey mapping techniques including touchpoint identification, pain point analysis, and opportunity spotting. Understand how to create comprehensive experience maps that visualize the entire user journey across different channels and platforms. Learn how to identify friction points and design opportunities throughout the user experience.",
+                        
+                        "Information Architecture & Content Strategy: Comprehensive information architecture training including content inventory, card sorting, and tree testing. Understand how to organize information logically and create intuitive navigation structures. Learn about content strategy, content modeling, and how to design information architectures that support user tasks and business objectives.",
+                        
+                        "Usability Principles & Heuristic Evaluation: Deep dive into usability principles including Nielsen's 10 usability heuristics and how to apply them in design reviews. Understand how to conduct heuristic evaluations and identify usability issues in existing products. Learn about usability testing methodologies and how to incorporate usability principles throughout the design process.",
+                        
+                        "Accessibility & Inclusive Design: Master accessibility standards including WCAG guidelines, ARIA attributes, and accessible design patterns. Understand how to design for users with different abilities and create inclusive experiences. Learn about accessibility testing tools and techniques, and how to advocate for accessibility in design processes and organizational culture.",
+                        
+                        "UX Strategy & Business Alignment: Comprehensive UX strategy training including stakeholder management, business goal alignment, and ROI measurement. Understand how to create UX strategies that support business objectives and demonstrate the value of UX investments. Learn about UX metrics, success criteria, and how to communicate UX value to stakeholders.",
+                        
+                        "Weekly Project: Comprehensive UX Research Report: Conduct complete user research for a product including user interviews, persona creation, journey mapping, and heuristic evaluation. Create a comprehensive research report with insights, recommendations, and strategic guidance. Present findings to stakeholders and demonstrate how research informs design decisions."
+                    ]
+                },
+                {
+                    title: "Week 5-6: Interaction Design & Prototyping",
+                    tasks: [
+                        "Interaction Design Principles: Comprehensive interaction design training including affordances, signifiers, feedback mechanisms, and consistency patterns. Understand how to design intuitive interactions that guide users through tasks and processes. Learn about micro-interactions, animation principles, and how to create engaging, responsive user interfaces that feel alive and responsive to user actions.",
+                        
+                        "Wireframing & Low-Fidelity Prototyping: Master wireframing techniques including sketch-based wireframes, digital wireframes, and low-fidelity prototyping. Understand how to create wireframes that focus on layout, structure, and content hierarchy without visual design details. Learn about wireframing tools and how to create wireframe systems that can be easily tested and iterated upon.",
+                        
+                        "High-Fidelity Mockups & Visual Design: Deep dive into high-fidelity mockup creation including detailed visual design, pixel-perfect layouts, and comprehensive design specifications. Understand how to translate wireframes into polished visual designs that align with brand guidelines and design systems. Learn about design handoff processes and how to create assets for development teams.",
+                        
+                        "Interactive Prototyping & User Testing: Comprehensive prototyping training including click-through prototypes, interactive prototypes, and advanced prototyping techniques. Understand how to create prototypes that simulate real user interactions and test complex user flows. Learn about prototyping tools and how to conduct usability testing with prototypes to validate design decisions.",
+                        
+                        "Animation & Motion Design: Master animation principles for user interfaces including timing, easing, and choreography. Understand how to use animation to enhance usability, provide feedback, and create delightful experiences. Learn about motion design tools and how to create animation specifications for development teams. Practice creating micro-interactions and transition animations.",
+                        
+                        "Design Handoff & Developer Collaboration: Deep dive into design handoff processes including specification creation, asset export, and communication with development teams. Understand how to create comprehensive design documentation that supports implementation. Learn about design system handoff, version control for design files, and how to maintain design consistency during development.",
+                        
+                        "Design Tool Automation & Efficiency: Comprehensive training on design tool automation including component libraries, auto-layout, and plugin development. Understand how to create efficient design workflows that save time and reduce errors. Learn about design tool APIs, automation scripts, and how to customize design tools for specific project needs and team workflows.",
+                        
+                        "Weekly Project: Interactive Prototype & Design System: Create a complete interactive prototype for a complex application including multiple user flows, interactions, and animations. Develop a comprehensive design system that supports the prototype and create detailed design specifications for development. Conduct usability testing and iterate based on user feedback."
+                    ]
+                },
+                {
+                    title: "Week 7-8: Advanced UX Methods & Specialization",
+                    tasks: [
+                        "Advanced Usability Testing Methods: Comprehensive usability testing training including moderated vs unmoderated testing, remote testing, and longitudinal studies. Understand how to design effective test protocols, recruit participants, and analyze test results. Learn about advanced testing methods like eye-tracking, biometric testing, and A/B testing for UX optimization.",
+                        
+                        "UX Metrics & Data-Driven Design: Deep dive into UX metrics including task success rates, error rates, time on task, and satisfaction scores. Understand how to establish UX benchmarks, track UX performance over time, and demonstrate UX ROI. Learn about analytics tools, user behavior analysis, and how to combine qualitative and quantitative data for comprehensive UX insights.",
+                        
+                        "Service Design & Ecosystem Thinking: Master service design principles including service blueprints, ecosystem mapping, and touchpoint orchestration. Understand how to design end-to-end service experiences that span multiple channels and platforms. Learn about service design tools and methods, and how to align service design with business strategy and customer needs.",
+                        
+                        "Design Thinking & Innovation Methods: Comprehensive design thinking training including empathy mapping, ideation techniques, and prototyping for innovation. Understand how to facilitate design thinking workshops and lead cross-functional teams through innovation processes. Learn about design sprints, rapid prototyping, and how to foster a culture of innovation within organizations.",
+                        
+                        "UX Writing & Content Design: Deep dive into UX writing including microcopy, error messages, onboarding flows, and conversational interfaces. Understand how to write clear, concise, and helpful text that enhances user experiences. Learn about content design principles, voice and tone guidelines, and how to collaborate with content strategists and technical writers.",
+                        
+                        "Specialized UX Domains: Explore specialized UX domains including enterprise UX, healthcare UX, financial UX, and educational UX. Understand the unique challenges and opportunities in different domains and how to adapt UX methods accordingly. Learn about domain-specific regulations, user needs, and design patterns for specialized contexts.",
+                        
+                        "UX Leadership & Strategy: Comprehensive UX leadership training including team management, UX maturity assessment, and strategic planning. Understand how to build and lead UX teams, establish UX processes, and advocate for user-centered design at organizational levels. Learn about UX career paths, mentorship, and professional development in UX design.",
+                        
+                        "Weekly Project: Comprehensive UX Strategy & Implementation: Develop a complete UX strategy for a real-world product including research, design, testing, and implementation planning. Create a UX roadmap, define success metrics, and present the strategy to stakeholders. Demonstrate how UX strategy aligns with business goals and delivers measurable value."
+                    ]
+                },
+                {
+                    title: "Week 9-10: Design Systems & Scalable Design",
+                    tasks: [
+                        "Design System Architecture: Comprehensive design system architecture training including token management, component architecture, and documentation systems. Understand how to structure design systems for scalability, maintainability, and team collaboration. Learn about design system governance, versioning strategies, and how to manage design system evolution over time.",
+                        
+                        "Component Library Development: Deep dive into component library creation including atomic design principles, component states, and variant management. Understand how to create comprehensive component libraries that support multiple platforms and use cases. Learn about component documentation, usage guidelines, and how to ensure component consistency across design and development.",
+                        
+                        "Design Token Management: Master design token management including color tokens, typography tokens, spacing tokens, and semantic token systems. Understand how to create token systems that support theming, accessibility, and brand consistency. Learn about token distribution methods, token versioning, and how to manage tokens across design and development workflows.",
+                        
+                        "Design System Implementation: Comprehensive design system implementation training including developer handoff, adoption strategies, and integration processes. Understand how to implement design systems in code, create design system packages, and support development teams during adoption. Learn about design system metrics, adoption tracking, and success measurement.",
+                        
+                        "Cross-Platform Design Systems: Deep dive into cross-platform design systems including web, mobile, and desktop applications. Understand how to create design systems that work across different platforms while respecting platform conventions and capabilities. Learn about responsive design patterns, adaptive components, and platform-specific design considerations.",
+                        
+                        "Design System Maintenance & Evolution: Master design system maintenance including contribution models, quality assurance, and update processes. Understand how to manage design system backlog, prioritize improvements, and handle breaking changes. Learn about design system community building, contributor guidelines, and how to foster design system adoption across organizations.",
+                        
+                        "Design System Tooling & Automation: Comprehensive training on design system tooling including design token pipelines, automated documentation, and testing automation. Understand how to set up automated workflows that synchronize design and code, generate documentation, and ensure design system quality. Learn about design system tool ecosystems and how to choose the right tools for your needs.",
+                        
+                        "Weekly Project: Enterprise Design System: Create a complete enterprise design system including tokens, components, documentation, and implementation guidelines. Develop contribution processes, governance models, and adoption strategies. Implement the design system in a sample application and create comprehensive documentation for designers and developers."
+                    ]
+                }
+            ]
+        }
+    ]
+},
     "Digital Marketing": {
-        phases: [
+    phases: [
+        {
+            title: "Complete Digital Marketing Mastery (Weeks 1-16)",
+            description: "End-to-end digital marketing education from strategy development to analytics and optimization across all digital channels.",
+            weeks: [
+                {
+                    title: "Week 1-2: SEO Fundamentals & Technical Optimization",
+                    tasks: [
+                        "Search Engine Fundamentals: Comprehensive understanding of how search engines work including crawling, indexing, ranking algorithms, and user intent analysis. Learn about major search engines, their differences, and how they evaluate content quality and relevance. Understand the evolution of search algorithms and current ranking factors that influence search results.",
+                        
+                        "Keyword Research & Analysis: Deep dive into keyword research methodologies including tools, techniques, and strategy development. Learn how to identify target keywords, analyze search volume and competition, and understand user intent behind search queries. Master long-tail keyword strategies, semantic search, and how to create comprehensive keyword maps for content planning.",
+                        
+                        "On-Page SEO Optimization: Comprehensive on-page optimization training including title tag optimization, meta description writing, header tag hierarchy, and content optimization. Understand URL structure best practices, internal linking strategies, and content formatting for SEO. Learn how to optimize different content types including articles, product pages, and landing pages.",
+                        
+                        "Technical SEO Implementation: Master technical SEO aspects including website architecture, crawlability, indexation control, and site speed optimization. Understand XML sitemaps, robots.txt, canonical tags, and structured data markup. Learn about mobile optimization, Core Web Vitals, and technical issues that impact search performance. Practice conducting technical SEO audits.",
+                        
+                        "Content Strategy & Optimization: Deep dive into content strategy development including content planning, creation, optimization, and promotion. Understand E-A-T principles (Expertise, Authoritativeness, Trustworthiness) and how to demonstrate them through content. Learn about content gaps, topic clusters, and how to create comprehensive content that satisfies user intent.",
+                        
+                        "Local SEO & Google My Business: Comprehensive local SEO training including local search ranking factors, Google My Business optimization, and local citation building. Understand how to manage online reviews, local schema markup, and location-based content strategies. Learn about local search behavior and how to optimize for 'near me' searches and local intent queries.",
+                        
+                        "SEO Analytics & Performance Measurement: Master SEO analytics including Google Search Console, Google Analytics, and third-party SEO tools. Understand how to track rankings, monitor traffic, and measure SEO performance. Learn about conversion tracking, goal setting, and ROI calculation for SEO efforts. Practice creating comprehensive SEO reports and actionable insights.",
+                        
+                        "Weekly Project: Complete SEO Audit & Strategy: Conduct a comprehensive SEO audit for a website including technical analysis, content evaluation, and competitive research. Develop a complete SEO strategy with implementation plan, timeline, and success metrics. Create actionable recommendations and prioritize optimization efforts based on potential impact."
+                    ]
+                },
+                {
+                    title: "Week 3-4: Content Marketing & Social Media Strategy",
+                    tasks: [
+                        "Content Marketing Strategy Development: Comprehensive content marketing training including audience analysis, content planning, and editorial calendar creation. Understand how to develop content pillars, create buyer personas, and align content with customer journey stages. Learn about content distribution channels, promotion strategies, and how to measure content marketing ROI.",
+                        
+                        "Content Creation & Optimization: Deep dive into content creation techniques including blog writing, video production, podcasting, and visual content creation. Understand how to create engaging, valuable content that resonates with target audiences. Learn about content formatting, readability optimization, and how to repurpose content across different formats and platforms.",
+                        
+                        "Social Media Strategy & Platform Management: Master social media strategy development including platform selection, content planning, and community management. Understand the unique characteristics of major social platforms (Facebook, Instagram, Twitter, LinkedIn, TikTok) and how to optimize content for each. Learn about social media algorithms, posting strategies, and engagement optimization.",
+                        
+                        "Social Media Advertising & Campaign Management: Comprehensive social media advertising training including campaign setup, audience targeting, and budget optimization. Understand how to create effective social media ads, set up conversion tracking, and measure campaign performance. Learn about A/B testing, retargeting strategies, and advanced social media advertising techniques.",
+                        
+                        "Influencer Marketing & Partnerships: Deep dive into influencer marketing strategies including influencer identification, relationship building, and campaign management. Understand how to measure influencer marketing ROI and create authentic partnerships. Learn about micro-influencers, brand ambassadors, and how to integrate influencer content into overall marketing strategies.",
+                        
+                        "Social Media Analytics & Reporting: Master social media analytics including engagement metrics, audience insights, and performance tracking. Understand how to use social media analytics tools, create comprehensive reports, and derive actionable insights. Learn about social listening, sentiment analysis, and competitive social media analysis.",
+                        
+                        "Community Management & Customer Engagement: Comprehensive community management training including response strategies, crisis management, and community building. Understand how to foster engaged communities, handle negative feedback, and create brand advocates. Learn about social media policies, moderation guidelines, and community engagement best practices.",
+                        
+                        "Weekly Project: Integrated Content & Social Media Campaign: Develop and execute a complete content marketing and social media campaign including strategy, content creation, distribution, and measurement. Create comprehensive campaign documentation, performance reports, and optimization recommendations based on results."
+                    ]
+                },
+                {
+                    title: "Week 5-6: Paid Advertising & PPC Management",
+                    tasks: [
+                        "Google Ads Fundamentals & Campaign Structure: Comprehensive Google Ads training including account structure, campaign types, and ad formats. Understand how to set up search campaigns, display campaigns, and shopping campaigns. Learn about keyword match types, bidding strategies, and quality score optimization. Master the fundamentals of creating effective Google Ads campaigns from scratch.",
+                        
+                        "Advanced Google Ads Strategies: Deep dive into advanced Google Ads techniques including remarketing, audience targeting, and conversion optimization. Understand how to use Google Analytics data for audience segmentation and campaign optimization. Learn about automated bidding strategies, ad extensions, and advanced keyword research techniques for competitive markets.",
+                        
+                        "Facebook & Instagram Advertising Mastery: Master Facebook and Instagram advertising including campaign objectives, audience targeting, and creative optimization. Understand the Facebook Ads Manager interface, pixel implementation, and conversion tracking. Learn about carousel ads, video ads, story ads, and how to create compelling social media advertisements that drive results.",
+                        
+                        "Programmatic Advertising & Display Networks: Comprehensive programmatic advertising training including display network strategies, native advertising, and video advertising. Understand how programmatic buying works, real-time bidding, and audience data management. Learn about viewability metrics, brand safety considerations, and how to optimize display campaigns for maximum impact.",
+                        
+                        "PPC Analytics & Performance Optimization: Deep dive into PPC analytics including key performance indicators, attribution modeling, and ROI calculation. Understand how to use Google Analytics for PPC analysis, create custom reports, and identify optimization opportunities. Learn about A/B testing methodologies, landing page optimization, and conversion rate optimization for paid campaigns.",
+                        
+                        "Budget Management & Bidding Strategies: Master PPC budget management including daily budgets, bid strategies, and campaign pacing. Understand how to allocate budgets across campaigns, set bid adjustments, and optimize for different conversion goals. Learn about seasonal bidding, competitor analysis, and how to scale successful campaigns while maintaining efficiency.",
+                        
+                        "Cross-Channel Advertising Strategy: Comprehensive cross-channel advertising training including channel integration, audience segmentation, and unified measurement. Understand how to create cohesive advertising strategies across search, social, and display channels. Learn about attribution challenges, multi-touchpoint analysis, and how to optimize overall advertising performance.",
+                        
+                        "Weekly Project: Comprehensive PPC Campaign Portfolio: Plan, execute, and optimize a complete PPC campaign portfolio across multiple channels including Google Ads, Facebook Ads, and display networks. Create detailed campaign documentation, performance reports, and optimization recommendations. Demonstrate ability to manage budgets, track ROI, and scale successful campaigns."
+                    ]
+                },
+                {
+                    title: "Week 7-8: Email Marketing & Marketing Automation",
+                    tasks: [
+                        "Email Marketing Strategy & List Building: Comprehensive email marketing training including list building strategies, segmentation techniques, and email deliverability best practices. Understand how to create effective lead magnets, optimize signup forms, and grow quality email lists. Learn about email compliance regulations (CAN-SPAM, GDPR) and permission-based marketing principles.",
+                        
+                        "Email Campaign Creation & Optimization: Deep dive into email campaign creation including email design, copywriting, and call-to-action optimization. Understand how to create responsive email templates, test across devices, and optimize for different email clients. Learn about personalization techniques, dynamic content, and how to create engaging email experiences that drive action.",
+                        
+                        "Marketing Automation & Workflow Design: Master marketing automation including lead nurturing, customer journey mapping, and automated workflow creation. Understand how to set up triggered emails, behavioral-based campaigns, and multi-touch nurturing sequences. Learn about lead scoring, lifecycle marketing, and how to automate complex customer journeys.",
+                        
+                        "Email Analytics & Performance Measurement: Comprehensive email analytics training including open rates, click-through rates, conversion tracking, and revenue attribution. Understand how to use email marketing analytics to optimize campaigns and improve performance. Learn about A/B testing methodologies, segmentation analysis, and how to calculate email marketing ROI.",
+                        
+                        "CRM Integration & Sales Alignment: Deep dive into CRM integration including lead management, sales alignment, and marketing-sales handoff processes. Understand how to integrate email marketing with CRM systems, track lead quality, and measure marketing contribution to sales. Learn about closed-loop reporting, revenue attribution, and marketing-sales collaboration.",
+                        
+                        "Advanced Segmentation & Personalization: Master advanced segmentation techniques including behavioral segmentation, demographic segmentation, and predictive segmentation. Understand how to use customer data to create highly targeted, personalized email campaigns. Learn about AI-powered personalization, real-time content, and hyper-personalization strategies.",
+                        
+                        "Lifecycle Marketing & Retention Strategies: Comprehensive lifecycle marketing training including onboarding sequences, win-back campaigns, and loyalty programs. Understand how to create email strategies for different customer lifecycle stages and improve customer retention. Learn about churn prediction, customer loyalty measurement, and retention optimization.",
+                        
+                        "Weekly Project: Complete Email Marketing Automation System: Design and implement a complete email marketing automation system including list building, segmentation, automated workflows, and performance tracking. Create comprehensive documentation, campaign examples, and optimization recommendations based on performance data."
+                    ]
+                },
+                {
+                    title: "Week 9-10: Analytics, Data & Marketing Technology",
+                    tasks: [
+                        "Google Analytics & Web Analytics Mastery: Comprehensive Google Analytics training including implementation, configuration, and advanced analysis techniques. Understand how to set up goals, e-commerce tracking, and custom dimensions. Learn about audience analysis, behavior flow, and conversion path analysis. Master the use of Google Analytics for data-driven marketing decisions.",
+                        
+                        "Marketing Dashboard Creation & Data Visualization: Deep dive into marketing dashboard creation including KPI selection, data visualization principles, and dashboard design. Understand how to create comprehensive marketing dashboards that provide actionable insights. Learn about data storytelling, visualization tools, and how to communicate marketing performance effectively to stakeholders.",
+                        
+                        "Marketing Attribution & Multi-Channel Analysis: Master marketing attribution including different attribution models, multi-channel funnels, and cross-device tracking. Understand how to measure marketing contribution across channels and touchpoints. Learn about attribution challenges, model selection, and how to optimize marketing mix based on attribution insights.",
+                        
+                        "Marketing Technology Stack Management: Comprehensive marketing technology training including marketing automation platforms, CRM systems, and analytics tools. Understand how to evaluate, implement, and integrate marketing technology solutions. Learn about marketing technology ecosystems, API integrations, and how to create cohesive marketing technology stacks.",
+                        
+                        "A/B Testing & Experimentation Framework: Deep dive into A/B testing methodologies including test design, statistical significance, and result interpretation. Understand how to create testing roadmaps, prioritize tests, and scale successful experiments. Learn about multivariate testing, personalization testing, and how to build a culture of experimentation.",
+                        
+                        "Customer Data Platform (CDP) Implementation: Master customer data platform implementation including data collection, identity resolution, and audience activation. Understand how CDPs enable personalized marketing across channels and provide unified customer views. Learn about data privacy considerations, consent management, and CDP best practices.",
+                        
+                        "Marketing ROI Measurement & Budget Optimization: Comprehensive marketing ROI training including cost-per-acquisition calculation, lifetime value analysis, and marketing efficiency measurement. Understand how to optimize marketing budgets across channels and campaigns. Learn about marketing mix modeling, budget allocation strategies, and performance-based budgeting.",
+                        
+                        "Weekly Project: Comprehensive Marketing Analytics System: Design and implement a complete marketing analytics system including tracking implementation, dashboard creation, and reporting framework. Develop attribution models, ROI calculations, and optimization recommendations. Create comprehensive documentation and present insights to demonstrate marketing impact."
+                    ]
+                }
+            ]
+        }
+    ]
+},
+   
+    "Mobile Development": {
+        "phases": [
             {
-                title: "Marketing Strategy & Analytics (Weeks 1-8)",
-                description: "Learn to create effective digital marketing strategies and campaigns that drive results.",
-                weeks: [
+                "title": "Complete Mobile Development Mastery (Weeks 1-20)",
+                "description": "End-to-end mobile development education covering foundational programming, platform-specific development, cross-platform solutions, and advanced deployment techniques.",
+                "weeks": [
                     {
-                        title: "Week 1-2: SEO Fundamentals & Technical Optimization",
-                        tasks: [
-                            "Day 1 (6 hours): SEO Basics & Search Engine Understanding\n• 2 hours: Learn how search engines work\n• 2 hours: Practice keyword research techniques\n• 1 hour: Master search intent analysis\n• 1 hour: Understand SEO terminology and metrics\n• Exercise: Conduct keyword research for a niche website",
-                            "Day 2 (6 hours): On-Page SEO Optimization\n• 2 hours: Learn title tag optimization\n• 2 hours: Practice meta description writing\n• 1 hour: Master header tag hierarchy\n• 1 hour: Understand URL structure best practices\n• Exercise: Optimize existing webpage for on-page SEO",
-                            "Day 3 (6 hours): Technical SEO Fundamentals\n• 2 hours: Learn website crawling and indexing\n• 2 hours: Practice XML sitemap creation\n• 1 hour: Master robots.txt configuration\n• 1 hour: Understand canonical tags and duplicate content\n• Exercise: Conduct technical SEO audit of a website",
-                            "Day 4 (6 hours): Site Structure & Internal Linking\n• 2 hours: Learn website architecture principles\n• 2 hours: Practice internal linking strategies\n• 1 hour: Master breadcrumb navigation\n• 1 hour: Understand URL structure optimization\n• Exercise: Create optimal site structure for an e-commerce site",
-                            "Day 5 (6 hours): Content Optimization & E-A-T\n• 2 hours: Learn content quality factors\n• 2 hours: Practice E-A-T (Expertise, Authoritativeness, Trustworthiness)\n• 1 hour: Master content freshness and updates\n• 1 hour: Understand user engagement signals\n• Exercise: Optimize existing content for E-A-T principles",
-                            "Day 6 (6 hours): Local SEO & Google My Business\n• 2 hours: Learn local search ranking factors\n• 2 hours: Practice Google My Business optimization\n• 1 hour: Master local citation building\n• 1 hour: Understand review management\n• Exercise: Optimize a local business for Google search",
-                            "Day 7 (6 hours): SEO Tools & Analytics\n• 2 hours: Learn Google Search Console setup\n• 2 hours: Practice SEO auditing tools\n• 1 hour: Master rank tracking and monitoring\n• 1 hour: Understand SEO reporting\n• Weekly Project: Conduct complete SEO audit and create optimization plan for a website"
+                        "title": "Week 1-4: Programming Fundamentals & Tools",
+                        "tasks": [
+                            "Programming Basics & Syntax: Comprehensive understanding of programming fundamentals including variables, data types, operators, control structures (if/else, loops), functions, and basic algorithms. Learn about memory management, scope, and programming best practices.",
+                            "Object-Oriented Programming: Deep dive into OOP concepts including classes, objects, inheritance, polymorphism, encapsulation, and abstraction. Understand design patterns, SOLID principles, and how to structure code for maintainability and scalability.",
+                            "Version Control with Git: Master Git fundamentals including repository management, branching, merging, commit strategies, and collaborative workflows. Learn about GitHub/GitLab, pull requests, code review processes, and CI/CD integration.",
+                            "Development Environment Setup: Comprehensive setup of mobile development environments including IDEs (Android Studio, Xcode), emulators, debugging tools, and performance profiling. Understand SDK management, dependency management, and project configuration.",
+                            "Data Structures & Algorithms: Deep dive into essential data structures (arrays, linked lists, stacks, queues, trees, graphs) and algorithms (sorting, searching, recursion). Learn about time/space complexity and optimization techniques.",
+                            "Debugging & Testing Fundamentals: Master debugging techniques including breakpoints, logging, crash analysis, and unit testing. Understand test-driven development principles and how to write effective test cases.",
+                            "Weekly Project: Build a Console Application: Develop a complete console application implementing core programming concepts, data structures, and algorithms. Include version control, testing, and documentation."
+                        ]
+                    },
+                    {
+                        "title": "Week 5-8: Native Android Development (Kotlin/Java)",
+                        "tasks": [
+                            "Android Fundamentals & Architecture: Comprehensive Android platform understanding including activity lifecycle, fragments, intents, and application components. Learn about Android architecture patterns (MVC, MVP, MVVM) and best practices.",
+                            "Kotlin Programming Mastery: Deep dive into Kotlin language features including extension functions, coroutines, null safety, data classes, and functional programming concepts. Understand Kotlin-specific patterns and Android Kotlin extensions.",
+                            "UI/UX Development with XML & Jetpack Compose: Master Android UI development using both traditional XML layouts and modern Jetpack Compose. Learn about View components, ConstraintLayout, RecyclerView, and Material Design principles. Understand declarative UI patterns and state management.",
+                            "Android Architecture Components: Comprehensive training on Android Architecture Components including ViewModel, LiveData, Room Database, WorkManager, and Navigation Component. Learn about lifecycle-aware components and data persistence strategies.",
+                            "Networking & API Integration: Deep dive into networking concepts including REST API consumption, HTTP protocols, JSON parsing, and background task management. Understand Retrofit, OkHttp, Gson/Moshi, and coroutines for asynchronous operations.",
+                            "Data Storage & Persistence: Master data storage options including SharedPreferences, Room Database, file system storage, and cloud synchronization. Learn about database design, migrations, and data caching strategies.",
+                            "Android Testing & Debugging: Comprehensive testing training including unit tests, integration tests, UI tests with Espresso, and automated testing pipelines. Understand performance profiling, memory leak detection, and crash reporting tools.",
+                            "Weekly Project: Complete Android Application: Build a fully-functional Android application implementing all learned concepts including UI/UX, data persistence, API integration, testing, and deployment preparation."
+                        ]
+                    },
+                    {
+                        "title": "Week 9-12: Native iOS Development (Swift)",
+                        "tasks": [
+                            "iOS Platform Fundamentals & Swift Language: Comprehensive iOS platform understanding including UIKit, SwiftUI, view controllers, navigation patterns, and iOS human interface guidelines. Master Swift programming language features and iOS-specific patterns.",
+                            "SwiftUI & Declarative UI Development: Deep dive into SwiftUI framework including views, modifiers, state management, data flow, and custom view creation. Understand declarative syntax, previews, and SwiftUI best practices for modern iOS development.",
+                            "UIKit & Interface Builder: Master traditional iOS development with UIKit including storyboards, xib files, auto layout, and programmatic UI creation. Learn about view controller lifecycle, delegation patterns, and UIKit-SwiftUI integration.",
+                            "Core Data & Data Management: Comprehensive data persistence training using Core Data including data modeling, relationships, migrations, and performance optimization. Understand alternative data storage options and cloud synchronization.",
+                            "Networking with URLSession & Combine: Deep dive into iOS networking including URLSession, REST API integration, JSON decoding with Codable, and asynchronous programming with Combine framework. Learn about background fetching and network optimization.",
+                            "iOS Architecture Patterns: Master iOS architecture patterns including MVC, MVVM, VIPER, and Coordinator patterns. Understand dependency injection, service locators, and clean architecture principles for scalable iOS applications.",
+                            "iOS Testing & Performance: Comprehensive iOS testing including unit tests with XCTest, UI tests with XCUITest, and performance testing. Learn about Instruments for profiling, memory management, and app performance optimization.",
+                            "Weekly Project: Complete iOS Application: Develop a fully-featured iOS application using both UIKit and SwiftUI, implementing data persistence, networking, testing, and following Apple's design guidelines and best practices."
+                        ]
+                    },
+                    {
+                        "title": "Week 13-16: Cross-Platform Development (React Native/Flutter)",
+                        "tasks": [
+                            "React Native Fundamentals: Comprehensive React Native training including JavaScript/TypeScript fundamentals, React concepts, component lifecycle, and React Native specific APIs. Understand the bridge architecture and native module integration.",
+                            "Flutter & Dart Programming: Deep dive into Flutter framework including Dart language fundamentals, widget tree, state management solutions (Provider, Bloc, Riverpod), and Flutter architecture patterns. Learn about custom widget creation and platform channels.",
+                            "Cross-Platform UI Development: Master cross-platform UI development principles including responsive design, platform-specific adaptations, and consistent user experience across iOS and Android. Understand design system implementation and component libraries.",
+                            "State Management Solutions: Comprehensive state management training including Redux, MobX, Context API for React Native, and Provider/Bloc for Flutter. Learn about state persistence, asynchronous state updates, and complex state scenarios.",
+                            "Native Module Integration: Deep dive into native module development including bridging native code, platform-specific APIs, and third-party native library integration. Understand how to extend cross-platform frameworks with native capabilities.",
+                            "Performance Optimization: Master performance optimization techniques for cross-platform applications including bundle optimization, rendering performance, memory management, and startup time improvement. Learn about profiling tools and performance monitoring.",
+                            "Cross-Platform Testing: Comprehensive testing strategies for cross-platform applications including unit testing, integration testing, and end-to-end testing with Detox or Flutter Driver. Understand platform-specific testing considerations.",
+                            "Weekly Project: Cross-Platform Application: Build a complete cross-platform application using either React Native or Flutter, implementing native modules, platform-specific features, and deploying to both iOS and Android platforms."
+                        ]
+                    },
+                    {
+                        "title": "Week 17-20: Advanced Topics & Deployment",
+                        "tasks": [
+                            "Mobile App Architecture & Scalability: Comprehensive architecture training including clean architecture, domain-driven design, modularization, and microservices integration. Learn about scaling applications for large user bases and complex feature sets.",
+                            "Advanced UI/UX & Animations: Deep dive into advanced UI techniques including custom animations, gesture handling, advanced transitions, and immersive user experiences. Understand performance considerations and smooth animation implementation.",
+                            "Security & Authentication: Master mobile security concepts including secure storage, encryption, biometric authentication, OAuth flows, and JWT token management. Learn about security best practices and vulnerability prevention.",
+                            "CI/CD & DevOps for Mobile: Comprehensive CI/CD pipeline setup including automated testing, build automation, code signing, and store deployment. Understand tools like Fastlane, GitHub Actions, Bitrise, and automated release management.",
+                            "App Store Deployment: Deep dive into app store submission processes including Apple App Store and Google Play Store requirements, metadata optimization, review guidelines, and release management strategies. Learn about staged rollouts and A/B testing.",
+                            "Analytics & Performance Monitoring: Master analytics implementation including user behavior tracking, crash reporting, performance monitoring, and A/B testing frameworks. Understand how to use data for product decisions and optimization.",
+                            "Advanced Topics: Explore advanced mobile topics including machine learning integration, AR/VR development, IoT connectivity, wearables, and emerging mobile technologies. Understand future trends and technology adoption strategies.",
+                            "Final Project: Complete Mobile Application: Develop and deploy a production-ready mobile application across multiple platforms, implementing all advanced concepts, CI/CD pipelines, analytics, and app store deployment with comprehensive documentation."
                         ]
                     }
                 ]
             }
         ]
     },
-    "Machine Learning": {
-        phases: [
-            {
-                title: "ML Engineering & Deep Learning (Weeks 1-8)",
-                description: "Advanced machine learning concepts and deep learning implementations.",
-                weeks: [
-                    {
-                        title: "Week 1-2: Neural Networks & Deep Learning Fundamentals",
-                        tasks: [
-                            "Day 1 (6 hours): Neural Network Mathematics\n• 2 hours: Learn linear algebra for neural networks\n• 2 hours: Practice matrix operations and derivatives\n• 1 hour: Master chain rule and backpropagation math\n• 1 hour: Understand activation function derivatives\n• Exercise: Implement forward propagation from scratch",
-                            "Day 2 (6 hours): Perceptrons & Activation Functions\n• 2 hours: Learn single layer perceptron\n• 2 hours: Practice different activation functions\n• 1 hour: Master sigmoid, tanh, and ReLU\n• 1 hour: Understand vanishing gradient problem\n• Exercise: Build a perceptron for binary classification",
-                            "Day 3 (6 hours): Multi-layer Perceptrons\n• 2 hours: Learn hidden layers and architecture\n• 2 hours: Practice forward propagation in MLP\n• 1 hour: Master backpropagation algorithm\n• 1 hour: Understand weight initialization\n• Exercise: Implement MLP from scratch for regression",
-                            "Day 4 (6 hours): Gradient Descent & Optimization\n• 2 hours: Learn gradient descent algorithm\n• 2 hours: Practice stochastic gradient descent\n• 1 hour: Master momentum and adaptive learning rates\n• 1 hour: Understand optimization challenges\n• Exercise: Implement different optimization algorithms",
-                            "Day 5 (6 hours): TensorFlow/Keras Introduction\n• 2 hours: Learn TensorFlow installation and setup\n• 2 hours: Practice Keras sequential API\n• 1 hour: Master model compilation and training\n• 1 hour: Understand callbacks and monitoring\n• Exercise: Build first neural network with Keras",
-                            "Day 6 (6 hours): Model Evaluation & Validation\n• 2 hours: Learn train/test split and cross-validation\n• 2 hours: Practice evaluation metrics for classification\n• 1 hour: Master confusion matrix analysis\n• 1 hour: Understand overfitting detection\n• Exercise: Evaluate model performance comprehensively",
-                            "Day 7 (6 hours): Hyperparameter Tuning\n• 2 hours: Learn grid search and random search\n• 2 hours: Practice learning rate scheduling\n• 1 hour: Master early stopping techniques\n• 1 hour: Understand model checkpointing\n• Weekly Project: Build and optimize a neural network for image classification"
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
+   
     "Cybersecurity": {
-        phases: [
+        "phases": [
             {
-                title: "Security Fundamentals & Ethical Hacking (Weeks 1-8)",
-                description: "Learn the essential principles and practices of cybersecurity and ethical hacking.",
-                weeks: [
+                "title": "Complete Cyber Security Mastery (Weeks 1-20)",
+                "description": "End-to-end cyber security education covering foundational concepts, network security, ethical hacking, defense strategies, and advanced security operations.",
+                "weeks": [
                     {
-                        title: "Week 1-2: Network Security & Protocol Analysis",
-                        tasks: [
-                            "Day 1 (6 hours): Networking Fundamentals\n• 2 hours: Learn OSI model and TCP/IP stack\n• 2 hours: Practice IP addressing and subnetting\n• 1 hour: Master network protocols (TCP, UDP, ICMP)\n• 1 hour: Understand packet structure and headers\n• Exercise: Analyze network traffic with Wireshark",
-                            "Day 2 (6 hours): Network Scanning & Enumeration\n• 2 hours: Learn Nmap scanning techniques\n• 2 hours: Practice port scanning and service detection\n• 1 hour: Master OS fingerprinting\n• 1 hour: Understand vulnerability scanning\n• Exercise: Conduct complete network reconnaissance",
-                            "Day 3 (6 hours): Firewalls & Access Control\n• 2 hours: Learn firewall types and architectures\n• 2 hours: Practice iptables configuration\n• 1 hour: Master network segmentation\n• 1 hour: Understand DMZ and security zones\n• Exercise: Design and implement firewall rules",
-                            "Day 4 (6 hours): VPN & Remote Access Security\n• 2 hours: Learn VPN protocols (IPsec, SSL/TLS)\• 2 hours: Practice VPN server configuration\n• 1 hour: Master authentication methods\n• 1 hour: Understand VPN security considerations\n• Exercise: Set up secure remote access solution",
-                            "Day 5 (6 hours): Wireless Network Security\n• 2 hours: Learn wireless encryption protocols\n• 2 hours: Practice WPA2/WPA3 configuration\n• 1 hour: Master wireless intrusion detection\n• 1 hour: Understand rogue access points\n• Exercise: Secure a wireless network infrastructure",
-                            "Day 6 (6 hours): Network Monitoring & IDS/IPS\n• 2 hours: Learn intrusion detection systems\n• 2 hours: Practice Snort rule creation\n• 1 hour: Master network traffic analysis\n• 1 hour: Understand SIEM integration\n• Exercise: Deploy and configure network monitoring",
-                            "Day 7 (6 hours): Network Defense Strategies\n• 2 hours: Learn defense in depth principles\n• 2 hours: Practice network hardening techniques\n• 1 hour: Master incident response planning\n• 1 hour: Understand security policies\n• Weekly Project: Design and implement complete network security architecture"
+                        "title": "Week 1-4: Security Fundamentals & Concepts",
+                        "tasks": [
+                            "Cyber Security Fundamentals: Comprehensive understanding of security principles including confidentiality, integrity, availability (CIA triad), authentication, authorization, and accounting. Learn about security governance, risk management, and compliance frameworks.",
+                            "Threat Landscape Analysis: Deep dive into current cyber threats including malware, ransomware, phishing, social engineering, and advanced persistent threats. Understand threat actors, motivations, and attack vectors across different industries and organization sizes.",
+                            "Security Policies & Procedures: Master security policy development including acceptable use policies, incident response plans, disaster recovery, and business continuity planning. Learn about security awareness training and organizational security culture development.",
+                            "Risk Assessment & Management: Comprehensive risk assessment training including risk identification, analysis, evaluation, and treatment. Understand quantitative and qualitative risk assessment methods, risk matrices, and risk mitigation strategies.",
+                            "Cryptography Fundamentals: Deep dive into cryptographic concepts including symmetric and asymmetric encryption, hashing algorithms, digital signatures, PKI infrastructure, and cryptographic protocols. Learn about cryptographic weaknesses and best practices.",
+                            "Legal & Ethical Considerations: Master cyber security laws, regulations, and ethical frameworks including GDPR, HIPAA, PCI-DSS, and international cyber laws. Understand ethical hacking boundaries, penetration testing rules of engagement, and legal compliance requirements.",
+                            "Security Frameworks & Standards: Comprehensive study of security frameworks including NIST CSF, ISO 27001, CIS Controls, and OWASP guidelines. Learn how to implement and adapt frameworks for different organizational needs.",
+                            "Weekly Project: Security Assessment Report: Conduct a comprehensive security assessment for a hypothetical organization including risk analysis, policy recommendations, and compliance framework alignment. Create detailed documentation and presentation."
+                        ]
+                    },
+                    {
+                        "title": "Week 5-8: Network Security & Infrastructure Protection",
+                        "tasks": [
+                            "Network Fundamentals & Protocols: Comprehensive network security training including TCP/IP stack, DNS, DHCP, HTTP/HTTPS, and network architecture. Understand network segmentation, VLANs, and secure network design principles.",
+                            "Firewall Configuration & Management: Deep dive into firewall technologies including stateful inspection, application-layer filtering, and next-generation firewall features. Learn about firewall rule optimization, logging, and monitoring strategies.",
+                            "Intrusion Detection/Prevention Systems: Master IDS/IPS implementation including signature-based and anomaly-based detection, rule tuning, and alert management. Understand network traffic analysis and threat detection methodologies.",
+                            "VPN & Remote Access Security: Comprehensive VPN training including site-to-site VPN, remote access VPN, SSL/TLS VPN, and IPsec protocols. Learn about secure remote access policies and multi-factor authentication implementation.",
+                            "Wireless Network Security: Deep dive into wireless security including WPA2/WPA3, 802.1X authentication, wireless intrusion detection, and secure wireless network design. Understand wireless attack vectors and protection strategies.",
+                            "Network Monitoring & Traffic Analysis: Master network monitoring tools and techniques including packet capture analysis, flow data analysis, and security information event management (SIEM) integration. Learn about network forensics and incident detection.",
+                            "Cloud Network Security: Comprehensive cloud security training including virtual private clouds, security groups, network access control lists, and cloud-native security services. Understand shared responsibility model and cloud network architecture.",
+                            "Weekly Project: Secure Network Architecture Design: Design and document a complete secure network architecture including firewall rules, network segmentation, monitoring strategy, and security controls implementation plan."
+                        ]
+                    },
+                    {
+                        "title": "Week 9-12: Ethical Hacking & Penetration Testing",
+                        "tasks": [
+                            "Penetration Testing Methodology: Comprehensive penetration testing training including reconnaissance, scanning, exploitation, post-exploitation, and reporting. Understand legal frameworks, scoping, and rules of engagement for ethical hacking.",
+                            "Reconnaissance & Information Gathering: Deep dive into passive and active reconnaissance techniques including OSINT, DNS enumeration, network scanning, and service identification. Learn about footprinting and fingerprinting methodologies.",
+                            "Vulnerability Assessment & Scanning: Master vulnerability assessment tools and techniques including Nessus, OpenVAS, and custom scanning scripts. Understand vulnerability scoring (CVSS), prioritization, and validation methods.",
+                            "Exploitation Techniques: Comprehensive exploitation training including buffer overflows, SQL injection, XSS, CSRF, and command injection attacks. Learn about exploit development, payload delivery, and privilege escalation methods.",
+                            "Web Application Security: Deep dive into web application vulnerabilities including OWASP Top 10, API security issues, and web service vulnerabilities. Understand authentication bypass, session management flaws, and business logic vulnerabilities.",
+                            "Post-Exploitation & Persistence: Master post-exploitation techniques including lateral movement, persistence mechanisms, data exfiltration, and covering tracks. Understand attack chaining and advanced persistent threat simulation.",
+                            "Social Engineering & Physical Security: Comprehensive social engineering training including phishing campaigns, pretexting, baiting, and physical security assessment. Learn about human factors in security and social engineering countermeasures.",
+                            "Weekly Project: Complete Penetration Test Engagement: Conduct a full penetration test from reconnaissance to reporting, including vulnerability assessment, exploitation, and comprehensive report with remediation recommendations."
+                        ]
+                    },
+                    {
+                        "title": "Week 13-16: Defense Strategies & Security Operations",
+                        "tasks": [
+                            "Security Operations Center (SOC) Fundamentals: Comprehensive SOC training including security monitoring, incident triage, and security tool management. Understand SOC roles, responsibilities, and operational workflows.",
+                            "SIEM Implementation & Management: Deep dive into Security Information and Event Management systems including log collection, correlation rules, alert tuning, and dashboard creation. Learn about use case development and threat hunting integration.",
+                            "Endpoint Detection & Response (EDR): Master EDR solutions including endpoint monitoring, behavioral analysis, threat detection, and response capabilities. Understand endpoint security policies and configuration best practices.",
+                            "Incident Response & Handling: Comprehensive incident response training including incident identification, containment, eradication, recovery, and lessons learned. Understand incident response team management and communication strategies.",
+                            "Digital Forensics & Investigation: Deep dive into digital forensics including evidence acquisition, preservation, analysis, and reporting. Learn about disk forensics, memory analysis, and network forensics techniques.",
+                            "Threat Intelligence & Analysis: Master threat intelligence lifecycle including collection, processing, analysis, and dissemination. Understand threat actor TTPs, IOC management, and intelligence-driven defense strategies.",
+                            "Security Automation & Orchestration: Comprehensive security automation training including SOAR platforms, playbook development, and automated response workflows. Learn about integration with security tools and process automation.",
+                            "Weekly Project: SOC Simulation & Incident Response: Design and execute a complete SOC simulation including monitoring, incident detection, response coordination, and post-incident analysis with comprehensive documentation."
+                        ]
+                    },
+                    {
+                        "title": "Week 17-20: Advanced Security & Specializations",
+                        "tasks": [
+                            "Cloud Security Architecture: Comprehensive cloud security training including IAM policies, data protection, logging/monitoring, and compliance in cloud environments. Understand multi-cloud security and container security.",
+                            "Application Security & DevSecOps: Deep dive into application security including secure SDLC, SAST/DAST tools, code review, and DevSecOps pipeline integration. Learn about API security and microservices security.",
+                            "Identity & Access Management: Master IAM solutions including directory services, single sign-on, multi-factor authentication, and privileged access management. Understand identity governance and access review processes.",
+                            "Mobile & IoT Security: Comprehensive mobile and IoT security training including mobile device management, application security, IoT protocol security, and embedded device security. Understand unique challenges in mobile and IoT environments.",
+                            "Red Team Operations & Adversary Simulation: Advanced red teaming techniques including advanced persistence, evasion tactics, and covert operations. Understand purple teaming and adversary emulation frameworks.",
+                            "Security Leadership & Program Management: Master security program development including budget planning, team management, metrics reporting, and executive communication. Learn about security strategy alignment with business objectives.",
+                            "Emerging Technologies & Future Trends: Exploration of emerging security domains including AI/ML security, quantum cryptography, zero-trust architecture, and blockchain security. Understand future threat landscapes and defense evolution.",
+                            "Final Project: Comprehensive Security Program: Develop a complete cyber security program for an organization including strategy, architecture, operations, and continuous improvement plan with implementation roadmap and success metrics."
                         ]
                     }
                 ]
             }
         ]
-    },
+    }
+},
     "Cloud Computing": {
-        phases: [
+        "phases": [
             {
-                title: "AWS Cloud Practitioner (Weeks 1-8)",
-                description: "Master cloud computing concepts and gain hands-on experience with AWS services.",
-                weeks: [
+                "title": "Complete Cloud Computing Mastery (Weeks 1-20)",
+                "description": "End-to-end cloud computing education covering foundational concepts, major cloud providers, architecture design, DevOps integration, and advanced cloud solutions.",
+                "weeks": [
                     {
-                        title: "Week 1-2: AWS Fundamentals & Core Services",
-                        tasks: [
-                            "Day 1 (6 hours): AWS Introduction & Account Setup\n• 2 hours: Learn AWS global infrastructure\n• 2 hours: Practice AWS account creation and security\n• 1 hour: Master AWS management console\n• 1 hour: Understand billing and cost management\n• Exercise: Set up multi-factor authentication and billing alerts",
-                            "Day 2 (6 hours): EC2 & Compute Services\n• 2 hours: Learn EC2 instance types and families\n• 2 hours: Practice launching and connecting to instances\n• 1 hour: Master security groups and key pairs\n• 1 hour: Understand instance storage options\n• Exercise: Deploy web application on EC2 instances",
-                            "Day 3 (6 hours): S3 & Storage Services\n• 2 hours: Learn S3 buckets and object storage\n• 2 hours: Practice S3 permissions and policies\n• 1 hour: Master S3 versioning and lifecycle policies\n• 1 hour: Understand storage classes and costs\n• Exercise: Create static website hosting on S3",
-                            "Day 4 (6 hours): VPC & Networking\n• 2 hours: Learn VPC components and architecture\n• 2 hours: Practice subnet creation and routing\n• 1 hour: Master internet gateway and NAT gateway\n• 1 hour: Understand security groups vs NACLs\n• Exercise: Design and implement multi-tier VPC",
-                            "Day 5 (6 hours): IAM & Security\n• 2 hours: Learn IAM users, groups, and roles\n• 2 hours: Practice IAM policy creation\n• 1 hour: Master permission boundaries\n• 1 hour: Understand cross-account access\n• Exercise: Implement least privilege access control",
-                            "Day 6 (6 hours): Load Balancing & Auto Scaling\n• 2 hours: Learn ELB types and features\n• 2 hours: Practice application load balancer setup\n• 1 hour: Master auto scaling groups\n• 1 hour: Understand scaling policies\n• Exercise: Create highly available application architecture",
-                            "Day 7 (6 hours): Monitoring & Management\n• 2 hours: Learn CloudWatch metrics and alarms\n• 2 hours: Practice AWS CLI installation and usage\n• 1 hour: Master resource tagging\n• 1 hour: Understand AWS organizations\n• Weekly Project: Deploy complete three-tier web application on AWS"
+                        "title": "Week 1-4: Cloud Fundamentals & Core Concepts",
+                        "tasks": [
+                            "Cloud Computing Fundamentals: Comprehensive understanding of cloud computing models including IaaS, PaaS, SaaS, and deployment models (public, private, hybrid, multi-cloud). Learn about cloud characteristics, benefits, and economic models.",
+                            "Cloud Service Providers Overview: Deep dive into major cloud platforms including AWS, Azure, and Google Cloud Platform. Understand their service portfolios, pricing models, global infrastructure, and market positioning strategies.",
+                            "Virtualization & Containerization Basics: Master virtualization technologies including hypervisors, virtual machines, and container fundamentals with Docker. Learn about container orchestration concepts and microservices architecture patterns.",
+                            "Cloud Networking Fundamentals: Comprehensive networking training including VPC, subnets, routing, load balancing, and DNS services in cloud environments. Understand network security groups and cloud connectivity options.",
+                            "Cloud Storage Solutions: Deep dive into cloud storage types including object storage, block storage, file storage, and archival solutions. Learn about data redundancy, durability, and storage class optimization strategies.",
+                            "Identity & Access Management (IAM): Master cloud IAM concepts including users, groups, roles, policies, and permission management. Understand multi-factor authentication, federation, and privileged access management in cloud.",
+                            "Cloud Economics & Cost Management: Comprehensive cost management training including pricing models, cost optimization strategies, reserved instances, and cloud financial operations. Learn about TCO analysis and cloud cost monitoring tools.",
+                            "Weekly Project: Cloud Environment Setup: Set up and configure a complete cloud environment including VPC, IAM policies, storage solutions, and basic networking with cost monitoring and security best practices implementation."
+                        ]
+                    },
+                    {
+                        "title": "Week 5-8: AWS Cloud Platform Mastery",
+                        "tasks": [
+                            "AWS Core Services Deep Dive: Comprehensive AWS service training including EC2, S3, RDS, Lambda, and IAM. Understand service limitations, best practices, and integration patterns between different AWS services.",
+                            "AWS Compute Services: Deep dive into EC2 instance types, auto scaling groups, load balancers, and serverless computing with Lambda. Learn about container services (ECS, EKS) and batch processing solutions.",
+                            "AWS Storage & Database Services: Master AWS storage solutions including S3, EBS, EFS, and Glacier. Understand database services including RDS, DynamoDB, Redshift, and database migration services.",
+                            "AWS Networking & Content Delivery: Comprehensive networking training including VPC design, Route 53, CloudFront, Direct Connect, and Transit Gateway. Learn about network security and hybrid cloud connectivity.",
+                            "AWS Security & Compliance: Deep dive into AWS security services including Security Hub, GuardDuty, WAF, Shield, and KMS. Understand compliance frameworks and security best practices implementation.",
+                            "AWS Management & Monitoring: Master AWS management tools including CloudWatch, CloudTrail, Config, and Systems Manager. Learn about infrastructure as code with CloudFormation and automation strategies.",
+                            "AWS Architecture & Well-Architected Framework: Comprehensive training on AWS Well-Architected Framework including operational excellence, security, reliability, performance efficiency, and cost optimization pillars.",
+                            "Weekly Project: AWS Multi-Tier Application Deployment: Design and deploy a complete multi-tier web application on AWS implementing auto-scaling, load balancing, database replication, and monitoring with security best practices."
+                        ]
+                    },
+                    {
+                        "title": "Week 9-12: Microsoft Azure Platform Mastery",
+                        "tasks": [
+                            "Azure Core Services Overview: Comprehensive Azure service training including Virtual Machines, App Services, Storage Accounts, and Azure Active Directory. Understand Azure resource hierarchy and management groups.",
+                            "Azure Compute Solutions: Deep dive into Azure compute services including Virtual Machines, VM Scale Sets, App Services, Azure Functions, and Container Instances. Learn about Azure Kubernetes Service and serverless architectures.",
+                            "Azure Data & Storage Services: Master Azure storage solutions including Blob Storage, File Shares, Disk Storage, and Data Lake. Understand database services including SQL Database, Cosmos DB, and data warehouse solutions.",
+                            "Azure Networking Services: Comprehensive networking training including Virtual Networks, Load Balancers, Application Gateway, and Azure DNS. Learn about ExpressRoute, VPN Gateway, and network security groups.",
+                            "Azure Security & Identity: Deep dive into Azure security services including Azure Security Center, Azure Active Directory, Key Vault, and Azure Policy. Understand identity protection and conditional access policies.",
+                            "Azure Monitoring & Management: Master Azure monitoring tools including Azure Monitor, Application Insights, Log Analytics, and Azure Automation. Learn about Azure Resource Manager and infrastructure as code with ARM templates.",
+                            "Azure Architecture & Design Patterns: Comprehensive training on Azure architecture best practices including scalability, resilience, and cost optimization patterns. Understand Azure reference architectures and design principles.",
+                            "Weekly Project: Azure Enterprise Application Deployment: Design and implement a enterprise-grade application on Azure incorporating multiple services, hybrid connectivity, monitoring, and disaster recovery capabilities."
+                        ]
+                    },
+                    {
+                        "title": "Week 13-16: Google Cloud Platform Mastery",
+                        "tasks": [
+                            "GCP Core Services Fundamentals: Comprehensive GCP service training including Compute Engine, Cloud Storage, BigQuery, and Cloud IAM. Understand GCP project organization and resource management.",
+                            "GCP Compute Services: Deep dive into GCP compute options including Compute Engine, Google Kubernetes Engine, Cloud Run, and App Engine. Learn about preemptible VMs and custom machine types.",
+                            "GCP Data & Analytics Services: Master GCP data services including BigQuery, Cloud SQL, Cloud Spanner, Firestore, and Dataflow. Understand data analytics pipelines and machine learning services integration.",
+                            "GCP Networking & Security: Comprehensive networking training including VPC networks, Cloud Load Balancing, Cloud CDN, and Cloud Interconnect. Learn about VPC Service Controls and organization policies.",
+                            "GCP Security & IAM: Deep dive into GCP security services including Security Command Center, Cloud IAM, Cloud Armor, and Identity-Aware Proxy. Understand data encryption and key management solutions.",
+                            "GCP Operations Suite: Master GCP monitoring and operations including Cloud Monitoring, Cloud Logging, Error Reporting, and Debugger. Learn about service monitoring and SLO-based alerting strategies.",
+                            "GCP Architecture & Best Practices: Comprehensive training on GCP architecture frameworks including reliability engineering, security foundations, and cost management principles. Understand multi-region deployment strategies.",
+                            "Weekly Project: GCP Data Analytics Platform: Build a complete data analytics platform on GCP implementing data ingestion, processing, storage, visualization, and machine learning pipelines with proper security controls."
+                        ]
+                    },
+                    {
+                        "title": "Week 17-20: Advanced Cloud Solutions & DevOps",
+                        "tasks": [
+                            "Multi-Cloud & Hybrid Cloud Strategies: Comprehensive multi-cloud training including architecture patterns, interoperability challenges, and management solutions. Understand hybrid cloud connectivity and workload placement strategies.",
+                            "Cloud Native Development: Deep dive into cloud native principles including microservices, serverless architectures, and event-driven design. Learn about service mesh, API gateways, and cloud native storage patterns.",
+                            "Infrastructure as Code & Automation: Master infrastructure as code tools including Terraform, CloudFormation, and Ansible. Learn about CI/CD pipeline implementation, GitOps practices, and automated deployment strategies.",
+                            "Container Orchestration with Kubernetes: Comprehensive Kubernetes training including cluster architecture, pod design, services, ingress controllers, and storage classes. Understand Kubernetes security and monitoring best practices.",
+                            "Cloud Security & Compliance: Deep dive into advanced cloud security including zero-trust architecture, cloud security posture management, and compliance automation. Understand shared responsibility model implementation.",
+                            "Cloud Cost Optimization & FinOps: Master cloud financial management including cost allocation, budgeting, forecasting, and optimization techniques. Learn about FinOps principles and cloud cost governance frameworks.",
+                            "Disaster Recovery & Business Continuity: Comprehensive DR/BC training including backup strategies, replication methodologies, and recovery time objectives. Understand high availability design and chaos engineering principles.",
+                            "Final Project: Enterprise Cloud Transformation: Design and document a complete enterprise cloud transformation strategy including multi-cloud architecture, migration plan, security framework, and operational model with ROI analysis."
                         ]
                     }
                 ]
             }
         ]
-    },
+    }
+},
+
     "Blockchain": {
-        phases: [
+        "phases": [
             {
-                title: "Blockchain Development & Smart Contracts (Weeks 1-8)",
-                description: "Learn blockchain technology, smart contracts, and decentralized application development.",
-                weeks: [
+                "title": "Complete Blockchain Mastery (Weeks 1-20)",
+                "description": "End-to-end blockchain education covering foundational cryptography, distributed systems, smart contracts, DeFi, NFTs, and enterprise blockchain solutions.",
+                "weeks": [
                     {
-                        title: "Week 1-2: Blockchain Fundamentals & Cryptography",
-                        tasks: [
-                            "Day 1 (6 hours): Blockchain Basics & History\n• 2 hours: Learn blockchain architecture and components\n• 2 hours: Practice understanding distributed ledger technology\n• 1 hour: Master blockchain use cases and applications\n• 1 hour: Understand cryptocurrency evolution\n• Exercise: Research and present different blockchain platforms",
-                            "Day 2 (6 hours): Cryptography Fundamentals\n• 2 hours: Learn hash functions and properties\n• 2 hours: Practice SHA-256 and other hash algorithms\n• 1 hour: Master digital signatures\n• 1 hour: Understand public key cryptography\n• Exercise: Implement basic cryptographic functions",
-                            "Day 3 (6 hours): Consensus Mechanisms\n• 2 hours: Learn Proof of Work algorithm\n• 2 hours: Practice understanding mining process\n• 1 hour: Master Proof of Stake and variations\n• 1 hour: Understand other consensus algorithms\n• Exercise: Simulate different consensus mechanisms",
-                            "Day 4 (6 hours): Bitcoin & Cryptocurrency Basics\n• 2 hours: Learn Bitcoin transaction structure\n• 2 hours: Practice understanding UTXO model\n• 1 hour: Master wallet creation and management\n• 1 hour: Understand blockchain explorers\n• Exercise: Create and use Bitcoin testnet wallet",
-                            "Day 5 (6 hours): Ethereum & Smart Contract Platform\n• 2 hours: Learn Ethereum architecture\n• 2 hours: Practice understanding gas and fees\n• 1 hour: Master Ethereum accounts and transactions\n• 1 hour: Understand EVM and bytecode\n• Exercise: Set up Ethereum development environment",
-                            "Day 6 (6 hours): Solidity Programming Basics\n• 2 hours: Learn Solidity syntax and structure\n• 2 hours: Practice writing simple smart contracts\n• 1 hour: Master data types and variables\n• 1 hour: Understand function modifiers\n• Exercise: Create basic token contract",
-                            "Day 7 (6 hours): Development Tools & Testing\n• 2 hours: Learn Remix IDE and Hardhat\n• 2 hours: Practice contract compilation and deployment\n• 1 hour: Master testing frameworks\n• 1 hour: Understand debugging techniques\n• Weekly Project: Develop and test complete smart contract application"
+                        "title": "Week 1-4: Blockchain Fundamentals & Cryptography",
+                        "tasks": [
+                            "Blockchain Core Concepts: Comprehensive understanding of distributed ledger technology, decentralization, consensus mechanisms, and blockchain architecture. Learn about blocks, transactions, hashes, and the immutable nature of blockchain.",
+                            "Cryptography Fundamentals: Deep dive into cryptographic principles including hash functions (SHA-256, Keccak), digital signatures, public-key cryptography, and Merkle trees. Understand cryptographic security and vulnerability analysis.",
+                            "Bitcoin & Blockchain Genesis: Master Bitcoin protocol including UTXO model, transaction lifecycle, mining process, and Bitcoin scripting. Learn about Satoshi Nakamoto's whitepaper and the historical evolution of blockchain technology.",
+                            "Distributed Systems Principles: Comprehensive distributed systems training including peer-to-peer networks, Byzantine fault tolerance, and network synchronization. Understand gossip protocols and distributed consensus challenges.",
+                            "Consensus Algorithms: Deep dive into consensus mechanisms including Proof of Work, Proof of Stake, Delegated Proof of Stake, and Practical Byzantine Fault Tolerance. Learn about energy consumption, security, and scalability trade-offs.",
+                            "Wallet Technology & Key Management: Master cryptocurrency wallet types including hot wallets, cold wallets, hardware wallets, and multi-signature setups. Understand seed phrases, key derivation, and security best practices.",
+                            "Blockchain Economics & Tokenomics: Comprehensive study of token economics including supply mechanisms, valuation models, and incentive structures. Learn about game theory applications in blockchain systems.",
+                            "Weekly Project: Build a Simple Blockchain: Develop a basic blockchain implementation from scratch including block creation, mining simulation, transaction validation, and peer-to-peer network communication."
+                        ]
+                    },
+                    {
+                        "title": "Week 5-8: Ethereum & Smart Contract Development",
+                        "tasks": [
+                            "Ethereum Platform Fundamentals: Comprehensive Ethereum training including EVM architecture, gas mechanics, accounts, and the Ethereum state transition function. Understand differences between Bitcoin and Ethereum blockchains.",
+                            "Solidity Programming Language: Deep dive into Solidity syntax, data types, functions, modifiers, and error handling. Learn about smart contract security patterns and best practices for contract development.",
+                            "Smart Contract Development: Master smart contract creation including contract deployment, interaction patterns, and upgradeability strategies. Understand contract lifecycle management and testing methodologies.",
+                            "Web3.js & Ethers.js Integration: Comprehensive training on blockchain interaction libraries including connecting to Ethereum nodes, sending transactions, and reading blockchain data. Learn about event listening and filter implementation.",
+                            "Decentralized Application Architecture: Deep dive into dApp architecture including frontend integration, wallet connectivity, and backend services. Understand MetaMask integration and user experience considerations.",
+                            "Truffle & Hardhat Development Frameworks: Master development tools including Truffle Suite and Hardhat for smart contract compilation, testing, and deployment. Learn about development networks and debugging techniques.",
+                            "IPFS & Decentralized Storage: Comprehensive InterPlanetary File System training including content-addressed storage, pinning services, and integration with blockchain applications. Understand decentralized storage alternatives.",
+                            "Weekly Project: Full-Stack dApp Development: Build a complete decentralized application including smart contracts, frontend interface, wallet integration, and IPFS storage with comprehensive testing and deployment."
+                        ]
+                    },
+                    {
+                        "title": "Week 9-12: Advanced Smart Contracts & DeFi",
+                        "tasks": [
+                            "DeFi Protocol Architecture: Comprehensive DeFi training including lending protocols, decentralized exchanges, yield farming, and liquidity pools. Understand automated market makers and impermanent loss mechanisms.",
+                            "ERC Standards & Token Development: Deep dive into Ethereum token standards including ERC-20, ERC-721, ERC-1155, and emerging standards. Learn about token minting, burning, and transfer mechanics.",
+                            "Advanced Smart Contract Patterns: Master advanced contract patterns including proxy contracts, diamond pattern, factory contracts, and meta-transactions. Understand gas optimization techniques and contract security audits.",
+                            "Oracle Integration & Price Feeds: Comprehensive oracle training including Chainlink integration, data feeds, and external API connectivity. Understand oracle security and decentralized oracle networks.",
+                            "Yield Optimization Strategies: Deep dive into yield farming strategies including liquidity provision, staking mechanisms, and auto-compounding protocols. Learn about risk assessment and portfolio management in DeFi.",
+                            "Decentralized Exchange Development: Master DEX implementation including order book models, AMM mathematics, and liquidity pool management. Understand flash loans and arbitrage opportunities.",
+                            "Cross-Chain Bridges & Interoperability: Comprehensive cross-chain training including bridge architectures, wrapped assets, and interoperability protocols. Learn about security considerations in cross-chain transactions.",
+                            "Weekly Project: DeFi Protocol Implementation: Develop a complete DeFi protocol including token creation, liquidity pools, yield farming mechanisms, and governance features with comprehensive security testing."
+                        ]
+                    },
+                    {
+                        "title": "Week 13-16: NFTs, Gaming & Enterprise Solutions",
+                        "tasks": [
+                            "NFT Technology & Standards: Comprehensive NFT training including metadata standards, royalty mechanisms, and marketplace integration. Understand NFT minting strategies and gas optimization for collections.",
+                            "Blockchain Gaming & Metaverse: Deep dive into blockchain gaming including play-to-earn models, in-game assets, and virtual economies. Learn about metaverse integration and interoperability between gaming platforms.",
+                            "Enterprise Blockchain Solutions: Master enterprise blockchain platforms including Hyperledger Fabric, Corda, and Quorum. Understand permissioned networks and business use case implementation.",
+                            "Supply Chain & Traceability: Comprehensive supply chain training including product provenance, anti-counterfeiting, and logistics tracking. Learn about IoT integration and real-world asset tokenization.",
+                            "Identity & Verification Systems: Deep dive into decentralized identity including self-sovereign identity, verifiable credentials, and DID standards. Understand privacy-preserving verification mechanisms.",
+                            "DAO Governance & Management: Master Decentralized Autonomous Organization concepts including governance tokens, voting mechanisms, and treasury management. Learn about proposal systems and community governance.",
+                            "Scalability Solutions & Layer 2: Comprehensive scaling solutions training including rollups (Optimistic, ZK), sidechains, state channels, and sharding. Understand trade-offs between different scaling approaches.",
+                            "Weekly Project: Enterprise Blockchain Implementation: Design and implement an enterprise blockchain solution for a real-world use case including smart contracts, governance, and integration with existing systems."
+                        ]
+                    },
+                    {
+                        "title": "Week 17-20: Advanced Topics & Security",
+                        "tasks": [
+                            "Zero-Knowledge Proofs & zk-SNARKs: Comprehensive ZKP training including cryptographic foundations, proof generation, and verification. Understand privacy applications and scalability benefits.",
+                            "Blockchain Security & Auditing: Deep dive into smart contract security including common vulnerabilities, formal verification, and audit methodologies. Learn about bug bounty programs and security best practices.",
+                            "Regulatory Compliance & Legal Framework: Master blockchain regulatory landscape including securities laws, AML/KYC requirements, and international regulations. Understand compliance automation and regulatory technology.",
+                            "Token Engineering & Economic Design: Comprehensive token engineering training including mechanism design, incentive alignment, and sustainable economic models. Learn about simulation and modeling techniques.",
+                            "Blockchain Infrastructure & Node Operations: Deep dive into node operation including synchronization, maintenance, and monitoring. Understand infrastructure requirements for different blockchain networks.",
+                            "Research & Emerging Technologies: Master emerging blockchain trends including quantum resistance, decentralized science, and new consensus mechanisms. Learn about academic research and innovation in blockchain.",
+                            "Blockchain Project Management: Comprehensive project management training including roadmap development, community building, and ecosystem growth strategies. Understand token launch planning and exchange listings.",
+                            "Final Project: Complete Blockchain Ecosystem: Design and document a comprehensive blockchain ecosystem including technical architecture, token economics, governance model, and implementation roadmap with security audit plan."
                         ]
                     }
                 ]
@@ -302,65 +902,252 @@ const roadmapData = {
         ]
     },
     "Game Development": {
-        phases: [
+        "phases": [
             {
-                title: "Unity Game Development (Weeks 1-8)",
-                description: "Learn game design principles and development using Unity game engine.",
-                weeks: [
+                "title": "Complete Game Development Mastery (Weeks 1-24)",
+                "description": "End-to-end game development education covering programming fundamentals, game engines, graphics programming, gameplay systems, and professional development practices.",
+                "weeks": [
                     {
-                        title: "Week 1-2: Unity Fundamentals & 3D Environment",
-                        tasks: [
-                            "Day 1 (6 hours): Unity Installation & Interface\n• 2 hours: Install Unity Hub and Unity Editor\n• 2 hours: Learn Unity interface and windows\n• 1 hour: Practice scene creation and navigation\n• 1 hour: Understand project organization\n• Exercise: Create first Unity project and basic scene",
-                            "Day 2 (6 hours): Game Objects & Components\n• 2 hours: Learn GameObject hierarchy and parenting\n• 2 hours: Practice adding and configuring components\n• 1 hour: Master Transform component and coordinates\n• 1 hour: Understand prefabs and instances\n• Exercise: Build simple object hierarchy with components",
-                            "Day 3 (6 hours): 3D Modeling & Asset Import\n• 2 hours: Learn 3D modeling basics\n• 2 hours: Practice importing 3D models\n• 1 hour: Master material creation and shaders\n• 1 hour: Understand texture mapping\n• Exercise: Create and import custom 3D models",
-                            "Day 4 (6 hours): Lighting & Rendering\n• 2 hours: Learn different light types\n• 2 hours: Practice lighting setups and baking\n• 1 hour: Master post-processing effects\n• 1 hour: Understand render pipelines\n• Exercise: Create cinematic lighting for scene",
-                            "Day 5 (6 hours): Physics & Collision\n• 2 hours: Learn Rigidbody component\n• 2 hours: Practice collision detection\n• 1 hour: Master physics materials\n• 1 hour: Understand trigger colliders\n• Exercise: Build physics-based interactive scene",
-                            "Day 6 (6 hours): Audio & Sound Design\n• 2 hours: Learn audio source and listener\n• 2 hours: Practice importing and configuring audio\n• 1 hour: Master audio mixing and effects\n• 1 hour: Understand spatial audio\n• Exercise: Create immersive audio environment",
-                            "Day 7 (6 hours): Basic Game Mechanics\n• 2 hours: Learn player input handling\n• 2 hours: Practice simple movement scripts\n• 1 hour: Master camera follow systems\n• 1 hour: Understand basic game loops\n• Weekly Project: Create complete simple 3D game with mechanics"
+                        "title": "Week 1-4: Programming Fundamentals & Game Mathematics",
+                        "tasks": [
+                            "Game Programming Basics: Comprehensive understanding of programming fundamentals tailored for game development including variables, control structures, functions, and basic algorithms. Learn about game loops, frame rates, and real-time programming concepts.",
+                            "Object-Oriented Programming for Games: Deep dive into OOP concepts including classes, inheritance, polymorphism, and design patterns specific to game development. Understand component-based architecture and entity systems used in modern game engines.",
+                            "Game Mathematics Fundamentals: Master essential mathematics for games including linear algebra, vectors, matrices, and coordinate systems. Learn about dot product, cross product, and their applications in game mechanics and graphics.",
+                            "Physics for Game Developers: Comprehensive physics training including Newtonian mechanics, collision detection, rigid body dynamics, and basic particle systems. Understand physics engines and simulation techniques.",
+                            "C++ Programming for Games: Deep dive into C++ language features including memory management, pointers, templates, and STL containers. Learn about performance optimization and low-level programming techniques crucial for game development.",
+                            "Version Control with Git & Perforce: Master version control systems including Git for indie development and Perforce for enterprise projects. Learn about branching strategies, asset management, and collaborative workflows in game teams.",
+                            "Development Environment Setup: Comprehensive setup of game development environments including IDEs, compilers, debuggers, and profiling tools. Understand build systems and project configuration for different platforms.",
+                            "Weekly Project: 2D Game Framework: Build a complete 2D game framework from scratch including graphics rendering, input handling, basic physics, and game object management without using existing game engines."
+                        ]
+                    },
+                    {
+                        "title": "Week 5-8: Unity Engine Mastery",
+                        "tasks": [
+                            "Unity Fundamentals & Editor Mastery: Comprehensive Unity training including scene management, game objects, components, and the inspector. Learn about prefabs, asset management, and editor scripting for workflow optimization.",
+                            "C# Programming for Unity: Deep dive into C# programming specific to Unity including MonoBehaviour lifecycle, coroutines, events, and delegates. Understand Unity's component system and script communication patterns.",
+                            "Physics & Collision Systems: Master Unity's physics engine including Rigidbody components, colliders, triggers, and joint systems. Learn about raycasting, layer masks, and physics material properties.",
+                            "Animation & State Machines: Comprehensive animation training including Animator Controller, animation clips, blend trees, and state machine behaviors. Understand mecanim system and procedural animation techniques.",
+                            "UI System & User Experience: Deep dive into Unity's UI system including Canvas, RectTransform, UI components, and event system. Learn about responsive UI design, localization, and accessibility features.",
+                            "Audio System Implementation: Master Unity's audio system including audio sources, mixers, and spatial audio. Understand audio import settings, compression, and real-time audio manipulation.",
+                            "Unity Asset Pipeline: Comprehensive asset pipeline training including import settings, asset bundles, and addressable system. Learn about performance optimization and memory management for different asset types.",
+                            "Weekly Project: Complete 3D Unity Game: Develop a full 3D game in Unity implementing character controller, enemy AI, UI systems, audio, and multiple levels with polished gameplay mechanics."
+                        ]
+                    },
+                    {
+                        "title": "Week 9-12: Unreal Engine Mastery",
+                        "tasks": [
+                            "Unreal Engine Fundamentals: Comprehensive Unreal Engine training including editor workflow, level design, and asset management. Learn about Blueprint visual scripting and C++ integration strategies.",
+                            "Blueprint Visual Scripting: Deep dive into Blueprint system including event graphs, function libraries, and macro creation. Understand Blueprint communication, interfaces, and best practices for visual scripting.",
+                            "C++ Programming in Unreal: Master Unreal C++ including UCLASS system, reflection, and gameplay framework. Learn about actor components, gameplay abilities, and native integration with Blueprints.",
+                            "Material Editor & Shader Development: Comprehensive material training including material graphs, physical based rendering, and post-process materials. Understand shader complexity optimization and performance considerations.",
+                            "Animation System & State Machines: Deep dive into Unreal's animation system including skeleton setup, animation blueprints, blend spaces, and montages. Learn about inverse kinematics and root motion implementation.",
+                            "AI & Behavior Trees: Master AI programming including behavior trees, blackboard, EQS, and navigation mesh. Understand AI perception, decision making, and complex behavior implementation.",
+                            "Lighting & Rendering: Comprehensive rendering training including static lighting, dynamic lighting, and global illumination. Learn about LOD systems, culling optimization, and post-processing effects.",
+                            "Weekly Project: Advanced Unreal Game: Create a sophisticated game in Unreal Engine implementing advanced graphics, complex AI systems, multiplayer features, and optimized performance for target platforms."
+                        ]
+                    },
+                    {
+                        "title": "Week 13-16: Advanced Gameplay Systems",
+                        "tasks": [
+                            "Gameplay Programming Patterns: Comprehensive gameplay programming training including state patterns, observer patterns, and command patterns. Understand architecture for scalable and maintainable game systems.",
+                            "AI Programming & Pathfinding: Deep dive into advanced AI techniques including utility AI, goal-oriented action planning, and machine learning integration. Learn about A* pathfinding, navigation meshes, and crowd simulation.",
+                            "Multiplayer & Network Programming: Master multiplayer game development including client-server architecture, replication, prediction, and reconciliation. Understand latency compensation and cheat prevention strategies.",
+                            "Procedural Content Generation: Comprehensive PCG training including noise algorithms, wave function collapse, and evolutionary algorithms. Learn about procedural level design, terrain generation, and asset creation.",
+                            "Physics Programming: Deep dive into custom physics implementation including collision detection algorithms, constraint solving, and soft body dynamics. Understand physics engine architecture and optimization.",
+                            "Audio Programming & Interactive Music: Master interactive audio systems including dynamic music, adaptive soundscapes, and real-time DSP effects. Learn about Wwise and FMOD integration.",
+                            "Tools Programming & Pipeline Development: Comprehensive tools programming including custom editor tools, asset pipelines, and automation systems. Understand how to improve team workflows and productivity.",
+                            "Weekly Project: Multiplayer Game with Advanced AI: Develop a complete multiplayer game featuring sophisticated AI opponents, procedural level generation, and custom gameplay systems with comprehensive networking."
+                        ]
+                    },
+                    {
+                        "title": "Week 17-20: Graphics & Engine Programming",
+                        "tasks": [
+                            "Computer Graphics Fundamentals: Comprehensive graphics programming training including rendering pipelines, coordinate spaces, and transformation matrices. Understand GPU architecture and graphics API fundamentals.",
+                            "Shader Programming & HLSL/GLSL: Deep dive into shader programming including vertex shaders, fragment shaders, and compute shaders. Learn about lighting models, post-processing effects, and optimization techniques.",
+                            "Rendering Architecture: Master rendering engine architecture including material systems, lighting pipelines, and render graph implementation. Understand deferred rendering, forward+, and hybrid approaches.",
+                            "Advanced Rendering Techniques: Comprehensive advanced rendering training including global illumination, real-time ray tracing, and atmospheric effects. Learn about VR/AR rendering and multi-platform optimization.",
+                            "Performance Optimization: Deep dive into performance profiling and optimization including CPU/GPU bottlenecks, memory management, and asset streaming. Understand platform-specific optimization techniques.",
+                            "Custom Engine Development: Master the development of custom game engines including entity-component systems, resource management, and platform abstraction layers. Learn about engine architecture trade-offs.",
+                            "Virtual Reality Development: Comprehensive VR development training including motion controllers, room-scale setup, and VR-specific UX design. Understand performance requirements and comfort considerations.",
+                            "Weekly Project: Custom Game Engine: Build a custom game engine from scratch implementing rendering system, physics, audio, and input handling with support for multiple graphics APIs."
+                        ]
+                    },
+                    {
+                        "title": "Week 21-24: Production & Professional Development",
+                        "tasks": [
+                            "Game Design Principles: Comprehensive game design training including mechanics design, level design, and player psychology. Understand balancing, pacing, and engagement strategies.",
+                            "Project Management for Games: Deep dive into game production methodologies including agile development, milestone planning, and risk management. Learn about team coordination and stakeholder communication.",
+                            "Quality Assurance & Testing: Master game testing strategies including test case development, bug tracking, and compatibility testing. Understand automated testing and continuous integration for games.",
+                            "Monetization & Business Models: Comprehensive business training including free-to-play mechanics, premium pricing, and live service operations. Learn about analytics, player retention, and revenue optimization.",
+                            "Platform Deployment & Certification: Deep dive into platform requirements including console TRCs, store submissions, and platform-specific optimization. Understand the submission process for major platforms.",
+                            "Marketing & Community Building: Master game marketing strategies including trailer production, press kits, and community management. Learn about influencer partnerships and launch campaigns.",
+                            "Portfolio Development & Career Planning: Comprehensive career training including portfolio creation, interview preparation, and industry networking. Understand different career paths in game development.",
+                            "Final Project: Commercial Game Release: Develop and release a commercial-quality game including all production phases from concept to launch, with marketing materials, store presence, and post-launch support plan."
                         ]
                     }
                 ]
             }
         ]
     },
+
     "Artificial Intelligence": {
-        phases: [
+        "phases": [
             {
-                title: "AI Engineering & Advanced Applications (Weeks 1-8)",
-                description: "Master artificial intelligence concepts and build intelligent systems.",
-                weeks: [
+                "title": "Complete AI Mastery (Weeks 1-24)",
+                "description": "End-to-end AI education covering mathematics fundamentals, machine learning, deep learning, natural language processing, computer vision, and advanced AI systems.",
+                "weeks": [
                     {
-                        title: "Week 1-2: AI Fundamentals & Search Algorithms",
-                        tasks: [
-                            "Day 1 (6 hours): AI Introduction & Problem Solving\n• 2 hours: Learn AI history and applications\n• 2 hours: Practice problem formulation\n• 1 hour: Master state space representation\n• 1 hour: Understand intelligent agents\n• Exercise: Formulate real-world problems for AI solution",
-                            "Day 2 (6 hours): Uninformed Search Strategies\n• 2 hours: Learn breadth-first search algorithm\n• 2 hours: Practice depth-first search implementation\n• 1 hour: Master uniform-cost search\n• 1 hour: Understand search completeness and optimality\n• Exercise: Implement search algorithms for maze solving",
-                            "Day 3 (6 hours): Informed Search Strategies\n• 2 hours: Learn greedy best-first search\n• 2 hours: Practice A* search algorithm\n• 1 hour: Master heuristic function design\n• 1 hour: Understand admissible heuristics\n• Exercise: Create A* implementation for pathfinding",
-                            "Day 4 (6 hours): Local Search & Optimization\n• 2 hours: Learn hill-climbing algorithm\n• 2 hours: Practice simulated annealing\n• 1 hour: Master genetic algorithms\n• 1 hour: Understand local beam search\n• Exercise: Solve optimization problems with local search",
-                            "Day 5 (6 hours): Adversarial Search - Minimax\n• 2 hours: Learn game theory basics\n• 2 hours: Practice minimax algorithm\n• 1 hour: Master alpha-beta pruning\n• 1 hour: Understand evaluation functions\n• Exercise: Implement AI for tic-tac-toe game",
-                            "Day 6 (6 hours): Constraint Satisfaction Problems\n• 2 hours: Learn CSP formulation\n• 2 hours: Practice backtracking search\n• 1 hour: Master constraint propagation\n• 1 hour: Understand forward checking\n• Exercise: Solve Sudoku with CSP techniques",
-                            "Day 7 (6 hours): Knowledge Representation\n• 2 hours: Learn propositional logic\n• 2 hours: Practice first-order logic\n• 1 hour: Master inference rules\n• 1 hour: Understand resolution theorem proving\n• Weekly Project: Build complete AI system for game playing"
+                        "title": "Week 1-4: Mathematics Foundations & Python for AI",
+                        "tasks": [
+                            "Linear Algebra for AI: Comprehensive understanding of vectors, matrices, linear transformations, eigenvalues, and eigenvectors. Learn about matrix decompositions, vector spaces, and their applications in machine learning algorithms.",
+                            "Calculus & Optimization: Deep dive into differential and integral calculus, partial derivatives, gradients, and optimization techniques. Understand loss functions, gradient descent, and convergence analysis for machine learning models.",
+                            "Probability & Statistics: Master probability theory including distributions, Bayes' theorem, statistical inference, and hypothesis testing. Learn about maximum likelihood estimation and statistical modeling fundamentals.",
+                            "Python Programming for AI: Comprehensive Python training including NumPy for numerical computing, Pandas for data manipulation, and Matplotlib for visualization. Understand object-oriented programming and functional programming patterns.",
+                            "Data Structures & Algorithms: Deep dive into essential data structures including arrays, trees, graphs, and hash tables. Learn about algorithm complexity analysis and optimization techniques specific to AI applications.",
+                            "Scientific Computing Libraries: Master scientific computing with SciPy, SymPy, and advanced NumPy operations. Learn about performance optimization and memory management for large-scale computations.",
+                            "Development Environment Setup: Comprehensive setup of AI development environments including Jupyter notebooks, virtual environments, and essential AI libraries. Understand version control and collaborative coding practices.",
+                            "Weekly Project: Mathematical Foundations Implementation: Build a complete mathematical toolkit implementing linear algebra operations, probability distributions, and optimization algorithms from scratch with performance benchmarking."
+                        ]
+                    },
+                    {
+                        "title": "Week 5-8: Machine Learning Fundamentals",
+                        "tasks": [
+                            "Machine Learning Concepts: Comprehensive ML training including supervised vs. unsupervised learning, training/testing splits, and bias-variance tradeoff. Understand model evaluation metrics and cross-validation techniques.",
+                            "Linear Models & Regression: Deep dive into linear regression, logistic regression, and regularization techniques (L1/L2). Learn about model interpretation, feature importance, and statistical significance testing.",
+                            "Classification Algorithms: Master classification techniques including k-nearest neighbors, decision trees, naive Bayes, and support vector machines. Understand ensemble methods and model selection strategies.",
+                            "Clustering & Dimensionality Reduction: Comprehensive unsupervised learning training including k-means clustering, hierarchical clustering, and DBSCAN. Learn about PCA, t-SNE, and UMAP for dimensionality reduction.",
+                            "Model Evaluation & Validation: Deep dive into model assessment including ROC curves, precision-recall, confusion matrices, and cross-validation strategies. Understand hyperparameter tuning and model comparison techniques.",
+                            "Feature Engineering: Master feature selection, transformation, and creation techniques. Learn about handling missing data, categorical encoding, and feature scaling methods for different algorithms.",
+                            "ML Pipelines & Scikit-learn: Comprehensive Scikit-learn training including pipeline creation, custom transformers, and model persistence. Understand workflow automation and production-ready ML code practices.",
+                            "Weekly Project: End-to-End ML System: Develop a complete machine learning system from data collection and preprocessing to model training, evaluation, and deployment with comprehensive documentation and performance analysis."
+                        ]
+                    },
+                    {
+                        "title": "Week 9-12: Deep Learning & Neural Networks",
+                        "tasks": [
+                            "Neural Network Fundamentals: Comprehensive deep learning training including perceptrons, activation functions, and backpropagation. Understand network architecture, weight initialization, and optimization algorithms.",
+                            "Deep Learning Frameworks: Deep dive into TensorFlow and PyTorch including tensor operations, automatic differentiation, and model building. Learn about framework selection criteria and best practices.",
+                            "Convolutional Neural Networks: Master CNN architectures including convolutional layers, pooling, and modern architectures (ResNet, VGG, Inception). Understand computer vision applications and transfer learning.",
+                            "Recurrent Neural Networks: Comprehensive RNN training including LSTM, GRU, and sequence modeling. Learn about time series analysis, text generation, and sequential data processing techniques.",
+                            "Training Deep Networks: Deep dive into training techniques including batch normalization, dropout, learning rate scheduling, and early stopping. Understand vanishing/exploding gradients and optimization challenges.",
+                            "Advanced Architectures: Master advanced neural network architectures including autoencoders, GANs, and attention mechanisms. Learn about model interpretability and visualization techniques.",
+                            "Deep Learning Deployment: Comprehensive model deployment training including model quantization, ONNX conversion, and serving infrastructure. Understand performance optimization for different hardware platforms.",
+                            "Weekly Project: Deep Learning Application: Build and deploy a sophisticated deep learning application implementing custom neural network architecture with training pipeline, evaluation metrics, and production deployment strategy."
+                        ]
+                    },
+                    {
+                        "title": "Week 13-16: Natural Language Processing",
+                        "tasks": [
+                            "NLP Fundamentals: Comprehensive NLP training including tokenization, stemming, lemmatization, and part-of-speech tagging. Understand linguistic concepts and text preprocessing pipelines.",
+                            "Text Representation: Deep dive into text representation techniques including bag-of-words, TF-IDF, word embeddings (Word2Vec, GloVe), and contextual embeddings. Understand semantic similarity and vector space models.",
+                            "Transformer Architecture: Master transformer models including self-attention mechanism, positional encoding, and encoder-decoder architecture. Learn about BERT, GPT, and modern language model foundations.",
+                            "Large Language Models: Comprehensive LLM training including model architecture, pretraining strategies, and fine-tuning techniques. Understand prompt engineering and in-context learning capabilities.",
+                            "Text Classification & Generation: Deep dive into text classification, sentiment analysis, and text generation tasks. Learn about sequence-to-sequence models and controlled text generation techniques.",
+                            "Information Extraction: Master named entity recognition, relation extraction, and knowledge graph construction. Understand question answering systems and semantic parsing approaches.",
+                            "NLP Deployment: Comprehensive NLP system deployment including model serving, API design, and monitoring. Understand scalability considerations and multilingual processing challenges.",
+                            "Weekly Project: NLP Pipeline Development: Build a complete NLP pipeline implementing text processing, custom model training, and deployment for real-world applications with performance benchmarking and error analysis."
+                        ]
+                    },
+                    {
+                        "title": "Week 17-20: Computer Vision & Advanced AI",
+                        "tasks": [
+                            "Computer Vision Fundamentals: Comprehensive CV training including image processing, feature detection, and image transformations. Understand color spaces, filtering, and morphological operations.",
+                            "Object Detection & Segmentation: Deep dive into object detection architectures including YOLO, Faster R-CNN, and SSD. Learn about instance segmentation, semantic segmentation, and panoptic segmentation techniques.",
+                            "Image Generation & GANs: Master generative adversarial networks including DCGAN, StyleGAN, and conditional GANs. Understand image synthesis, style transfer, and data augmentation strategies.",
+                            "Video Analysis & Understanding: Comprehensive video processing training including optical flow, action recognition, and video captioning. Learn about temporal modeling and spatiotemporal feature extraction.",
+                            "3D Computer Vision: Deep dive into 3D vision including depth estimation, point cloud processing, and 3D reconstruction. Understand stereo vision, LiDAR processing, and volumetric representations.",
+                            "Reinforcement Learning: Master RL concepts including Markov decision processes, Q-learning, policy gradients, and deep reinforcement learning. Understand exploration-exploitation tradeoffs and reward design.",
+                            "AI Ethics & Responsible AI: Comprehensive ethics training including bias detection, fairness metrics, and explainable AI. Understand privacy preservation and ethical considerations in AI deployment.",
+                            "Weekly Project: Computer Vision System: Develop an advanced computer vision system implementing multiple tasks including object detection, image generation, and video analysis with ethical considerations and deployment pipeline."
+                        ]
+                    },
+                    {
+                        "title": "Week 21-24: AI Systems & Production Deployment",
+                        "tasks": [
+                            "MLOps & AI Infrastructure: Comprehensive MLOps training including experiment tracking, model registry, and continuous integration for ML. Understand infrastructure requirements and scaling strategies.",
+                            "Distributed Training: Deep dive into distributed computing including data parallelism, model parallelism, and hybrid approaches. Learn about training optimization across multiple GPUs and nodes.",
+                            "Model Serving & APIs: Master model serving patterns including REST APIs, gRPC, and streaming inference. Understand load balancing, autoscaling, and performance monitoring for AI services.",
+                            "AI System Architecture: Comprehensive system design training including microservices for AI, data pipelines, and feature stores. Understand end-to-end AI system design patterns and best practices.",
+                            "Edge AI & Mobile Deployment: Deep dive into edge computing including model optimization for mobile devices, IoT applications, and resource-constrained environments. Learn about on-device ML and privacy-preserving AI.",
+                            "AI Project Management: Master AI project lifecycle including requirement analysis, team coordination, and delivery management. Understand agile methodologies for AI projects and stakeholder communication.",
+                            "AI Research & Innovation: Comprehensive research training including literature review, experimental design, and paper writing. Understand how to contribute to AI research and stay updated with advancements.",
+                            "Final Project: Enterprise AI System: Design and implement a complete enterprise AI solution including data pipeline, model development, deployment infrastructure, monitoring system, and business impact analysis with scalability planning."
                         ]
                     }
                 ]
             }
         ]
     },
+
     "DevOps": {
-        phases: [
+        "phases": [
             {
-                title: "DevOps Engineering & Automation (Weeks 1-8)",
-                description: "Learn DevOps practices and tools for efficient software development and deployment.",
-                weeks: [
+                "title": "Complete DevOps Mastery (Weeks 1-20)",
+                "description": "End-to-end DevOps education covering infrastructure as code, CI/CD, cloud platforms, containerization, monitoring, and site reliability engineering practices.",
+                "weeks": [
                     {
-                        title: "Week 1-2: Linux & Infrastructure Automation",
-                        tasks: [
-                            "Day 1 (6 hours): Linux Fundamentals\n• 2 hours: Learn Linux file system hierarchy\n• 2 hours: Practice basic command line operations\n• 1 hour: Master file permissions and ownership\n• 1 hour: Understand process management\n• Exercise: Perform system administration tasks via command line",
-                            "Day 2 (6 hours): Shell Scripting Basics\n• 2 hours: Learn bash scripting syntax\n• 2 hours: Practice variables and control structures\n• 1 hour: Master functions and parameter passing\n• 1 hour: Understand exit codes and error handling\n• Exercise: Create system administration scripts",
-                            "Day 3 (6 hours): Advanced Shell Scripting\n• 2 hours: Learn text processing tools\n• 2 hours: Practice regular expressions\n• 1 hour: Master awk and sed usage\n• 1 hour: Understand process substitution\n• Exercise: Build data processing pipelines",
-                            "Day 4 (6 hours): Configuration Management - Ansible\n• 2 hours: Learn Ansible architecture\n• 2 hours: Practice playbook creation\n• 1 hour: Master inventory management\n• 1 hour: Understand roles and modules\n• Exercise: Automate server configuration with Ansible",
-                            "Day 5 (6 hours): Infrastructure as Code\n• 2 hours: Learn Terraform basics\n• 2 hours: Practice resource definition\n• 1 hour: Master state management\n• 1 hour: Understand provisioning workflows\n• Exercise: Create infrastructure with Terraform",
-                            "Day 6 (6 hours): Package Management & Deployment\n• 2 hours: Learn package managers (apt, yum)\n• 2 hours: Practice application deployment\n• 1 hour: Master dependency management\n• 1 hour: Understand version control integration\n• Exercise: Create automated deployment scripts",
-                            "Day 7 (6 hours): Monitoring & Logging\n• 2 hours: Learn system monitoring tools\n• 2 hours: Practice log management\n• 1 hour: Master alert configuration\n• 1 hour: Understand performance metrics\n• Weekly Project: Automate complete infrastructure provisioning and configuration"
+                        "title": "Week 1-4: Linux Fundamentals & Scripting",
+                        "tasks": [
+                            "Linux Operating System Mastery: Comprehensive understanding of Linux architecture, file systems, process management, and user administration. Learn about package management, service management, and kernel fundamentals.",
+                            "Bash Scripting & Automation: Deep dive into Bash scripting including variables, control structures, functions, and advanced text processing. Understand sed, awk, grep, and automation of system administration tasks.",
+                            "Networking Fundamentals: Master networking concepts including TCP/IP stack, DNS, DHCP, HTTP/HTTPS, and network troubleshooting. Learn about firewall configuration, routing, and network security principles.",
+                            "System Administration: Comprehensive system administration training including user management, permissions, disk management, and process monitoring. Understand system performance tuning and resource optimization.",
+                            "Python for DevOps: Deep dive into Python programming for automation including file operations, API interactions, and system administration tasks. Learn about popular DevOps libraries and frameworks.",
+                            "Version Control with Git: Master Git fundamentals including branching strategies, merge conflicts, and collaborative workflows. Learn about Git hooks, submodules, and enterprise Git practices.",
+                            "Infrastructure Basics: Comprehensive infrastructure concepts including server types, storage solutions, and network architecture. Understand data center operations and cloud computing fundamentals.",
+                            "Weekly Project: Automated Server Provisioning: Build a complete automation script that provisions and configures Linux servers, implements security hardening, and deploys a sample application with monitoring."
+                        ]
+                    },
+                    {
+                        "title": "Week 5-8: Cloud Platforms & Infrastructure as Code",
+                        "tasks": [
+                            "AWS Cloud Fundamentals: Comprehensive AWS training including EC2, S3, VPC, IAM, and core services. Understand cloud economics, security best practices, and service selection criteria.",
+                            "Terraform & Infrastructure as Code: Deep dive into Terraform including HCL syntax, state management, modules, and workspaces. Learn about infrastructure lifecycle management and collaborative Terraform workflows.",
+                            "CloudFormation & AWS CDK: Master AWS-native infrastructure as code tools including CloudFormation templates and AWS CDK with TypeScript/Python. Understand multi-region deployments and stack management.",
+                            "Multi-Cloud Strategies: Comprehensive multi-cloud training including Azure and Google Cloud Platform fundamentals. Learn about cloud-agnostic patterns and hybrid cloud architectures.",
+                            "Configuration Management with Ansible: Deep dive into Ansible including playbook development, roles, inventories, and modules. Learn about idempotency, orchestration, and complex automation workflows.",
+                            "Packer & Machine Image Management: Master image creation and management using Packer for multiple platforms. Understand golden image patterns, security hardening, and automated image pipelines.",
+                            "Cloud Networking & Security: Comprehensive cloud networking training including VPC design, security groups, NACLs, and connectivity options. Learn about cloud security best practices and compliance frameworks.",
+                            "Weekly Project: Multi-Tier Cloud Infrastructure: Design and implement a complete multi-tier application infrastructure on AWS using Terraform, including networking, security, auto-scaling, and backup strategies."
+                        ]
+                    },
+                    {
+                        "title": "Week 9-12: Containerization & Orchestration",
+                        "tasks": [
+                            "Docker Container Fundamentals: Comprehensive Docker training including container lifecycle, image creation, and Dockerfile best practices. Learn about container networking, storage, and security considerations.",
+                            "Docker Compose & Multi-Container Applications: Deep dive into Docker Compose for local development and testing. Understand service dependencies, volume management, and complex application stacks.",
+                            "Kubernetes Core Concepts: Master Kubernetes fundamentals including pods, services, deployments, and namespaces. Learn about cluster architecture, API resources, and basic operations.",
+                            "Kubernetes Application Deployment: Comprehensive application deployment training including manifests, Helm charts, and Kustomize. Understand deployment strategies, rollbacks, and application lifecycle management.",
+                            "Kubernetes Networking & Storage: Deep dive into Kubernetes networking including services, ingress controllers, and network policies. Learn about persistent volumes, storage classes, and stateful applications.",
+                            "Kubernetes Security & RBAC: Master Kubernetes security including role-based access control, security contexts, and pod security policies. Understand cluster hardening and security best practices.",
+                            "Container Registry Management: Comprehensive container registry training including image scanning, vulnerability assessment, and access control. Learn about registry optimization and mirroring strategies.",
+                            "Weekly Project: Kubernetes Cluster Deployment: Set up and configure a production-ready Kubernetes cluster, deploy a microservices application with monitoring, and implement security controls and backup procedures."
+                        ]
+                    },
+                    {
+                        "title": "Week 13-16: CI/CD & Automation Pipelines",
+                        "tasks": [
+                            "CI/CD Pipeline Fundamentals: Comprehensive CI/CD training including pipeline design, stages, and best practices. Understand the difference between continuous integration, delivery, and deployment.",
+                            "Jenkins Pipeline Development: Deep dive into Jenkins including pipeline-as-code, shared libraries, and plugin ecosystem. Learn about distributed builds, agent management, and pipeline optimization.",
+                            "GitLab CI/CD Mastery: Master GitLab CI/CD including .gitlab-ci.yml, runners, and auto DevOps. Understand pipeline artifacts, caching strategies, and security scanning integration.",
+                            "GitHub Actions & Automation: Comprehensive GitHub Actions training including workflow development, custom actions, and marketplace integration. Learn about self-hosted runners and enterprise features.",
+                            "Artifact Management & Dependency Caching: Deep dive into artifact repositories including JFrog Artifactory and Nexus. Understand binary management, dependency caching, and release promotion.",
+                            "Pipeline Security & Compliance: Master security scanning integration including SAST, DAST, and dependency scanning. Learn about compliance as code and security gates in pipelines.",
+                            "Advanced Pipeline Patterns: Comprehensive advanced pipeline training including blue-green deployments, canary releases, and feature flags. Understand pipeline optimization and performance tuning.",
+                            "Weekly Project: Enterprise CI/CD System: Design and implement a complete enterprise CI/CD system supporting multiple applications, environments, and deployment strategies with comprehensive security scanning."
+                        ]
+                    },
+                    {
+                        "title": "Week 17-20: Monitoring, SRE & Advanced DevOps",
+                        "tasks": [
+                            "Monitoring & Observability Fundamentals: Comprehensive monitoring training including metrics, logs, traces, and alerting. Understand the three pillars of observability and their implementation.",
+                            "Prometheus & Grafana Mastery: Deep dive into Prometheus including metric collection, querying, and alerting rules. Learn about Grafana dashboard creation and visualization best practices.",
+                            "ELK Stack & Log Management: Master Elasticsearch, Logstash, and Kibana for centralized logging. Understand log parsing, indexing, and search optimization techniques.",
+                            "Application Performance Monitoring: Comprehensive APM training including distributed tracing, application metrics, and user experience monitoring. Learn about performance optimization and bottleneck identification.",
+                            "Site Reliability Engineering Principles: Deep dive into SRE practices including SLIs, SLOs, SLAs, error budgets, and toil reduction. Understand capacity planning and incident management.",
+                            "Chaos Engineering & Resilience: Master chaos engineering principles including experiment design, fault injection, and resilience testing. Learn about game days and production testing strategies.",
+                            "DevSecOps & Security Automation: Comprehensive security integration training including infrastructure security, compliance automation, and security testing. Understand shift-left security practices.",
+                            "Final Project: Complete DevOps Transformation: Design and document a complete DevOps transformation strategy for an enterprise including technology stack, processes, team structure, and implementation roadmap with success metrics."
                         ]
                     }
                 ]
@@ -368,21 +1155,87 @@ const roadmapData = {
         ]
     },
     "Software Engineering": {
-        phases: [
+        "phases": [
             {
-                title: "Software Architecture & System Design (Weeks 1-8)",
-                description: "Master software development methodologies, architecture, and best practices.",
-                weeks: [
+                "title": "Complete Software Engineering Mastery (Weeks 1-24)",
+                "description": "End-to-end software engineering education covering programming fundamentals, system design, development methodologies, quality assurance, and professional engineering practices.",
+                "weeks": [
                     {
-                        title: "Week 1-2: Design Patterns & Principles",
-                        tasks: [
-                            "Day 1 (6 hours): SOLID Principles\n• 2 hours: Learn Single Responsibility Principle\n• 2 hours: Practice Open/Closed Principle\n• 1 hour: Master Liskov Substitution Principle\n• 1 hour: Understand Interface Segregation and Dependency Inversion\n• Exercise: Refactor code to follow SOLID principles",
-                            "Day 2 (6 hours): Creational Design Patterns\n• 2 hours: Learn Singleton pattern\n• 2 hours: Practice Factory Method pattern\n• 1 hour: Master Abstract Factory pattern\n• 1 hour: Understand Builder and Prototype patterns\n• Exercise: Implement creational patterns in real scenarios",
-                            "Day 3 (6 hours): Structural Design Patterns\n• 2 hours: Learn Adapter pattern\n• 2 hours: Practice Decorator pattern\n• 1 hour: Master Facade pattern\n• 1 hour: Understand Composite and Proxy patterns\n• Exercise: Apply structural patterns to existing codebase",
-                            "Day 4 (6 hours): Behavioral Design Patterns\n• 2 hours: Learn Observer pattern\n• 2 hours: Practice Strategy pattern\n• 1 hour: Master Command pattern\n• 1 hour: Understand State and Template Method patterns\n• Exercise: Implement behavioral patterns for application logic",
-                            "Day 5 (6 hours): Architectural Patterns\n• 2 hours: Learn MVC pattern\n• 2 hours: Practice MVP and MVVM patterns\n• 1 hour: Master layered architecture\n• 1 hour: Understand microservices architecture\n• Exercise: Design system architecture using patterns",
-                            "Day 6 (6 hours): Anti-patterns & Code Smells\n• 2 hours: Learn common anti-patterns\n• 2 hours: Practice identifying code smells\n• 1 hour: Master refactoring techniques\n• 1 hour: Understand technical debt management\n• Exercise: Refactor problematic code examples",
-                            "Day 7 (6 hours): Design Pattern Implementation\n• 2 hours: Learn pattern combinations\n• 2 hours: Practice pattern selection criteria\n• 1 hour: Master pattern documentation\n• 1 hour: Understand pattern evolution\n• Weekly Project: Design and implement complete application using multiple design patterns"
+                        "title": "Week 1-4: Programming Fundamentals & Algorithms",
+                        "tasks": [
+                            "Programming Language Mastery: Comprehensive understanding of programming fundamentals using Java/Python including variables, data types, control structures, functions, and basic syntax. Learn about language-specific features and best practices.",
+                            "Object-Oriented Programming Principles: Deep dive into OOP concepts including classes, objects, inheritance, polymorphism, encapsulation, and abstraction. Understand design principles and pattern recognition in software design.",
+                            "Data Structures Implementation: Master fundamental data structures including arrays, linked lists, stacks, queues, trees, and hash tables. Learn about time/space complexity analysis and real-world applications of each structure.",
+                            "Algorithm Design & Analysis: Comprehensive algorithm training including sorting algorithms, searching algorithms, and graph algorithms. Understand Big O notation, algorithm optimization, and performance benchmarking.",
+                            "Version Control with Git: Deep dive into Git including repository management, branching strategies, merging, rebasing, and collaborative workflows. Learn about Git hooks, submodules, and enterprise Git practices.",
+                            "Development Environment Setup: Master IDE configuration, debugging tools, and development workflows. Understand build tools, dependency management, and environment consistency across development teams.",
+                            "Software Development Lifecycle: Comprehensive understanding of SDLC phases including requirements gathering, design, implementation, testing, deployment, and maintenance. Learn about different development methodologies.",
+                            "Weekly Project: Data Structures Library: Build a comprehensive data structures library from scratch including unit tests, performance benchmarks, and documentation demonstrating understanding of core computer science concepts."
+                        ]
+                    },
+                    {
+                        "title": "Week 5-8: System Design & Architecture",
+                        "tasks": [
+                            "Software Architecture Patterns: Comprehensive architecture training including monolithic, microservices, event-driven, and layered architectures. Understand trade-offs, scalability considerations, and implementation strategies.",
+                            "Database Design & Management: Deep dive into database concepts including relational databases, normalization, SQL programming, and transaction management. Learn about database performance optimization and indexing strategies.",
+                            "API Design & Development: Master RESTful API design including endpoints, HTTP methods, status codes, and versioning strategies. Understand API documentation, testing, and client integration patterns.",
+                            "System Design Fundamentals: Comprehensive system design training including load balancing, caching strategies, database partitioning, and message queues. Learn about designing systems for scale and reliability.",
+                            "Design Patterns & Principles: Deep dive into Gang of Four design patterns including creational, structural, and behavioral patterns. Understand SOLID principles and their application in software design.",
+                            "Cloud Computing Concepts: Master cloud service models (IaaS, PaaS, SaaS) and deployment strategies. Learn about cloud-native design patterns and multi-cloud architecture considerations.",
+                            "Security by Design: Comprehensive security training including authentication, authorization, encryption, and secure coding practices. Understand common vulnerabilities and protection mechanisms.",
+                            "Weekly Project: System Design Implementation: Design and implement a scalable web application including database design, API development, caching layer, and deployment architecture with comprehensive documentation."
+                        ]
+                    },
+                    {
+                        "title": "Week 9-12: Full-Stack Development",
+                        "tasks": [
+                            "Frontend Development Fundamentals: Comprehensive frontend training including HTML5, CSS3, and JavaScript ES6+. Learn about responsive design, accessibility standards, and cross-browser compatibility.",
+                            "Frontend Frameworks Mastery: Deep dive into React/Vue/Angular including component architecture, state management, and routing. Understand modern frontend build tools and development workflows.",
+                            "Backend Development with Node.js/Spring: Master backend development using Node.js with Express or Java with Spring Boot. Learn about middleware, request handling, and server-side rendering.",
+                            "Database Integration & ORM: Comprehensive database integration training including ORM frameworks, connection pooling, and migration strategies. Understand both SQL and NoSQL database integration patterns.",
+                            "Authentication & Authorization: Deep dive into security implementation including JWT, OAuth, session management, and role-based access control. Learn about security best practices and common pitfalls.",
+                            "Testing Strategies: Master testing methodologies including unit testing, integration testing, and end-to-end testing. Learn about test-driven development and behavior-driven development practices.",
+                            "DevOps Integration: Comprehensive DevOps training including CI/CD pipelines, containerization, and cloud deployment. Understand infrastructure as code and monitoring integration.",
+                            "Weekly Project: Full-Stack Application: Build a complete full-stack application with frontend, backend, database, authentication, testing, and deployment pipeline demonstrating end-to-end development skills."
+                        ]
+                    },
+                    {
+                        "title": "Week 13-16: Software Quality & Testing",
+                        "tasks": [
+                            "Software Testing Fundamentals: Comprehensive testing training including test planning, test case design, and test execution strategies. Learn about different testing levels and their importance in quality assurance.",
+                            "Unit Testing & Mocking: Deep dive into unit testing frameworks including JUnit, Jest, or pytest. Understand mocking, stubbing, and test isolation techniques for effective unit testing.",
+                            "Integration Testing Strategies: Master integration testing including API testing, database testing, and external service integration testing. Learn about test data management and environment setup.",
+                            "Test Automation Frameworks: Comprehensive test automation training including Selenium for web applications, Appium for mobile, and performance testing tools. Understand automation best practices and maintenance.",
+                            "Quality Assurance Processes: Deep dive into QA methodologies including agile testing, continuous testing, and quality metrics. Learn about defect management and quality gates in development pipelines.",
+                            "Performance Testing & Optimization: Master performance testing including load testing, stress testing, and scalability testing. Understand performance monitoring and optimization techniques.",
+                            "Security Testing: Comprehensive security testing training including vulnerability assessment, penetration testing, and security scanning tools. Learn about secure development lifecycle integration.",
+                            "Weekly Project: Test Automation Suite: Develop a comprehensive test automation suite for a web application including unit tests, integration tests, end-to-end tests, and performance tests with CI/CD integration."
+                        ]
+                    },
+                    {
+                        "title": "Week 17-20: Agile & Project Management",
+                        "tasks": [
+                            "Agile Methodologies: Comprehensive Agile training including Scrum, Kanban, and XP practices. Understand roles, ceremonies, and artifacts in Agile development processes.",
+                            "Requirements Engineering: Deep dive into requirements gathering, analysis, and specification. Learn about user stories, acceptance criteria, and requirement validation techniques.",
+                            "Project Planning & Estimation: Master project planning techniques including story point estimation, velocity tracking, and release planning. Understand risk management and contingency planning.",
+                            "Team Collaboration & Communication: Comprehensive collaboration training including effective meetings, documentation, and stakeholder communication. Learn about remote team management and tools.",
+                            "Code Review & Quality Metrics: Deep dive into code review processes, standards, and best practices. Understand code quality metrics and technical debt management strategies.",
+                            "Software Metrics & Analytics: Master software metrics including cycle time, lead time, defect density, and code coverage. Learn about using data for process improvement and decision making.",
+                            "Continuous Improvement: Comprehensive continuous improvement training including retrospectives, root cause analysis, and process optimization. Understand Kaizen and Lean software development principles.",
+                            "Weekly Project: Agile Project Simulation: Plan and execute a simulated software project using Agile methodologies including sprint planning, daily standups, sprint reviews, and retrospectives with full documentation."
+                        ]
+                    },
+                    {
+                        "title": "Week 21-24: Advanced Topics & Professional Development",
+                        "tasks": [
+                            "Microservices Architecture: Comprehensive microservices training including service decomposition, inter-service communication, and distributed data management. Understand microservices patterns and anti-patterns.",
+                            "Cloud-Native Development: Deep dive into cloud-native principles including containers, orchestration, and serverless computing. Learn about twelve-factor app methodology and cloud best practices.",
+                            "Machine Learning Integration: Master ML integration patterns including model serving, feature stores, and MLOps practices. Understand how to incorporate AI capabilities into software applications.",
+                            "Mobile Development Considerations: Comprehensive mobile development training including native vs. hybrid approaches, mobile UX patterns, and platform-specific considerations. Learn about mobile testing and deployment.",
+                            "Software Maintenance & Evolution: Deep dive into software maintenance including refactoring, legacy system modernization, and technical debt management. Understand versioning strategies and backward compatibility.",
+                            "Career Development & Leadership: Master professional skills including technical interviewing, resume building, and career planning. Learn about technical leadership and mentorship responsibilities.",
+                            "Ethics & Professional Responsibility: Comprehensive ethics training including privacy, security, intellectual property, and social impact considerations. Understand professional codes of conduct and legal compliance.",
+                            "Final Project: Capstone Software Engineering Project: Design, develop, and deploy a complete software solution demonstrating all learned skills including requirements analysis, system design, implementation, testing, and project management."
                         ]
                     }
                 ]
@@ -390,47 +1243,148 @@ const roadmapData = {
         ]
     },
     "Product Management": {
-        phases: [
+        "phases": [
             {
-                title: "Product Strategy & Development (Weeks 1-8)",
-                description: "Learn product strategy, development, and management from concept to launch.",
-                weeks: [
+                "title": "Complete Product Management Mastery (Weeks 1-20)",
+                "description": "End-to-end product management education covering market research, product strategy, development lifecycle, go-to-market planning, and product leadership.",
+                "weeks": [
                     {
-                        title: "Week 1-2: Product Discovery & Market Research",
-                        tasks: [
-                            "Day 1 (6 hours): Product Management Fundamentals\n• 2 hours: Learn product manager roles and responsibilities\n• 2 hours: Practice product lifecycle understanding\n• 1 hour: Master stakeholder management basics\n• 1 hour: Understand product metrics and KPIs\n• Exercise: Create product manager role description",
-                            "Day 2 (6 hours): Market Research Techniques\n• 2 hours: Learn quantitative research methods\n• 2 hours: Practice qualitative research approaches\n• 1 hour: Master competitive analysis frameworks\n• 1 hour: Understand market sizing techniques\n• Exercise: Conduct market analysis for a product idea",
-                            "Day 3 (6 hours): User Research & Personas\n• 2 hours: Learn user interview techniques\n• 2 hours: Practice survey design and analysis\n• 1 hour: Master persona creation\n• 1 hour: Understand empathy mapping\n• Exercise: Create detailed user personas",
-                            "Day 4 (6 hours): Problem Definition & Opportunity Assessment\n• 2 hours: Learn problem statement formulation\n• 2 hours: Practice opportunity sizing\n• 1 hour: Master hypothesis creation\n• 1 hour: Understand risk assessment\n• Exercise: Define product opportunity with data",
-                            "Day 5 (6 hours): Product Strategy & Vision\n• 2 hours: Learn vision statement creation\n• 2 hours: Practice strategy development\n• 1 hour: Master goal setting frameworks\n• 1 hour: Understand strategic alignment\n• Exercise: Create product vision and strategy document",
-                            "Day 6 (6 hours): Roadmap Planning\n• 2 hours: Learn roadmap types and formats\n• 2 hours: Practice feature prioritization\n• 1 hour: Master timeline estimation\n• 1 hour: Understand dependency management\n• Exercise: Create detailed product roadmap",
-                            "Day 7 (6 hours): Business Case & Metrics\n• 2 hours: Learn business case development\n• 2 hours: Practice metric definition and tracking\n• 1 hour: Master success criteria definition\n• 1 hour: Understand ROI calculation\n• Weekly Project: Create complete product proposal with business case"
+                        "title": "Week 1-4: Product Management Fundamentals & Market Research",
+                        "tasks": [
+                            "Product Management Role & Responsibilities: Comprehensive understanding of product management functions including product strategy, roadmap planning, and cross-functional leadership. Learn about different product management roles across organizations and industries.",
+                            "Market Research & Analysis: Deep dive into market research methodologies including primary and secondary research, competitive analysis, and market sizing. Understand how to identify market gaps, trends, and opportunities for product innovation.",
+                            "Customer Development & User Research: Master qualitative and quantitative research methods including user interviews, surveys, focus groups, and ethnographic studies. Learn how to synthesize research findings into actionable insights and user personas.",
+                            "Problem Space Definition: Comprehensive training in problem identification and validation techniques. Understand how to frame customer problems, assess problem severity, and prioritize which problems to solve based on impact and feasibility.",
+                            "Industry Analysis & Competitive Landscape: Deep dive into analyzing industry dynamics, competitive forces, and market positioning. Learn Porter's Five Forces, SWOT analysis, and how to identify sustainable competitive advantages.",
+                            "Stakeholder Management & Communication: Master stakeholder identification, mapping, and engagement strategies. Learn effective communication techniques for aligning executives, engineering teams, sales, marketing, and customer support.",
+                            "Product Metrics & Success Indicators: Comprehensive understanding of key product metrics including North Star metrics, engagement metrics, retention rates, and business KPIs. Learn how to establish measurement frameworks and track product success.",
+                            "Weekly Project: Market Research & Opportunity Analysis: Conduct comprehensive market research for a product idea, including competitive analysis, customer interviews, market sizing, and opportunity assessment with detailed recommendations."
+                        ]
+                    },
+                    {
+                        "title": "Week 5-8: Product Strategy & Roadmapping",
+                        "tasks": [
+                            "Product Vision & Strategy Development: Comprehensive training in creating compelling product visions and strategic plans. Learn how to align product strategy with business objectives, market needs, and company capabilities.",
+                            "Business Model Design: Deep dive into business model frameworks including Business Model Canvas, Lean Canvas, and value proposition design. Understand revenue models, pricing strategies, and unit economics for different product types.",
+                            "Product Roadmap Creation: Master roadmap development including theme-based roadmaps, timeline-based roadmaps, and now-next-later frameworks. Learn how to prioritize initiatives and communicate roadmap decisions to stakeholders.",
+                            "Prioritization Frameworks & Techniques: Comprehensive training in prioritization methods including RICE, MoSCoW, Kano model, and opportunity scoring. Understand how to balance customer needs, business value, and technical feasibility.",
+                            "Go-to-Market Strategy Planning: Deep dive into GTM strategy development including market segmentation, positioning, messaging, and launch planning. Learn how to coordinate cross-functional teams for successful product launches.",
+                            "Product-Market Fit Validation: Master techniques for achieving and measuring product-market fit including Sean Ellis testing, retention cohort analysis, and net promoter score tracking. Learn iterative approaches to finding product-market fit.",
+                            "Strategic Partnerships & Ecosystem Development: Comprehensive understanding of partnership strategies including platform integrations, channel partnerships, and co-marketing opportunities. Learn how to build product ecosystems that create network effects.",
+                            "Weekly Project: Product Strategy Document: Develop a complete product strategy including vision, business model, roadmap, GTM plan, and success metrics for a new product with comprehensive stakeholder alignment plan."
+                        ]
+                    },
+                    {
+                        "title": "Week 9-12: Product Discovery & Requirements",
+                        "tasks": [
+                            "Product Discovery Process: Comprehensive training in structured discovery processes including opportunity solution trees, assumption mapping, and discovery sprints. Learn how to reduce uncertainty before development begins.",
+                            "User Story Mapping & Journey Planning: Deep dive into user story mapping techniques for breaking down epics into features and user stories. Understand how to create comprehensive customer journey maps and identify pain points.",
+                            "Requirements Gathering & Specification: Master techniques for gathering and documenting requirements including PRDs (Product Requirements Documents), user stories, acceptance criteria, and functional specifications.",
+                            "Prototyping & Validation: Comprehensive training in prototyping methods including wireframing, mockups, interactive prototypes, and minimum viable products (MVPs). Learn how to test prototypes with users and gather feedback.",
+                            "UX/UI Collaboration & Design Process: Deep dive into collaborating with design teams including design sprints, usability testing, and design system management. Understand how to balance user experience with technical constraints.",
+                            "Experimentation & A/B Testing: Master experimentation frameworks including hypothesis development, test design, statistical significance, and result interpretation. Learn how to build a culture of experimentation and data-informed decision making.",
+                            "Technical Feasibility Assessment: Comprehensive understanding of technical considerations including architecture reviews, dependency analysis, and technical debt assessment. Learn how to collaborate effectively with engineering teams on feasibility analysis.",
+                            "Weekly Project: Product Requirements & Discovery: Conduct a complete product discovery process for a new feature including user research, prototyping, requirement documentation, and validation plan with engineering alignment."
+                        ]
+                    },
+                    {
+                        "title": "Week 13-16: Product Development & Execution",
+                        "tasks": [
+                            "Agile Development Methodologies: Comprehensive training in Agile frameworks including Scrum, Kanban, and hybrid approaches. Understand roles, ceremonies, and artifacts in Agile product development.",
+                            "Sprint Planning & Backlog Management: Deep dive into sprint planning processes including backlog grooming, story point estimation, and capacity planning. Learn how to effectively prioritize and sequence work for development teams.",
+                            "Cross-Functional Team Leadership: Master techniques for leading cross-functional teams including engineering, design, marketing, and sales. Learn conflict resolution, decision-making frameworks, and team motivation strategies.",
+                            "Product Analytics Implementation: Comprehensive training in product analytics including event tracking, funnel analysis, cohort analysis, and behavioral analytics. Learn how to set up analytics infrastructure and derive insights from data.",
+                            "Quality Assurance & Release Management: Deep dive into QA processes including test planning, acceptance testing, and release criteria definition. Understand release management, phased rollouts, and post-release monitoring.",
+                            "Beta Programs & Early Access Management: Master techniques for managing beta programs including participant recruitment, feedback collection, and program scaling. Learn how to leverage early users for product improvement and validation.",
+                            "Development Metrics & Team Performance: Comprehensive understanding of development metrics including velocity, cycle time, lead time, and team health indicators. Learn how to use metrics for continuous improvement without micromanaging.",
+                            "Weekly Project: Product Development Simulation: Manage a simulated product development cycle including sprint planning, backlog management, team coordination, and release planning with comprehensive documentation and retrospective."
+                        ]
+                    },
+                    {
+                        "title": "Week 17-20: Product Growth & Leadership",
+                        "tasks": [
+                            "Product-Led Growth Strategies: Comprehensive training in product-led growth (PLG) models including freemium strategies, viral loops, and self-service onboarding. Learn how to design products that drive their own adoption and growth.",
+                            "Monetization & Pricing Strategy: Deep dive into pricing models including subscription pricing, usage-based pricing, tiered pricing, and enterprise pricing strategies. Understand price testing and optimization techniques.",
+                            "User Retention & Engagement Optimization: Master retention strategies including onboarding optimization, habit formation, re-engagement campaigns, and loyalty programs. Learn how to analyze and improve user retention curves.",
+                            "Scaling Products & Teams: Comprehensive training in scaling products for growth including performance optimization, internationalization, and platform evolution. Learn how to scale product teams and maintain product excellence.",
+                            "Product Portfolio Management: Deep dive into managing multiple products or product lines including portfolio strategy, resource allocation, and product lifecycle management. Understand when to pivot, persevere, or sunset products.",
+                            "Executive Communication & Influence: Master executive communication including board presentations, business reviews, and funding requests. Learn how to influence without authority and build executive support for product initiatives.",
+                            "Career Development & Product Leadership: Comprehensive career development training including mentorship, team building, and leadership development. Understand career paths in product management and how to advance to leadership roles.",
+                            "Final Project: Complete Product Lifecycle Management: Develop a comprehensive product plan from conception to scale including strategy, discovery, development, launch, and growth plans with business case and success metrics."
                         ]
                     }
                 ]
             }
         ]
     },
+   
     "Content Writing": {
-        phases: [
+        "phases": [
             {
-                title: "Professional Writing & Content Strategy (Weeks 1-8)",
-                description: "Master the art of creating engaging, SEO-optimized content for various platforms.",
-                weeks: [
+                "title": "Complete Content Writing Mastery (Weeks 1-16)",
+                "description": "End-to-end content writing education covering foundational writing skills, content strategy, SEO optimization, different writing formats, and professional content business management.",
+                "weeks": [
                     {
-                        title: "Week 1-2: Writing Fundamentals & Style Development",
-                        tasks: [
-                            "Day 1 (6 hours): Grammar & Style Mastery\n• 2 hours: Learn advanced grammar rules\n• 2 hours: Practice style guide implementation\n• 1 hour: Master punctuation and mechanics\n• 1 hour: Understand voice and tone development\n• Exercise: Edit and improve existing content",
-                            "Day 2 (6 hours): Writing for Different Audiences\n• 2 hours: Learn audience analysis techniques\n• 2 hours: Practice adapting tone for different readers\n• 1 hour: Master B2B vs B2C writing\n• 1 hour: Understand cultural considerations\n• Exercise: Rewrite content for different audience segments",
-                            "Day 3 (6 hours): Storytelling & Narrative Techniques\n• 2 hours: Learn story structure and arc\n• 2 hours: Practice character development\n• 1 hour: Master emotional engagement\n• 1 hour: Understand pacing and suspense\n• Exercise: Create compelling brand stories",
-                            "Day 4 (6 hours): Headline & Hook Writing\n• 2 hours: Learn headline formulas and patterns\n• 2 hours: Practice hook creation techniques\n• 1 hour: Master curiosity gaps\n• 1 hour: Understand A/B testing for headlines\n• Exercise: Write 50 different headlines for one topic",
-                            "Day 5 (6 hours): Research & Fact-Checking\n• 2 hours: Learn research methodology\n• 2 hours: Practice source evaluation\n• 1 hour: Master fact-checking techniques\n• 1 hour: Understand citation styles\n• Exercise: Research and fact-check existing articles",
-                            "Day 6 (6 hours): Editing & Proofreading\n• 2 hours: Learn structural editing\n• 2 hours: Practice line editing techniques\n• 1 hour: Master proofreading strategies\n• 1 hour: Understand editing tools and software\n• Exercise: Complete editing pass on long-form content",
-                            "Day 7 (6 hours): Writing Portfolio Development\n• 2 hours: Learn portfolio organization\n• 2 hours: Practice sample creation\n• 1 hour: Master personal branding\n• 1 hour: Understand client presentation\n• Weekly Project: Create comprehensive writing portfolio with varied samples"
+                        "title": "Week 1-4: Writing Fundamentals & Core Skills",
+                        "tasks": [
+                            "Writing Fundamentals & Grammar Mastery: Comprehensive understanding of English grammar, syntax, punctuation, and style. Learn about sentence structure, paragraph development, and eliminating common writing errors. Understand active vs. passive voice and when to use each effectively.",
+                            "Writing for Different Audiences: Deep dive into audience analysis and adaptation techniques. Learn how to adjust tone, style, and complexity based on target readers. Understand demographic considerations, psychographic profiling, and creating reader personas for targeted content.",
+                            "Research Skills & Fact-Checking: Master research methodologies including primary and secondary research, source evaluation, and information verification. Learn how to efficiently gather accurate information and maintain credibility through rigorous fact-checking processes.",
+                            "Storytelling & Narrative Techniques: Comprehensive training in storytelling principles including narrative arcs, character development, and emotional engagement. Learn how to incorporate storytelling into various content formats to increase reader engagement and retention.",
+                            "Voice & Tone Development: Deep dive into developing consistent brand voice and appropriate tone for different contexts. Learn how to maintain voice consistency across multiple pieces while adapting tone for specific situations and audiences.",
+                            "Editing & Proofreading Processes: Master comprehensive editing techniques including structural editing, copy editing, and proofreading. Learn self-editing strategies, peer review processes, and professional editing standards for error-free content.",
+                            "Writing Productivity & Workflow Management: Comprehensive training in writing workflows including outlining, drafting, revising, and finalizing content. Learn time management techniques, overcoming writer's block, and maintaining consistent writing output.",
+                            "Weekly Project: Writing Portfolio Foundation: Create a diverse portfolio of writing samples demonstrating mastery of different styles, tones, and formats. Include researched articles, persuasive pieces, and narrative content with comprehensive editing documentation."
+                        ]
+                    },
+                    {
+                        "title": "Week 5-8: SEO Writing & Digital Content Strategy",
+                        "tasks": [
+                            "SEO Fundamentals for Writers: Comprehensive SEO training including keyword research, search intent analysis, and on-page optimization. Learn how search engines work and how to write content that ranks well while maintaining quality and readability.",
+                            "Content Strategy Development: Deep dive into content strategy including content audits, gap analysis, and editorial planning. Learn how to develop content pillars, plan content calendars, and align content with business objectives and user needs.",
+                            "Keyword Research & Optimization: Master advanced keyword research techniques including long-tail keywords, semantic search, and competitor analysis. Learn how to naturally integrate keywords while maintaining content quality and user experience.",
+                            "Content Formatting for Web: Comprehensive training in web content formatting including scannability principles, header structure, and mobile optimization. Learn how to use visual elements, bullet points, and white space to enhance readability and engagement.",
+                            "Meta Content & Snippet Optimization: Deep dive into writing compelling meta titles, descriptions, and featured snippets. Learn how to optimize content for click-through rates and position zero rankings while accurately representing content value.",
+                            "Content Performance Analysis: Master content analytics including traffic analysis, engagement metrics, and conversion tracking. Learn how to use data to optimize existing content and inform future content strategy decisions.",
+                            "Content Repurposing & Atomization: Comprehensive training in content repurposing strategies including turning long-form content into multiple smaller pieces across different formats and platforms. Learn how to maximize content ROI through strategic repurposing.",
+                            "Weekly Project: SEO-Optimized Content Campaign: Develop and execute a complete SEO content campaign including keyword research, content creation, optimization, and performance analysis with detailed reporting on results and learnings."
+                        ]
+                    },
+                    {
+                        "title": "Week 9-12: Specialized Writing Formats",
+                        "tasks": [
+                            "Blog Writing & Article Development: Comprehensive blog writing training including topic selection, headline writing, and engagement techniques. Learn how to structure blog posts for maximum impact and build loyal readership through consistent quality content.",
+                            "Copywriting & Persuasive Writing: Deep dive into copywriting principles including AIDA framework, benefit-oriented writing, and call-to-action optimization. Learn how to write compelling copy that drives action across different channels and formats.",
+                            "Technical Writing & Complex Topic Simplification: Master technical writing skills including explaining complex concepts clearly, creating documentation, and writing for specialized audiences. Learn how to balance accuracy with accessibility in technical content.",
+                            "Social Media Content Creation: Comprehensive social media writing training including platform-specific best practices, character limitations, and engagement strategies. Learn how to write compelling social copy that drives interaction and sharing.",
+                            "Email Marketing & Newsletter Writing: Deep dive into email writing including subject line optimization, email body structure, and conversion-focused writing. Learn how to build email sequences, nurture leads, and maintain subscriber engagement.",
+                            "Script Writing & Video Content: Master script writing for videos, podcasts, and webinars. Learn how to write conversational scripts that sound natural when spoken and effectively communicate messages through audio-visual media.",
+                            "Whitepapers & Long-Form Content: Comprehensive training in long-form content creation including research papers, whitepapers, and comprehensive guides. Learn how to structure complex information and maintain reader engagement through lengthy content.",
+                            "Weekly Project: Multi-Format Content Portfolio: Create a comprehensive portfolio demonstrating expertise across multiple writing formats including blog posts, social media content, email sequences, technical documentation, and video scripts."
+                        ]
+                    },
+                    {
+                        "title": "Week 13-16: Professional Development & Business Skills",
+                        "tasks": [
+                            "Freelance Business Management: Comprehensive training in freelance business operations including client acquisition, proposal writing, and contract management. Learn how to set rates, manage projects, and build sustainable freelance writing business.",
+                            "Client Communication & Relationship Management: Deep dive into client management skills including brief interpretation, feedback incorporation, and expectation management. Learn how to communicate effectively with clients and build long-term relationships.",
+                            "Content Marketing Strategy: Master content marketing principles including lead generation, brand building, and thought leadership through content. Learn how to develop content that supports marketing funnels and business growth objectives.",
+                            "Content Monetization Strategies: Comprehensive training in content monetization including affiliate marketing, sponsored content, and digital product creation. Learn how to generate revenue from writing skills through multiple income streams.",
+                            "Personal Branding for Writers: Deep dive into building a personal brand as a writer including portfolio development, social media presence, and networking strategies. Learn how to establish authority and attract better writing opportunities.",
+                            "Legal & Ethical Considerations: Master legal aspects of content writing including copyright laws, plagiarism avoidance, and disclosure requirements. Understand ethical writing practices and maintaining integrity in content creation.",
+                            "Industry Specialization & Niche Development: Comprehensive training in developing writing specialties and niches. Learn how to research and enter specialized writing markets, build subject matter expertise, and command premium rates.",
+                            "Final Project: Complete Content Business Plan: Develop a comprehensive content writing business plan including niche selection, service offerings, pricing strategy, marketing plan, and financial projections with implementation timeline."
                         ]
                     }
                 ]
             }
         ]
     }
+},
+
+// Combine all parts into the final roadmapData object
+const roadmapData = {
+    ...roadmapDataPart1,
+    ...roadmapDataPart2,
+    ...roadmapDataPart3
 };
