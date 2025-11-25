@@ -267,4 +267,4 @@ console.log('• PDF Download Functionality');
 console.log('• Responsive Design');
 console.log('• Beautiful Animations');
 console.log('• Founder: Lavika Panwar');
-console.log('• Founder: Nishtha Kohli');
+
